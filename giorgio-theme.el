@@ -62,7 +62,7 @@
    `(font-lock-doc-face ((t (:foreground ,color-dark :inherit font-lock-comment-face))))
    `(font-lock-constant-face ((t (:foreground ,color-fg))))
    `(font-lock-function-name-face ((t (:foreground ,color-fg-alt :weight bold :slant italic))))
-   `(font-lock-keyword-face ((t (:foreground ,color-strong))))
+   `(font-lock-keyword-face ((t (:foreground ,color-strong :slant italic))))
    `(font-lock-string-face ((t (:foreground ,color-dark :inherit fixed-pitch-serif))))
    `(font-lock-type-face ((t (:inherit default))))
    `(font-lock-variable-name-face ((t (:foreground ,color-fg-alt :slant italic))))
