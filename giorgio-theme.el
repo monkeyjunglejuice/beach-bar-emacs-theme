@@ -414,9 +414,7 @@
 
    ;; Beancount
    `(beancount-date ((t (:inherit italic :foreground nil))))
-   `(beancount-account ((t (:inherit default))))
-
-   ))
+   `(beancount-account ((t (:inherit default))))))
 
 (provide-theme 'giorgio)
 
