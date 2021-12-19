@@ -249,8 +249,10 @@
    `(magit-item-highlight ((t (:foreground ,color-fg :background ,color-bright))))
    `(magit-log-author ((t (:foreground ,color-dark))))
    `(magit-diff-added ((t (:inherit diff-added))))
+   `(magit-diffstat-added ((t (:inherit diff-added))))
    `(magit-diff-added-highlight ((t (:inherit magit-diff-added))))
    `(magit-diff-removed ((t (:inherit diff-removed))))
+   `(magit-diffstat-removed ((t (:inherit diff-removed))))
    `(magit-diff-removed-highlight ((t (:inherit magit-diff-removed))))
    `(magit-diff-context ((t (:inherit diff-context))))
    `(magit-diff-context-highlight ((t (:inherit magit-diff-context))))
@@ -258,6 +260,7 @@
    `(magit-popup-disabled-argument ((t (:inherit font-lock-comment-face))))
    `(magit-diff-hunk-heading ((t (:background unspecified :foreground unspecified :inherit header-line))))
    `(magit-diff-hunk-heading-highlight ((t (:background unspecified :foreground unspecified :inherit magit-diff-hunk-heading))))
+   `(magit-filename ((t (:inherit git-commit-comment-file))))
 
    ;; Git-gutter-fringe
    `(git-gutter-fr:modified ((t (:foreground ,color-dark))))
