@@ -30,7 +30,7 @@
 ;; Colors
 (let* ((color-fg           "#33322c")
        (color-fg-alt       "#000000")
-       (color-dimmed       "#8b8878")
+       (color-dimmed       "#8b8875")
        (color-bg           "#fff8dc")
        (color-bg-alt       "#eee8cd")
        (color-hl           "#cff5d7")
