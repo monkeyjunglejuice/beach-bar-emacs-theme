@@ -1,15 +1,18 @@
-;;; giorgio-theme.el --- A sunny and calm Emacs theme (C)2021 MonkeyJungleJuice
+;;; giorgio-theme.el --- A sunny and calm Emacs theme inspired by the paintings of Giorgio di Chirico  -*- lexical-binding: t; -*-
+
+;; Copyright (C) 2021 Dan Dee
+
+;; Author: Dan Dee <monkeyjunglejuice@pm.me>
+;; URL: https://github.com/monkeyjunglejuice/giorgio-theme-emacs
+;; Package-Version:
+;; Package-Commit:
+;; Version: 0.1.0
+;; Package-Requires: ((emacs "26.1"))
+;; Keywords: faces, themes
 
 ;; This program is free software. It comes without any warranty,
 ;; to the extent permitted by applicable law. You can redistribute it
-;; and/or modify it under the terms of the Do What the Fuck You Want
-;; to Public License, Version 2, as published by Sam Hocevar. See
-;; http://www.wtfpl.net/ for more details.
-
-;; Keywords: faces
-;; Version: 0.1.0
-;; Package-Requires: ((emacs "26.1"))
-;; URL: https://github.com/monkeyjunglejuice/giorgio-theme
+;; and/or modify it under the terms of the MIT License.
 
 ;;; Commentary:
 ;; "Giorgio" is a custom theme for Emacs, inspired by the paintings
