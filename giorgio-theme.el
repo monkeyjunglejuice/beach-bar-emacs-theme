@@ -17,15 +17,16 @@
 ;; The theme resembles the bright daylight and long shadows of mediterranean
 ;; cities and aims to be sunny and calm, free from distractions.
 
+;;; Credits:
 ;; The theme is initially based on the notink-theme by MetroWind
-
 
 ;;; Code:
 
 (deftheme giorgio "A sunny and calm Emacs theme, inspired by the paintings of Giorgio di Chirico.")
 
 ;; Colors
-(let* ((color-fg           "#000000")
+(let* ((color-fg           "#33322c")
+       (color-fg-alt       "#000000")
        (color-dimmed       "#8b8878")
        (color-bg           "#fff8dc")
        (color-bg-alt       "#eee8cd")
@@ -36,10 +37,9 @@
        (color-strong       "#8e210a")
        (color-light        "#ffffff")
        (color-light-red    "#fcd5be")
-       (color-light-yellow "#fff2bf"))
+       (color-light-yellow "#fff4c7"))
 
-  (custom-theme-set-faces
-   'giorgio
+  (custom-theme-set-faces 'giorgio
    `(default ((t (:background ,color-bg :foreground ,color-fg))))
    `(cursor ((t (:background ,color-fg))))
    `(region ((t (:foreground ,color-dark :background ,color-hl))))
@@ -58,42 +58,62 @@
    `(font-lock-comment-face ((t (:foreground ,color-dimmed :inherit fixed-pitch-serif :slant italic))))
    `(font-lock-doc-face ((t (:foreground ,color-dark :inherit font-lock-comment-face))))
    `(font-lock-constant-face ((t (:foreground ,color-fg))))
-   `(font-lock-function-name-face ((t (:foreground ,color-fg :weight bold))))
-   `(font-lock-keyword-face ((t (:foreground ,color-fg :slant italic))))
+   `(font-lock-function-name-face ((t (:foreground ,color-fg-alt :weight bold :slant italic))))
+   `(font-lock-keyword-face ((t (:foreground ,color-strong))))
    `(font-lock-string-face ((t (:foreground ,color-dark :inherit fixed-pitch-serif))))
    `(font-lock-type-face ((t (:inherit default))))
-   `(font-lock-variable-name-face ((t (:foreground ,color-fg))))
-   `(font-lock-warning-face ((t (:foreground ,color-strong :background ,color-light-red :weight bold))))
+   `(font-lock-variable-name-face ((t (:foreground ,color-fg-alt :slant italic))))
+   `(font-lock-warning-face ((t (:foreground ,color-strong :background ,color-light-red))))
    `(font-lock-regexp-grouping-construct ((t (:foreground ,color-bright))))
    `(font-lock-regexp-grouping-backslash ((t (:foreground ,color-bright))))
 
    `(isearch ((t (:foreground ,color-bg :background ,color-bright :underline t))))
    `(isearch-fail ((t (:foreground ,color-bright))))
-
    `(lazy-highlight ((t (:foreground ,color-fg :background ,color-hl :underline t))))
-   `(link ((t (:foreground ,color-strong :underline t :weight bold))))
-   `(link-visited ((t (:foreground ,color-bright :underline t))))
-   `(button ((t (:background ,color-bg :underline t :foreground ,color-strong))))
+
+   `(link ((t (:foreground ,color-strong :underline t))))
+   `(link-visited ((t (:foreground ,color-middle :underline t))))
+   `(button ((t (:foreground ,color-strong :underline t))))
    `(help-face-button ((t (:inherit button))))
    `(header-line ((t (:background ,color-bg-alt :foreground ,color-fg))))
    `(shadow ((t (:foreground ,color-dimmed))))
    `(show-paren-match ((t (:foreground ,color-fg :background ,color-hl :weight bold))))
-   `(show-paren-mismatch ((t (:foreground ,color-strong :background ,color-light-red :weight bold))))
+   `(show-paren-mismatch ((t (:inherit error))))
    `(highlight ((t (:inverse-video nil :background ,color-hl))))
    `(hl-line ((t (:underline (:color ,color-dimmed) :extend t))))
    `(widget-field ((t (:foreground ,color-fg :background ,color-bg-alt))))
    `(trailing-whitespace ((t (:background ,color-light-red))))
+   `(escape-glyph ((t (:inverse-video t))))
 
-   ;; Faces for specific prog modes
+   ;; Shell-mode
    `(sh-heredoc ((t (:foreground nil :inherit font-lock-string-face))))
    `(sh-quoted-exec ((t (:inherit font-lock-function-name-face))))
 
    ;; Dired
-   `(dired-directory ((t (:foreground ,color-dark))))
-   `(dired-flagged ((t (:foreground ,color-strong :background ,color-light-red))))
    `(dired-header ((t (:foreground ,color-bright :slant italic))))
+   `(dired-directory ((t (:weight bold))))
    `(dired-symlink ((t (:foreground ,color-middle))))
+   `(dired-marked ((t (:foreground ,color-hl))))
+   `(dired-flagged ((t (:foreground ,color-strong :background ,color-light-red))))
    `(dired-perm-write ((t (:foreground ,color-strong))))
+   `(dired-special ((t (:foreground ,color-middle :slant italic))))
+
+   ;; Eshell
+   `(eshell-prompt ((t (:inherit comint-highlight-prompt))))
+   `(eshell-ls-directory ((t (:inherit dired-directory))))
+   `(eshell-ls-archive ((t (:slant italic :inherit dired-directory))))
+   `(eshell-ls-symlink ((t (:inherit dired-symlink))))
+   `(eshell-ls-executable ((t (:foreground ,color-dark))))
+   `(eshell-ls-missing ((t (:inherit error))))
+   `(eshell-ls-readonly ((t (:inherit shadow))))
+   `(eshell-ls-special ((t (:inherit dired-special))))
+
+   ;; Comint
+   `(comint-highlight-prompt ((t (:foreground ,color-bright :weight bold))))
+   `(comint-highlight-input ((t (:inherit default))))
+
+   ;; Completions
+   `(completions-common-part ((t (:weight bold))))
 
    ;; Diff
    `(diff-added ((t (:foreground ,color-dark))))
