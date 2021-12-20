@@ -211,7 +211,8 @@
    `(whitespace-trailing ((t (:background ,color-light-red))))
    `(whitespace-line ((t (:background ,color-light-yellow))))
    `(whitespace-space (( t(:foreground ,color-middle))))
-   `(whitespace-newline ((t (:foreground ,color-middle))))
+   `(whitespace-newline ((t (:inherit whitespace-space))))
+   `(whitespace-empty ((t (:inherit whitespace-line))))
 
    ;; Smart parens
    `(sp-pair-overlay-face ((t (:background ,color-light))))
