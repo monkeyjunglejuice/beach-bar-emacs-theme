@@ -83,7 +83,7 @@
    `(shadow ((t (:foreground ,color-dimmed))))
    `(show-paren-match ((t (:foreground ,color-fg :background ,color-hl :weight bold))))
    `(show-paren-mismatch ((t (:inherit error))))
-   `(highlight ((t (:background ,color-hl :weight bold))))
+   `(highlight ((t (:background ,color-hl :underline (:color ,color-fg-alt)))))
    `(hl-line ((t (:underline (:color ,color-dimmed) :extend t))))
    `(widget-field ((t (:foreground ,color-fg :background ,color-bg-alt))))
    `(trailing-whitespace ((t (:background ,color-light-red))))
