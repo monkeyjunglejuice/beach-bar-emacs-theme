@@ -72,7 +72,7 @@
    `(font-lock-regexp-grouping-backslash ((t (:foreground ,color-bright))))
 
    `(isearch ((t (:foreground ,color-bg :background ,color-bright :underline t))))
-   `(isearch-fail ((t (:foreground ,color-bright))))
+   `(isearch-fail ((t (:inherit error))))
    `(lazy-highlight ((t (:foreground ,color-fg :background ,color-hl :underline t))))
 
    `(link ((t (:foreground ,color-strong :underline t))))
