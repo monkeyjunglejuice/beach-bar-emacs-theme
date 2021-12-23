@@ -10,6 +10,8 @@
 ;; Package-Requires: ((emacs "26.1"))
 ;; Keywords: faces, themes
 
+;; This file is not part of GNU Emacs.
+
 ;; This program is free software. It comes without any warranty,
 ;; to the extent permitted by applicable law. You can redistribute it
 ;; and/or modify it under the terms of the MIT License.
