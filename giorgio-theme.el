@@ -172,10 +172,10 @@
    `(font-latex-script-char-face ((t (:inherit font-latex-math-face))))
 
    ;; Outline
-   `(outline-1 ((t (:weight bold :inherit fixed-pitch-serif :height 1.4))))
-   `(outline-2 ((t (:weight bold :inherit fixed-pitch-serif :height 1.3))))
+   `(outline-1 ((t (:weight bold :inherit fixed-pitch-serif :height 1.6))))
+   `(outline-2 ((t (:weight bold :inherit fixed-pitch-serif :height 1.4))))
    `(outline-3 ((t (:weight bold :inherit fixed-pitch-serif :height 1.2))))
-   `(outline-4 ((t (:weight bold :inherit fixed-pitch-serif :height 1.1))))
+   `(outline-4 ((t (:weight bold :inherit fixed-pitch-serif))))
    `(outline-5 ((t (:weight bold :inherit fixed-pitch-serif))))
    `(outline-6 ((t (:weight bold :inherit fixed-pitch-serif))))
    `(outline-7 ((t (:weight bold :inherit fixed-pitch-serif))))
