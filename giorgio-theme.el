@@ -274,7 +274,7 @@
    `(git-gutter-fr:deleted ((t (:foreground ,color-dark))))
 
    ;; Company
-   `(company-preview ((t (:foreground ,color-fg :background nil))))
+   `(company-preview ((t (:foreground ,color-fg))))
    `(company-preview-common ((t (:foreground ,color-fg :background nil))))
    `(company-tooltip-search ((t (:inherit lazy-highlight))))
    `(company-tooltip-search-selection ((t (:inherit company-tooltip-search))))
