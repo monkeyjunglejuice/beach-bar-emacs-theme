@@ -49,15 +49,15 @@
    `(cursor ((t (:background ,color-fg))))
    `(region ((t (:foreground ,color-dark :background ,color-hl))))
    `(success ((t (:foreground ,color-dark))))
-   `(warning ((t (:foreground ,color-bright))))
+   `(warning ((t (:underline (:color ,color-bright :style wave)))))
    `(error ((t (:foreground ,color-strong :background ,color-light-red))))
    `(secondary-selection ((t (:background ,color-bg-alt))))
    `(mode-line ((t (:background ,color-fg :foreground ,color-bg :box nil))))
-   `(mode-line-buffer-id ((t (:foreground ,color-light :weight bold))))
+   `(mode-line-buffer-id ((t (:foreground ,color-bg :weight bold))))
    `(mode-line-inactive ((t (:background ,color-dimmed :foreground ,color-bg))))
    `(fringe ((t (:background ,color-bg))))
    `(vertical-border ((t (:foreground ,color-fg-alt :background nil))))
-   `(minibuffer-prompt ((t (:foreground ,color-dark :slant italic))))
+   `(minibuffer-prompt ((t (:inherit comint-highlight-prompt))))
 
    `(font-lock-face ((t (:foreground ,color-middle))))
    `(font-lock-builtin-face ((t (:foreground ,color-strong))))
@@ -206,13 +206,13 @@
    `(org-tree-slide-header-overlay-face ((t (:inherit font-lock-comment-face :foreground nil :background nil))))
 
    ;; Compilation
-   `(compilation-error ((t (:foreground ,color-strong :background ,color-light-red))))
+   `(compilation-error ((t (:inherit error))))
+   `(compilation-warning ((t (:inherit warning))))
    `(compilation-info ((t (:foreground ,color-dark))))
-   `(compilation-warning ((t (:foreground ,color-bright))))
 
    ;; Whitespace
    `(whitespace-trailing ((t (:background ,color-light-red))))
-   `(whitespace-line ((t (:background ,color-light-yellow))))
+   `(whitespace-line ((t (:inherit whitespace-trailing))))
    `(whitespace-space (( t(:foreground ,color-middle))))
    `(whitespace-newline ((t (:inherit whitespace-space))))
    `(whitespace-empty ((t (:inherit whitespace-line))))
@@ -283,17 +283,21 @@
    `(company-tooltip-common ((t (:foreground ,color-middle))))
    `(company-tooltip-common-selection ((t (:foreground ,color-dark))))
    `(company-tooltip-selection ((t (:background ,color-hl))))
-   `(company-scrollbar-bg ((t (:background ,color-dark))))
+   `(company-scrollbar-bg ((t (:background ,color-light))))
    `(company-scrollbar-fg ((t (:background ,color-middle))))
 
    ;; Flymake
-   `(flymake-error ((t (:underline (:style wave :color ,color-strong)))))
-   `(flymake-warning ((t (:underline (:style wave :color ,color-bright)))))
+   `(flymake-error ((t (:inherit error))))
+   `(flymake-warning ((t (:inherit warning))))
+   `(flymake-note ((t (:foreground ,color-dark))))
 
    ;; Flycheck
-   `(flycheck-info ((t :underline (:style wave :color ,color-middle))))
-   `(flycheck-warning ((t (:inherit flymake-warning))))
-   `(flycheck-error ((t (:inherit flymake-error))))
+   `(flycheck-error ((t (:inherit error))))
+   `(flycheck-fringe-error ((t (:inherit error))))
+   `(flycheck-warning ((t (:inherit warning))))
+   `(flycheck-fringe-warning ((t (:foreground ,color-bright :background ,color-light-yellow))))
+   `(flycheck-info ((t (:background ,color-middle))))
+   `(flycheck-fringe-info ((t (:foreground ,color-dark :background ,color-hl))))
 
    ;; LSP
    `(lsp-headerline-breadcrumb-path-face ((t (:foreground ,color-fg))))
