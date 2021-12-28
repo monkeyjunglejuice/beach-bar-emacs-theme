@@ -295,7 +295,7 @@
    `(flycheck-error ((t (:inherit error))))
    `(flycheck-fringe-error ((t (:inherit error))))
    `(flycheck-warning ((t (:inherit warning))))
-   `(flycheck-fringe-warning ((t (:foreground ,color-bright :background ,color-light-yellow))))
+   `(flycheck-fringe-warning ((t (:foreground ,color-bright))))
    `(flycheck-info ((t (:background ,color-middle))))
    `(flycheck-fringe-info ((t (:foreground ,color-dark :background ,color-hl))))
 
@@ -356,6 +356,15 @@
    ;; Selectrum
    `(selectrum-mouse-highlight ((t (:background nil :underline t :extend t))))
    `(selectrum-prescient-primary-highlight ((t (:inherit completions-common-part))))
+
+   ;; Marginalia
+   `(marginalia-archive ((t (:inherit nil))))
+   `(marginalia-key ((t (:inherit nil))))
+   `(marginalia-number ((t (:inherit nil))))
+   `(marginalia-file-priv-dir ((t (:weight bold))))
+   `(marginalia-file-priv-read ((t (:foreground ,color-fg))))
+   `(marginalia-file-priv-write ((t (:foreground ,color-strong))))
+   `(marginalia-file-priv-exec ((t (:foreground ,color-dark))))
 
    ;; Consult
    `(consult-preview-line ((t (:inherit highlight))))
