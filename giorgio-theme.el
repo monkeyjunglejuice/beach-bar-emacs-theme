@@ -323,6 +323,7 @@
    `(slime-repl-inputed-output-face ((t (:foreground ,color-dark))))
    `(slime-repl-output-mouseover-face ((t (:foreground ,color-bright :box nil))))
    `(slime-repl-input-face ((t (:inherit default))))
+   `(sldb-section-face ((t (:foreground ,color-dimmed :weight bold))))
 
    ;; Tuareg
    `(tuareg-font-lock-interactive-output-face ((t (:foreground ,color-dark))))
