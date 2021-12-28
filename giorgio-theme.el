@@ -115,7 +115,7 @@
    `(eshell-ls-special ((t (:inherit dired-special))))
 
    ;; Comint
-   `(comint-highlight-prompt ((t (:foreground ,color-bright :weight bold))))
+   `(comint-highlight-prompt ((t (:foreground ,color-bright :slant italic))))
    `(comint-highlight-input ((t (:inherit default))))
 
    ;; Completions
