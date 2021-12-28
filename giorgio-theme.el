@@ -134,9 +134,9 @@
 
    ;; Customization
    `(custom-group-tag ((t (:inherit bold))))
-   `(custom-variable-tag ((t (:inherit default))))
-   `(custom-variable-obsolete ((t (:foreground ,color-dimmed))))
-   `(custom-documentation ((t (:inherit font-lock-doc-face))))
+   `(custom-variable-tag ((t (:weight bold))))
+   `(custom-variable-obsolete ((t (:foreground ,color-dimmed :inherit custom-variable-tag))))
+   `(custom-documentation ((t (:slant italic :inherit fixed-pitch-serif))))
    `(custom-visibility ((t (:inherit custom-documentation :underline t))))
    `(custom-state ((t (:foreground ,color-dark :inherit fixed-pitch-serif))))
    `(custom-button ((t (:inherit button))))
