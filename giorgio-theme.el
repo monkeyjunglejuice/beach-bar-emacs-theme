@@ -81,7 +81,7 @@
    `(link-visited ((t (:foreground ,color-middle :underline t))))
    `(button ((t (:foreground ,color-strong :underline t))))
    `(help-face-button ((t (:inherit button))))
-   `(header-line ((t (:background ,color-bg-alt :foreground ,color-fg))))
+   `(header-line ((t (:foreground ,color-dimmed :slant italic :inherit fixed-pitch-serif :underline (:color ,color-dimmed)))))
    `(shadow ((t (:foreground ,color-dimmed))))
    `(show-paren-match ((t (:foreground ,color-fg :background ,color-hl :weight bold))))
    `(show-paren-mismatch ((t (:inherit error))))
@@ -123,9 +123,9 @@
    `(icomplete-first-match ((t (:background ,color-hl :weight bold))))
 
    ;; Diff
-   `(diff-added ((t (:foreground ,color-dark))))
-   `(diff-removed ((t (:foreground ,color-strong))))
-   `(diff-context ((t (:inherit shadow))))
+   `(diff-added ((t (:foreground ,color-dark :background ,color-hl))))
+   `(diff-removed ((t (:foreground ,color-strong :background ,color-light-red))))
+   `(diff-context ((t (:inherit shadow :background ,color-bg-alt))))
    `(diff-file-header ((t (:bold t :background ,color-light :weight bold))))
    `(diff-header ((t (:background ,color-light :foreground ,color-fg))))
 
