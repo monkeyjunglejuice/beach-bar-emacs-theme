@@ -98,11 +98,11 @@
    ;; Dired
    `(dired-header ((t (:foreground ,color-bright :slant italic))))
    `(dired-directory ((t (:weight bold))))
-   `(dired-symlink ((t (:foreground ,color-middle))))
-   `(dired-marked ((t (:foreground ,color-hl))))
+   `(dired-symlink ((t (:slant italic))))
+   `(dired-marked ((t (:foreground ,color-bright))))
    `(dired-flagged ((t (:foreground ,color-strong :background ,color-light-red))))
    `(dired-perm-write ((t (:foreground ,color-strong))))
-   `(dired-special ((t (:foreground ,color-middle :slant italic))))
+   `(dired-special ((t (:foreground ,color-middle))))
 
    ;; Eshell
    `(eshell-prompt ((t (:inherit comint-highlight-prompt))))
