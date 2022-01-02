@@ -329,6 +329,14 @@
    `(slime-repl-input-face ((t (:inherit default))))
    `(sldb-section-face ((t (:foreground ,color-dimmed :weight bold))))
 
+   ;; Cider
+   `(cider-result-overlay-face ((t (:background ,color-bg-alt))))
+   `(cider-fringe-good-face ((t (:foreground ,color-dark))))
+   `(cider-warning-highlight-face ((t (:inherit warning))))
+   `(cider-test-error-face ((t (:background ,color-light-red))))
+   `(cider-test-failure-face ((t (:background ,color-light-yellow))))
+   `(cider-test-success-face ((t (:background ,color-hl))))
+
    ;; Tuareg
    `(tuareg-font-lock-interactive-output-face ((t (:foreground ,color-dark))))
    `(tuareg-font-lock-interactive-error-face ((t (:inherit error))))
