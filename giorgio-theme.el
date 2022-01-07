@@ -327,6 +327,7 @@
    `(slime-repl-output-mouseover-face ((t (:foreground ,color-bright :box nil))))
    `(slime-repl-input-face ((t (:inherit default))))
    `(sldb-section-face ((t (:foreground ,color-dimmed :weight bold))))
+   `(sldb-restartable-frame-line-face ((t (:inherit link))))
 
    ;; Cider
    `(cider-result-overlay-face ((t (:background ,color-bg-alt))))
