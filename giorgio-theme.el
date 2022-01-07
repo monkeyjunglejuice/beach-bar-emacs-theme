@@ -243,8 +243,8 @@
    `(git-commit-comment-action ((t (:weight bold :inherit font-lock-comment-face))))
 
    ;; Magit
-   `(magit-branch-local ((t (:foreground ,color-dark :background nil))))
-   `(magit-branch-remote ((t (:foreground ,color-dark :background nil))))
+   `(magit-branch-local ((t (:foreground ,color-dark :background nil :weight bold))))
+   `(magit-branch-remote ((t (:foreground ,color-dark :background nil :weight bold :slant italic))))
    `(magit-tag ((t (:foreground ,color-dark :background nil :inherit italic))))
    `(magit-hash ((t (:foreground ,color-bright))))
    `(magit-section-title ((t (:foreground ,color-fg :background nil))))
