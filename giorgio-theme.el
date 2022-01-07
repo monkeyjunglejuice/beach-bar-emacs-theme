@@ -171,14 +171,14 @@
    `(font-latex-script-char-face ((t (:inherit font-latex-math-face))))
 
    ;; Outline
-   `(outline-1 ((t (:weight bold :height 1.6))))
-   `(outline-2 ((t (:weight bold :height 1.4))))
-   `(outline-3 ((t (:weight bold :height 1.2))))
-   `(outline-4 ((t (:weight bold))))
-   `(outline-5 ((t (:weight bold))))
-   `(outline-6 ((t (:weight bold))))
-   `(outline-7 ((t (:weight bold))))
-   `(outline-8 ((t (:weight bold))))
+   `(outline-1 ((t (:foreground ,color-fg-alt :weight bold :height 1.6))))
+   `(outline-2 ((t (:foreground ,color-fg-alt :weight bold :height 1.4))))
+   `(outline-3 ((t (:foreground ,color-fg-alt :weight bold :height 1.2))))
+   `(outline-4 ((t (:foreground ,color-fg-alt :weight bold))))
+   `(outline-5 ((t (:foreground ,color-fg-alt :weight bold))))
+   `(outline-6 ((t (:foreground ,color-fg-alt :weight bold))))
+   `(outline-7 ((t (:foreground ,color-fg-alt :weight bold))))
+   `(outline-8 ((t (:foreground ,color-fg-alt :weight bold))))
 
    ;; Org-mode
    `(org-hide ((t (:foreground ,color-bg))))
@@ -189,7 +189,7 @@
    `(org-done ((t (:foreground ,color-middle :box t :weight normal))))
    `(org-headline-done ((t (:foreground ,color-dimmed))))
    `(org-latex-and-related ((t (:foreground ,color-dark :italic t))))
-   `(org-checkbox ((t (:weight normal :inherit fixed-pitch))))
+   `(org-checkbox ((t (:foreground ,color-fg-alt :weight normal :inherit fixed-pitch))))
    `(org-verbatim ((t (:inherit font-lock-string-face))))
    `(org-mode-line-clock ((t (:background nil))))
    `(org-document-title ((t (:weight normal :foreground nil))))
