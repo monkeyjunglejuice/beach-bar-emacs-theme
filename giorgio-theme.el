@@ -42,7 +42,8 @@
        (color-light-red    "#fcd5be")
        (color-light-yellow "#fff4c7"))
 
-  (custom-theme-set-faces 'giorgio
+  (custom-theme-set-faces
+   'giorgio
    `(default ((t (:background ,color-bg :foreground ,color-fg))))
    `(cursor ((t (:background ,color-fg))))
    `(region ((t (:foreground ,color-dark :background ,color-hl))))
