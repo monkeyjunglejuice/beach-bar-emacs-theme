@@ -292,11 +292,11 @@
 
    ;; Flycheck
    `(flycheck-error ((t (:inherit error))))
-   `(flycheck-fringe-error ((t (:inherit error))))
+   `(flycheck-fringe-error ((t (:foreground ,color-strong))))
    `(flycheck-warning ((t (:inherit warning))))
    `(flycheck-fringe-warning ((t (:foreground ,color-bright))))
-   `(flycheck-info ((t (:background ,color-middle))))
-   `(flycheck-fringe-info ((t (:foreground ,color-dark :background ,color-hl))))
+   `(flycheck-info ((t (:underline (:color ,color-middle :style wave)))))
+   `(flycheck-fringe-info ((t (:foreground ,color-middle))))
 
    ;; LSP
    `(lsp-headerline-breadcrumb-path-face ((t (:foreground ,color-fg))))
