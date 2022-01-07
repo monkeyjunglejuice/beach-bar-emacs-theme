@@ -1,11 +1,9 @@
-;;; giorgio-theme.el --- A sunny and calm Emacs theme inspired by the paintings of Giorgio di Chirico  -*- lexical-binding: t; -*-
+;;; giorgio-theme.el --- A sunny and calm theme inspired by the paintings of Giorgio di Chirico  -*- lexical-binding: t; -*-
 
 ;; Copyright (C) 2021 Dan Dee
 
 ;; Author: Dan Dee <monkeyjunglejuice@pm.me>
 ;; URL: https://github.com/monkeyjunglejuice/giorgio-theme-emacs
-;; Package-Version:
-;; Package-Commit:
 ;; Version: 0.1.0
 ;; Package-Requires: ((emacs "26.1"))
 ;; Keywords: faces, theme
