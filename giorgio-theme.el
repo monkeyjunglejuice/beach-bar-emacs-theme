@@ -80,7 +80,7 @@
    `(link-visited ((t (:foreground ,color-middle :underline t))))
    `(button ((t (:foreground ,color-strong :underline t))))
    `(help-face-button ((t (:inherit button))))
-   `(header-line ((t (:foreground ,color-dimmed :slant italic :inherit fixed-pitch-serif :underline (:color ,color-dimmed)))))
+   `(header-line ((t (:foreground ,color-dimmed :background ,color-bg-alt :slant italic :inherit fixed-pitch-serif))))
    `(shadow ((t (:foreground ,color-dimmed))))
    `(show-paren-match ((t (:foreground ,color-fg :background ,color-hl :weight bold))))
    `(show-paren-mismatch ((t (:inherit error))))
