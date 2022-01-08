@@ -76,9 +76,9 @@
    `(isearch-fail ((t (:inherit error))))
    `(lazy-highlight ((t (:foreground ,color-fg :background ,color-hl :underline t))))
 
-   `(link ((t (:foreground ,color-strong :underline t))))
+   `(link ((t (:foreground ,color-dark :underline t))))
    `(link-visited ((t (:foreground ,color-middle :underline t))))
-   `(button ((t (:foreground ,color-strong :underline t))))
+   `(button ((t (:inherit link))))
    `(help-face-button ((t (:inherit button))))
    `(header-line ((t (:foreground ,color-dimmed :background ,color-bg-alt :slant italic :inherit fixed-pitch-serif))))
    `(shadow ((t (:foreground ,color-dimmed))))
