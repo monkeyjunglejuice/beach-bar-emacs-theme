@@ -7,6 +7,7 @@
 ;; Version: 0.1.0
 ;; Package-Requires: ((emacs "26.1"))
 ;; Keywords: faces, theme
+;; SPDX-License-Identifier: MIT
 
 ;; This file is not part of GNU Emacs.
 
