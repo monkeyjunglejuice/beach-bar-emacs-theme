@@ -145,13 +145,13 @@
    `(info-menu-star ((t (:foreground ,color-bright))))
 
    ;; Message
-   `(message-header-name ((t (:inherit font-lock-builtin-face))))
-   `(message-header-other ((t (:foreground ,color-dark))))
+   `(message-header-name ((t (:inherit font-lock-comment-face))))
+   `(message-header-other ((t (:inherit font-lock-builtin-face))))
    `(message-header-cc ((t (:inherit message-header-other))))
    `(message-header-newsgroups ((t (:inherit message-header-other))))
    `(message-header-xheader ((t (:inherit message-header-other))))
-   `(message-header-subject ((t (:foreground ,color-dark :weight bold))))
-   `(message-header-to ((t (:foreground ,color-dark))))
+   `(message-header-subject ((t (:weight bold :inherit font-lock-builtin-face))))
+   `(message-header-to ((t (:inherit font-lock-builtin-face))))
    `(message-cited-text ((t (:foreground ,color-dimmed :inherit italic))))
    `(message-mml ((t (:foreground ,color-bright))))
    `(message-separator ((t (:inherit font-lock-comment-face))))
