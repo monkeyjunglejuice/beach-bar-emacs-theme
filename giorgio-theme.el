@@ -281,6 +281,7 @@
    `(company-tooltip-search-selection ((t (:inherit company-tooltip-search))))
    `(company-tooltip ((t (:foreground ,color-fg :background ,color-light))))
    `(company-tooltip-annotation ((t (:foreground ,color-fg))))
+   `(company-tooltip-annotation-selection ((t (:weight normal))))
    `(company-tooltip-common ((t (:foreground ,color-bright))))
    `(company-tooltip-common-selection ((t (:foreground ,color-bright))))
    `(company-tooltip-selection ((t (:foreground ,color-fg-alt :weight bold :underline (:color ,color-bright)))))
