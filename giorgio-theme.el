@@ -145,15 +145,16 @@
    `(info-menu-star ((t (:foreground ,color-bright))))
 
    ;; Message
-   `(message-header-name ((t (:foreground ,color-dimmed))))
-   `(message-header-other ((t (:foreground ,color-fg))))
+   `(message-header-name ((t (:inherit font-lock-builtin-face))))
+   `(message-header-other ((t (:foreground ,color-dark))))
    `(message-header-cc ((t (:inherit message-header-other))))
    `(message-header-newsgroups ((t (:inherit message-header-other))))
    `(message-header-xheader ((t (:inherit message-header-other))))
-   `(message-header-subject ((t (:inherit default))))
+   `(message-header-subject ((t (:foreground ,color-dark :weight bold))))
    `(message-header-to ((t (:foreground ,color-dark))))
-   `(message-cited-text ((t (:foreground ,color-bright :inherit italic))))
+   `(message-cited-text ((t (:foreground ,color-dimmed :inherit italic))))
    `(message-mml ((t (:foreground ,color-bright))))
+   `(message-separator ((t (:inherit font-lock-comment-face))))
 
    ;; ERC
    `(erc-notice-face ((t (:foreground ,color-dark :weight unspecified))))
@@ -443,7 +444,34 @@
 
    ;; Beancount
    `(beancount-date ((t (:inherit italic :foreground nil))))
-   `(beancount-account ((t (:inherit default))))))
+   `(beancount-account ((t (:inherit default))))
+
+   ;; W3m
+   `(w3m-anchor ((t (:inherit link))))
+   `(w3m-arrived-anchor ((t (:inherit link-visited))))
+   `(w3m-current-anchor ((t (:inherit highlight))))
+   `(w3m-error ((t (:inherit error))))
+   `(w3m-header-line-content ((t (:inherit header-line))))
+   `(w3m-header-line-background ((t (:inherit header-line))))
+   `(w3m-header-line-title ((t (:inherit header-line))))
+   `(w3m-form ((t (:inherit widget-field))))
+   `(w3m-form-button ((t (:inherit custom-button))))
+   `(w3m-form-button-mouse ((t (:inherit custom-button-mouse))))
+   `(w3m-form-button-pressed ((t (:inherit custom-button-pressed))))
+
+   ;; Elfeed
+   `(elfeed-search-date-face ((t (:foreground ,color-middle))))
+   `(elfeed-search-title-face ((t (:foreground ,color-dimmed))))
+   `(elfeed-search-unread-title-face ((t (:inherit default))))
+   `(elfeed-search-feed-face ((t (:foreground ,color-middle))))
+   `(elfeed-search-tag-face ((t (:inherit default))))
+   `(elfeed-search-last-update-face ((t (:inherit font-lock-comment-face))))
+   `(elfeed-search-unread-count-face ((t (:weight bold))))
+   `(elfeed-search-filter-face ((t (:foreground ,color-bright))))
+   `(elfeed-log-debug-level-face ((t (:foreground ,color-middle))))
+   `(elfeed-log-error-level-face ((t (:inherit error))))
+   `(elfeed-log-info-level-face ((t (:foreground ,color-dark))))
+   `(elfeed-log-warn-level-face ((t (:inherit warning))))))
 
 ;;;###autoload
 (when load-file-name
