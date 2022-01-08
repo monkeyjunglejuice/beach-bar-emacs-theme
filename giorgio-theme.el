@@ -145,8 +145,8 @@
    `(info-menu-star ((t (:foreground ,color-bright))))
 
    ;; Message
-   `(message-header-name ((t (:foreground ,color-dark))))
-   `(message-header-other ((t (:foreground ,color-bright))))
+   `(message-header-name ((t (:foreground ,color-dimmed))))
+   `(message-header-other ((t (:foreground ,color-fg))))
    `(message-header-cc ((t (:inherit message-header-other))))
    `(message-header-newsgroups ((t (:inherit message-header-other))))
    `(message-header-xheader ((t (:inherit message-header-other))))
