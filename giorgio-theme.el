@@ -34,7 +34,7 @@
        (color-dimmed       "#8b8875")
        (color-bg           "#fff8dc")
        (color-bg-alt       "#eee8cd")
-       (color-hl           "#c3f9ce")
+       (color-hl           "#c3f9d8")
        (color-middle       "#8ad1aa")
        (color-dark         "#027e6a")
        (color-bright       "#de6912")
