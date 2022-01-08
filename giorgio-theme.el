@@ -34,14 +34,13 @@
        (color-dimmed       "#8b8875")
        (color-bg           "#fff8dc")
        (color-bg-alt       "#eee8cd")
-       (color-hl           "#cff5d8")
-       (color-bright       "#d46f29")
-       (color-middle       "#93c6a9")
-       (color-dark         "#008069")
-       (color-strong       "#99260a")
-       (color-light        "#ffffff")
+       (color-hl           "#c3f9ce")
+       (color-middle       "#8ad1aa")
+       (color-dark         "#027e6a")
+       (color-bright       "#de6912")
+       (color-strong       "#9e1e0a")
        (color-light-red    "#fcd5be")
-       (color-light-yellow "#fff4c7"))
+       (color-light        "#fff0c2"))
 
   (custom-theme-set-faces
    'giorgio
@@ -281,12 +280,12 @@
    `(company-tooltip-search ((t (:inherit lazy-highlight))))
    `(company-tooltip-search-selection ((t (:inherit company-tooltip-search))))
    `(company-tooltip ((t (:foreground ,color-fg :background ,color-light))))
-   `(company-tooltip-annotation ((t (:foreground ,color-dark))))
-   `(company-tooltip-common ((t (:foreground ,color-middle))))
-   `(company-tooltip-common-selection ((t (:foreground ,color-dark))))
-   `(company-tooltip-selection ((t (:background ,color-hl))))
-   `(company-scrollbar-bg ((t (:background ,color-light))))
-   `(company-scrollbar-fg ((t (:background ,color-middle))))
+   `(company-tooltip-annotation ((t (:foreground ,color-fg))))
+   `(company-tooltip-common ((t (:foreground ,color-bright))))
+   `(company-tooltip-common-selection ((t (:foreground ,color-bright))))
+   `(company-tooltip-selection ((t (:foreground ,color-fg-alt :weight bold :underline (:color ,color-bright)))))
+   `(company-scrollbar-bg ((t (:background ,color-fg-alt))))
+   `(company-scrollbar-fg ((t (:background ,color-bright))))
 
    ;; Flymake
    `(flymake-error ((t (:inherit error))))
@@ -337,7 +336,7 @@
    `(cider-fringe-good-face ((t (:foreground ,color-dark))))
    `(cider-warning-highlight-face ((t (:inherit warning))))
    `(cider-test-error-face ((t (:background ,color-light-red))))
-   `(cider-test-failure-face ((t (:background ,color-light-yellow))))
+   `(cider-test-failure-face ((t (:background ,color-light))))
    `(cider-test-success-face ((t (:background ,color-hl))))
 
    ;; Tuareg
