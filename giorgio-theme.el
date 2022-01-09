@@ -29,18 +29,18 @@
 (deftheme giorgio "A sunny and calm Emacs theme, inspired by the paintings of Giorgio di Chirico.")
 
 ;; Colors
-(let* ((color-fg           "#33322c")
+(let* ((color-fg           "#343327")
        (color-fg-alt       "#000000")
-       (color-dimmed       "#8b8875")
+       (color-dimmed       "#8d8973")
        (color-bg           "#fff8dc")
-       (color-bg-alt       "#eee8cd")
-       (color-hl           "#c3f9d8")
-       (color-middle       "#8ad1aa")
-       (color-dark         "#027e6a")
-       (color-bright       "#de6912")
-       (color-strong       "#9e1e0a")
-       (color-light-red    "#fcd5be")
-       (color-light        "#fff0c2"))
+       (color-bg-alt       "#efe8cd")
+       (color-hl           "#c6ebd4")
+       (color-middle       "#52b9aa")
+       (color-dark         "#028477")
+       (color-bright       "#d97517")
+       (color-strong       "#b0240d")
+       (color-light-red    "#fcd0be")
+       (color-light        "#ffefc2"))
 
   (custom-theme-set-faces
    'giorgio
