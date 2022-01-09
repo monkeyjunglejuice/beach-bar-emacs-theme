@@ -294,8 +294,8 @@
    `(company-tooltip-common ((t (:foreground ,color-bright))))
    `(company-tooltip-common-selection ((t (:foreground ,color-bright))))
    `(company-tooltip-selection ((t (:foreground ,color-fg-alt :weight bold :underline (:color ,color-bright)))))
-   `(company-scrollbar-bg ((t (:background ,color-fg-alt))))
-   `(company-scrollbar-fg ((t (:background ,color-bright))))
+   `(company-scrollbar-bg ((t (:background ,color-light))))
+   `(company-scrollbar-fg ((t (:background ,color-middle))))
 
    ;; Flymake
    `(flymake-error ((t (:inherit error))))
