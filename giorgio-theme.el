@@ -68,7 +68,7 @@
    `(font-lock-string-face ((t (:foreground ,color-dark :inherit fixed-pitch-serif))))
    `(font-lock-type-face ((t (:weight bold))))
    `(font-lock-variable-name-face ((t (:slant italic))))
-   `(font-lock-warning-face ((t (:foreground ,color-strong :background ,color-light-red))))
+   `(font-lock-warning-face ((t (:foreground ,color-strong))))
    `(font-lock-regexp-grouping-construct ((t (:foreground ,color-bright))))
    `(font-lock-regexp-grouping-backslash ((t (:foreground ,color-bright))))
 
@@ -129,7 +129,12 @@
    `(diff-header ((t (:background ,color-light :foreground ,color-fg))))
 
    ;; Package manager
-   `(package-description ((t (:inherit font-lock-doc-face))))
+   `(package-name ((t (:inherit link))))
+   `(package-description ((t (:slant italic :inherit fixed-pitch-serif))))
+   `(package-status-installed ((t (:foreground ,color-middle))))
+   `(package-status-dependency ((t (:foreground ,color-middle :slant italic))))
+   `(package-status-built-in ((t (:foreground ,color-dimmed :slant italic))))
+   `(package-status-incompat ((t (:slant italic :inherit font-lock-warning-face))))
 
    ;; Customization
    `(custom-group-tag ((t (:inherit bold))))
