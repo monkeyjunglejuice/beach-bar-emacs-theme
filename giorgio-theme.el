@@ -124,7 +124,7 @@
    ;; Diff
    `(diff-added ((t (:foreground ,color-dark :background ,color-hl))))
    `(diff-removed ((t (:foreground ,color-strong :background ,color-light-red))))
-   `(diff-context ((t (:inherit shadow :background ,color-bg-alt))))
+   `(diff-context ((t (:inherit shadow))))
    `(diff-file-header ((t (:bold t :background ,color-light :weight bold))))
    `(diff-header ((t (:background ,color-light :foreground ,color-fg))))
 
@@ -253,13 +253,14 @@
    `(git-commit-comment-action ((t (:weight bold :inherit font-lock-comment-face))))
 
    ;; Magit
-   `(magit-branch-local ((t (:foreground ,color-dark :background nil :weight bold))))
-   `(magit-branch-remote ((t (:foreground ,color-dark :background nil :weight bold :slant italic))))
+   `(magit-branch-local ((t (:weight bold))))
+   `(magit-branch-remote ((t (:weight bold :slant italic))))
    `(magit-tag ((t (:foreground ,color-dark :background nil :inherit italic))))
    `(magit-hash ((t (:foreground ,color-bright))))
    `(magit-section-title ((t (:foreground ,color-fg :background nil))))
    `(magit-section-heading ((t (:background nil :foreground ,color-fg))))
-   `(magit-section-highlight ((t (:background nil))))
+   `(magit-section-heading-selection ((t (:inherit region))))
+   `(magit-section-highlight ((t (:background ,color-light))))
    `(magit-item-highlight ((t (:foreground ,color-fg :background ,color-bright))))
    `(magit-log-author ((t (:foreground ,color-dark))))
    `(magit-diff-added ((t (:inherit diff-added))))
@@ -269,12 +270,12 @@
    `(magit-diffstat-removed ((t (:foreground ,color-strong))))
    `(magit-diff-removed-highlight ((t (:inherit magit-diff-removed))))
    `(magit-diff-context ((t (:inherit diff-context))))
-   `(magit-diff-context-highlight ((t (:inherit magit-diff-context))))
+   `(magit-diff-context-highlight ((t (:foreground ,color-dimmed :inherit magit-section-highlight))))
    `(magit-popup-argument ((t (:inherit font-lock-function-name-face))))
    `(magit-popup-disabled-argument ((t (:inherit font-lock-comment-face))))
    `(magit-process-ok ((t (:inherit success))))
    `(magit-diff-hunk-heading ((t (:background ,color-bg :inherit header-line :underline t))))
-   `(magit-diff-hunk-heading-highlight ((t (:background unspecified :foreground unspecified :inherit magit-diff-hunk-heading))))
+   `(magit-diff-hunk-heading-highlight ((t (:inherit magit-section-highlight))))
    `(magit-filename ((t (:inherit git-commit-comment-file))))
 
    ;; Git-gutter-fringe
