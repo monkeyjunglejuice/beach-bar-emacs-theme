@@ -137,9 +137,12 @@
    `(custom-variable-obsolete ((t (:foreground ,color-dimmed :inherit custom-variable-tag))))
    `(custom-documentation ((t (:slant italic :inherit fixed-pitch-serif))))
    `(custom-visibility ((t (:inherit custom-documentation :underline t))))
-   `(custom-state ((t (:foreground ,color-dark :inherit fixed-pitch-serif))))
-   `(custom-button ((t (:inherit button))))
-   `(custom-button-unraised ((t (:inherit button))))
+   `(custom-state ((t (:foreground ,color-bright))))
+   `(custom-button ((t (:foreground ,color-bg :background ,color-middle))))
+   `(custom-button-mouse ((t (:foreground ,color-fg :background ,color-hl))))
+   `(custom-button-pressed ((t (:foreground ,color-bg :background ,color-bright))))
+   `(custom-button-pressed-unraised ((t (:inherit custom-button-pressed))))
+   `(custom-button-unraised ((t (:inherit custom-button))))
 
    ;; Info
    `(info-menu-star ((t (:foreground ,color-bright))))
