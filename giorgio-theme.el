@@ -11,10 +11,6 @@
 
 ;; This file is not part of GNU Emacs.
 
-;; This program is free software. It comes without any warranty,
-;; to the extent permitted by applicable law. You can redistribute it
-;; and/or modify it under the terms of the MIT License.
-
 ;;; Commentary:
 ;; "Giorgio" is a custom theme for Emacs, inspired by the paintings
 ;; created by the italian artist Giorgio di Chirico between 1913 and 1914.
@@ -295,7 +291,7 @@
    `(company-tooltip-common-selection ((t (:foreground ,color-bright))))
    `(company-tooltip-selection ((t (:foreground ,color-fg-alt :weight bold :underline (:color ,color-bright)))))
    `(company-scrollbar-bg ((t (:background ,color-light))))
-   `(company-scrollbar-fg ((t (:background ,color-middle))))
+   `(company-scrollbar-fg ((t (:background ,color-dimmed))))
 
    ;; Flymake
    `(flymake-error ((t (:inherit error))))
