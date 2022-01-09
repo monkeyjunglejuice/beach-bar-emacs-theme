@@ -193,7 +193,7 @@
    `(org-checkbox ((t (:foreground ,color-fg-alt :weight normal :inherit fixed-pitch))))
    `(org-verbatim ((t (:inherit font-lock-string-face))))
    `(org-mode-line-clock ((t (:background nil))))
-   `(org-document-title ((t (:foreground ,color-dark :weight bold))))
+   `(org-document-title ((t (:foreground ,color-fg-alt :weight bold))))
    `(org-drawer ((t (:inherit font-lock-comment-face))))
    `(org-block ((t (:foreground ,color-fg :background ,color-bg-alt :inherit fixed-pitch :extend t))))
    `(org-block-begin-line ((t (:inherit font-lock-comment-face))))
