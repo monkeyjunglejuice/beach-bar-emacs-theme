@@ -249,7 +249,7 @@
    `(git-commit-comment-heading ((t (:slant italic :inherit font-lock-comment-face))))
    `(git-commit-comment-branch-local ((t (:slant italic :weight bold))))
    `(git-commit-comment-branch-remote ((t (:slant italic :weight bold))))
-   `(git-commit-comment-file ((t (:inherit font-lock-string-face))))
+   `(git-commit-comment-file ((t (:foreground ,color-bright :background ,color-light))))
    `(git-commit-comment-action ((t (:weight bold :inherit font-lock-comment-face))))
 
    ;; Magit
