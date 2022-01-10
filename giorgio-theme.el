@@ -345,6 +345,9 @@
    `(cider-test-failure-face ((t (:background ,color-light))))
    `(cider-test-success-face ((t (:background ,color-hl))))
 
+   ;; Clojure-mode
+   `(clojure-keyword-face ((t (:inherit font-lock-keyword-face))))
+
    ;; Tuareg
    `(tuareg-font-lock-interactive-output-face ((t (:foreground ,color-dark))))
    `(tuareg-font-lock-interactive-error-face ((t (:inherit error))))
