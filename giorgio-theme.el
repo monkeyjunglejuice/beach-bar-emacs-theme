@@ -64,13 +64,13 @@
    `(font-lock-string-face ((t (:foreground ,color-dark :inherit fixed-pitch-serif))))
    `(font-lock-type-face ((t (:weight bold))))
    `(font-lock-variable-name-face ((t (:slant italic))))
-   `(font-lock-warning-face ((t (:foreground ,color-strong))))
+   `(font-lock-warning-face ((t (:foreground ,color-strong :weight bold))))
    `(font-lock-regexp-grouping-construct ((t (:foreground ,color-bright))))
    `(font-lock-regexp-grouping-backslash ((t (:foreground ,color-bright))))
 
    `(isearch ((t (:foreground ,color-bg :background ,color-bright :underline t))))
    `(isearch-fail ((t (:inherit error))))
-   `(lazy-highlight ((t (:foreground ,color-fg :background ,color-hl :underline t))))
+   `(lazy-highlight ((t (:background ,color-hl :underline t))))
 
    `(link ((t (:foreground ,color-dark :underline t))))
    `(link-visited ((t (:foreground ,color-middle :underline t))))
