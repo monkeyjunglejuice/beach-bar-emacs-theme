@@ -280,16 +280,18 @@
    `(git-gutter-fr:deleted ((t (:foreground ,color-dark))))
 
    ;; Company
+   `(company-echo ((t (:inherit company-preview))))
+   `(company-echo-common ((t (:inherit company-tooltip-common))))
    `(company-preview ((t (:foreground ,color-fg))))
    `(company-preview-common ((t (:foreground ,color-fg :background nil))))
    `(company-tooltip-search ((t (:inherit lazy-highlight))))
-   `(company-tooltip-search-selection ((t (:inherit company-tooltip-search))))
+   `(company-tooltip-search-selection ((t (:foreground ,color-fg-alt :inherit company-tooltip-search))))
    `(company-tooltip ((t (:foreground ,color-fg :background ,color-light))))
    `(company-tooltip-annotation ((t (:foreground ,color-fg))))
-   `(company-tooltip-annotation-selection ((t (:weight normal))))
+   `(company-tooltip-annotation-selection ((t (:foreground ,color-fg-alt :weight normal))))
    `(company-tooltip-common ((t (:foreground ,color-bright))))
    `(company-tooltip-common-selection ((t (:foreground ,color-bright))))
-   `(company-tooltip-selection ((t (:foreground ,color-fg-alt :weight bold :underline (:color ,color-bright)))))
+   `(company-tooltip-selection ((t (:foreground ,color-fg-alt :background ,color-light :weight bold :underline (:color ,color-bright)))))
    `(company-scrollbar-bg ((t (:background ,color-light))))
    `(company-scrollbar-fg ((t (:background ,color-dimmed))))
 
