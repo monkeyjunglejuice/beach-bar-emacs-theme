@@ -56,8 +56,8 @@
 
    `(font-lock-face ((t (:foreground ,color-middle))))
    `(font-lock-builtin-face ((t (:foreground ,color-strong))))
-   `(font-lock-comment-face ((t (:foreground ,color-dimmed :inherit fixed-pitch-serif :slant italic))))
-   `(font-lock-doc-face ((t (:foreground ,color-dark :inherit font-lock-comment-face))))
+   `(font-lock-comment-face ((t (:foreground ,color-dimmed :inherit fixed-pitch-serif))))
+   `(font-lock-doc-face ((t (:foreground ,color-dimmed :slant italic :inherit fixed-pitch-serif))))
    `(font-lock-constant-face ((t (:foreground ,color-fg-alt))))
    `(font-lock-function-name-face ((t (:foreground ,color-fg :weight bold :slant italic))))
    `(font-lock-keyword-face ((t (:foreground ,color-bright))))
