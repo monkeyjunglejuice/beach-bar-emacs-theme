@@ -343,17 +343,13 @@
    ;; Cider
    `(cider-result-overlay-face ((t (:background ,color-bg-alt))))
    `(cider-fringe-good-face ((t (:foreground ,color-dark))))
-   `(cider-warning-highlight-face ((t (:foreground ,color-bright :background ,color-light :slant italic))))
-   `(cider-test-error-face ((t (:inherit font-lock-warning-face))))
-   `(cider-test-failure-face ((t (:inherit font-lock-warning-face))))
-   `(cider-test-success-face ((t (:foreground ,color-middle :weight bold))))
-   `(cider-repl-stdout-face ((t (:inherit default))))
-   `(cider-repl-stderr-face ((t (:inherit font-lock-warning-face))))
-   `(cider-stacktrace-error-class-face ((t (:inherit font-lock-warning-face))))
-   `(cider-error-highlight-face ((t (:inherit error))))
+   `(cider-warning-highlight-face ((t (:inherit warning))))
+   `(cider-test-error-face ((t (:background ,color-light-red))))
+   `(cider-test-failure-face ((t (:background ,color-light))))
+   `(cider-test-success-face ((t (:background ,color-hl))))
 
    ;; Clojure-mode
-   `(clojure-keyword-face ((t (:inherit font-lock-builtin-face))))
+   `(clojure-keyword-face ((t (:inherit font-lock-keyword-face))))
 
    ;; Tuareg
    `(tuareg-font-lock-interactive-output-face ((t (:foreground ,color-dark))))
