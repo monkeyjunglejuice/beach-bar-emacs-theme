@@ -32,9 +32,9 @@
        (color-bg-alt       "#efe8cd")
        (color-hl           "#c3eed2")
        (color-middle       "#52b9aa")
-       (color-dark         "#028477")
-       (color-bright       "#d97517")
-       (color-strong       "#b0240d")
+       (color-dark         "#077f72")
+       (color-bright       "#d97530")
+       (color-strong       "#ab240d")
        (color-light-red    "#fcd0be")
        (color-light        "#ffefc2"))
 
@@ -94,7 +94,8 @@
    `(dired-header ((t (:foreground ,color-bright :slant italic))))
    `(dired-directory ((t (:weight bold))))
    `(dired-symlink ((t (:slant italic))))
-   `(dired-marked ((t (:foreground ,color-bright))))
+   `(dired-mark ((t (:foreground ,color-bright :background ,color-light))))
+   `(dired-marked ((t (:foreground ,color-dark :background ,color-hl))))
    `(dired-flagged ((t (:foreground ,color-strong :background ,color-light-red))))
    `(dired-perm-write ((t (:foreground ,color-strong))))
    `(dired-special ((t (:foreground ,color-middle))))
@@ -342,13 +343,17 @@
    ;; Cider
    `(cider-result-overlay-face ((t (:background ,color-bg-alt))))
    `(cider-fringe-good-face ((t (:foreground ,color-dark))))
-   `(cider-warning-highlight-face ((t (:inherit warning))))
-   `(cider-test-error-face ((t (:background ,color-light-red))))
-   `(cider-test-failure-face ((t (:background ,color-light))))
-   `(cider-test-success-face ((t (:background ,color-hl))))
+   `(cider-warning-highlight-face ((t (:foreground ,color-bright :background ,color-light :slant italic))))
+   `(cider-test-error-face ((t (:inherit font-lock-warning-face))))
+   `(cider-test-failure-face ((t (:inherit font-lock-warning-face))))
+   `(cider-test-success-face ((t (:foreground ,color-middle :weight bold))))
+   `(cider-repl-stdout-face ((t (:inherit default))))
+   `(cider-repl-stderr-face ((t (:inherit font-lock-warning-face))))
+   `(cider-stacktrace-error-class-face ((t (:inherit font-lock-warning-face))))
+   `(cider-error-highlight-face ((t (:inherit error))))
 
    ;; Clojure-mode
-   `(clojure-keyword-face ((t (:inherit font-lock-keyword-face))))
+   `(clojure-keyword-face ((t (:inherit font-lock-builtin-face))))
 
    ;; Tuareg
    `(tuareg-font-lock-interactive-output-face ((t (:foreground ,color-dark))))
