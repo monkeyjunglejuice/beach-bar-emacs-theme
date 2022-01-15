@@ -31,10 +31,10 @@
        (color-bg           "#fff8dc")
        (color-bg-alt       "#efe8cd")
        (color-hl           "#c3eed2")
-       (color-middle       "#52b9aa")
-       (color-dark         "#077f72")
-       (color-bright       "#d97530")
-       (color-strong       "#ab240d")
+       (color-middle       "#64b6a8")
+       (color-dark         "#0b7e71")
+       (color-bright       "#d46f29")
+       (color-strong       "#8e210a")
        (color-light-red    "#fcd0be")
        (color-light        "#ffefc2"))
 
@@ -341,15 +341,19 @@
    `(sldb-restartable-frame-line-face ((t (:inherit link))))
 
    ;; Cider
-   `(cider-result-overlay-face ((t (:background ,color-bg-alt))))
+   `(cider-result-overlay-face ((t (:background ,color-light))))
    `(cider-fringe-good-face ((t (:foreground ,color-dark))))
-   `(cider-warning-highlight-face ((t (:inherit warning))))
-   `(cider-test-error-face ((t (:background ,color-light-red))))
-   `(cider-test-failure-face ((t (:background ,color-light))))
-   `(cider-test-success-face ((t (:background ,color-hl))))
+   `(cider-warning-highlight-face ((t (:foreground ,color-bright :background ,color-light :slant italic))))
+   `(cider-test-error-face ((t (:inherit font-lock-warning-face))))
+   `(cider-test-failure-face ((t (:inherit font-lock-warning-face))))
+   `(cider-test-success-face ((t (:foreground ,color-middle :weight bold))))
+   `(cider-repl-stdout-face ((t (:inherit default))))
+   `(cider-repl-stderr-face ((t (:inherit font-lock-warning-face))))
+   `(cider-stacktrace-error-class-face ((t (:inherit font-lock-warning-face))))
+   `(cider-error-highlight-face ((t (:inherit error))))
 
    ;; Clojure-mode
-   `(clojure-keyword-face ((t (:inherit font-lock-keyword-face))))
+   `(clojure-keyword-face ((t (:inherit font-lock-builtin-face))))
 
    ;; Tuareg
    `(tuareg-font-lock-interactive-output-face ((t (:foreground ,color-dark))))
