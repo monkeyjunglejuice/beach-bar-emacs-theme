@@ -34,7 +34,7 @@
        (color-middle       "#64b6a8")
        (color-dark         "#0b7e71")
        (color-bright       "#d46f29")
-       (color-strong       "#8e210a")
+       (color-strong       "#9e240a")
        (color-light-red    "#fcd0be")
        (color-light        "#ffefc2"))
 
