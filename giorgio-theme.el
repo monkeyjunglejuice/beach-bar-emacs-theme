@@ -52,7 +52,7 @@
    `(mode-line-inactive ((t (:background ,color-dimmed :foreground ,color-bg))))
    `(fringe ((t (:background ,color-bg))))
    `(vertical-border ((t (:foreground ,color-fg-alt :background nil))))
-   `(minibuffer-prompt ((t (:inherit comint-highlight-prompt))))
+   `(minibuffer-prompt ((t (:foreground ,color-fg-alt :slant italic :weight bold))))
 
    `(font-lock-face ((t (:foreground ,color-middle))))
    `(font-lock-builtin-face ((t (:foreground ,color-strong))))
@@ -101,7 +101,7 @@
    `(dired-special ((t (:foreground ,color-middle))))
 
    ;; Eshell
-   `(eshell-prompt ((t (:inherit comint-highlight-prompt))))
+   `(eshell-prompt ((t (:inherit minibuffer-prompt))))
    `(eshell-ls-directory ((t (:inherit dired-directory))))
    `(eshell-ls-archive ((t (:slant italic :inherit dired-directory))))
    `(eshell-ls-symlink ((t (:inherit dired-symlink))))
@@ -111,7 +111,7 @@
    `(eshell-ls-special ((t (:inherit dired-special))))
 
    ;; Comint
-   `(comint-highlight-prompt ((t (:foreground ,color-bright :slant italic))))
+   `(comint-highlight-prompt ((t (:inherit minibuffer-prompt))))
    `(comint-highlight-input ((t (:inherit default))))
 
    ;; Completions
@@ -167,7 +167,7 @@
    `(erc-timestamp-face ((t (:foreground ,color-bright :weight unspecified))))
    `(erc-current-nick-face ((t (:background ,color-dark :foreground ,color-bg :weight unspecified))))
    `(erc-input-face ((t (:foreground ,color-dark))))
-   `(erc-prompt-face ((t (:foreground ,color-bright :background nil :inherit italic :weight unspecified))))
+   `(erc-prompt-face ((t (:inherit minibuffer-prompt))))
    `(erc-my-nick-face ((t (:foreground ,color-fg))))
    `(erc-pal-face ((t (:foreground ,color-dark :inherit italic))))
 
@@ -376,7 +376,7 @@
 
    ;; Utop
    `(utop-frozen ((t (:inherit default))))
-   `(utop-prompt ((t (:inherit comint-highlight-prompt))))
+   `(utop-prompt ((t (:inherit minibuffer-prompt))))
    `(utop-error  ((t (:inherit error))))
 
    ;; Selectrum
