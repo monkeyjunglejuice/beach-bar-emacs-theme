@@ -347,6 +347,7 @@
    `(cider-test-error-face ((t (:inherit font-lock-warning-face))))
    `(cider-test-failure-face ((t (:inherit font-lock-warning-face))))
    `(cider-test-success-face ((t (:foreground ,color-middle :weight bold))))
+   `(cider-repl-prompt-face ((t (:inherit minibuffer-prompt))))
    `(cider-repl-stdout-face ((t (:inherit default))))
    `(cider-repl-stderr-face ((t (:inherit font-lock-warning-face))))
    `(cider-stacktrace-error-class-face ((t (:inherit font-lock-warning-face))))
