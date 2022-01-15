@@ -51,7 +51,7 @@
    `(mode-line-buffer-id ((t (:foreground ,color-bg :weight bold))))
    `(mode-line-inactive ((t (:background ,color-dimmed :foreground ,color-bg))))
    `(fringe ((t (:background ,color-bg))))
-   `(vertical-border ((t (:foreground ,color-fg-alt :background nil))))
+   `(vertical-border ((t (:foreground ,color-fg :background nil))))
    `(minibuffer-prompt ((t (:foreground ,color-fg-alt :slant italic :weight bold))))
 
    `(font-lock-face ((t (:foreground ,color-middle))))
