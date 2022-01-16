@@ -297,17 +297,17 @@
    `(company-scrollbar-fg ((t (:background ,color-dimmed))))
 
    ;; Flymake
-   `(flymake-error ((t (:inherit error))))
-   `(flymake-warning ((t (:inherit warning))))
-   `(flymake-note ((t (:foreground ,color-dark))))
+   `(flymake-error ((t (:underline (:color ,color-strong :style wave)))))
+   `(flymake-warning ((t (:underline (:color ,color-bright :style wave)))))
+   `(flymake-note ((t (:underline (:color ,color-middle :style wave)))))
 
    ;; Flycheck
-   `(flycheck-error ((t (:inherit error))))
-   `(flycheck-fringe-error ((t (:foreground ,color-strong))))
-   `(flycheck-warning ((t (:inherit warning))))
-   `(flycheck-fringe-warning ((t (:foreground ,color-bright))))
+   `(flycheck-error ((t (:underline (:color ,color-strong :style wave)))))
+   `(flycheck-fringe-error ((t (:foreground ,color-bg :background ,color-strong))))
+   `(flycheck-warning ((t (:underline (:color ,color-bright :style wave)))))
+   `(flycheck-fringe-warning ((t (:foreground ,color-bg :background ,color-bright))))
    `(flycheck-info ((t (:underline (:color ,color-middle :style wave)))))
-   `(flycheck-fringe-info ((t (:foreground ,color-middle))))
+   `(flycheck-fringe-info ((t (:foreground ,color-bg :background ,color-middle))))
 
    ;; LSP
    `(lsp-headerline-breadcrumb-path-face ((t (:foreground ,color-fg))))
