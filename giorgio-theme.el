@@ -116,7 +116,7 @@
 
    ;; Completions
    `(completions-common-part ((t (:weight bold))))
-   `(icomplete-first-match ((t (:background ,color-hl :weight bold))))
+   `(icomplete-first-match ((t (:foreground ,color-fg-alt :weight bold :underline t))))
 
    ;; Diff
    `(diff-added ((t (:foreground ,color-dark :background ,color-hl))))
