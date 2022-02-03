@@ -112,7 +112,7 @@
 
    ;; Comint
    `(comint-highlight-prompt ((t (:inherit minibuffer-prompt))))
-   `(comint-highlight-input ((t (:inherit default))))
+   `(comint-highlight-input ((t (:foreground ,color-fg))))
 
    ;; Completions
    `(completions-common-part ((t (:weight bold))))
@@ -173,7 +173,7 @@
 
    ;; TeX
    `(font-latex-sedate-face ((t (:foreground ,color-dark))))
-   `(font-latex-math-face ((t (:inherit default))))
+   `(font-latex-math-face ((t (:foreground ,color-fg))))
    `(font-latex-script-char-face ((t (:inherit font-latex-math-face))))
 
    ;; Outline
@@ -242,7 +242,7 @@
    `(parenthesis ((t (:inherit shadow :weight light))))
 
    ;; Git-commit
-   `(git-commit-summary ((t (:inherit default))))
+   `(git-commit-summary ((t (:foreground ,color-fg))))
    `(git-commit-comment-heading ((t (:slant italic :inherit font-lock-comment-face))))
    `(git-commit-comment-branch-local ((t (:slant italic :weight bold))))
    `(git-commit-comment-branch-remote ((t (:slant italic :weight bold))))
@@ -336,7 +336,7 @@
    ;; Slime
    `(slime-repl-inputed-output-face ((t (:foreground ,color-dark))))
    `(slime-repl-output-mouseover-face ((t (:foreground ,color-bright :box nil))))
-   `(slime-repl-input-face ((t (:inherit default))))
+   `(slime-repl-input-face ((t (:foreground ,color-fg))))
    `(sldb-section-face ((t (:foreground ,color-dimmed :weight bold))))
    `(sldb-restartable-frame-line-face ((t (:inherit link))))
 
@@ -348,7 +348,7 @@
    `(cider-test-failure-face ((t (:inherit font-lock-warning-face))))
    `(cider-test-success-face ((t (:foreground ,color-middle :weight bold))))
    `(cider-repl-prompt-face ((t (:inherit minibuffer-prompt))))
-   `(cider-repl-stdout-face ((t (:inherit default))))
+   `(cider-repl-stdout-face ((t (:foreground ,color-fg))))
    `(cider-repl-stderr-face ((t (:inherit font-lock-warning-face))))
    `(cider-stacktrace-error-class-face ((t (:inherit font-lock-warning-face))))
    `(cider-error-highlight-face ((t (:inherit error))))
@@ -376,7 +376,7 @@
    `(merlin-eldoc-occurrences-face ((t (:inherit lazy-highlight))))
 
    ;; Utop
-   `(utop-frozen ((t (:inherit default))))
+   `(utop-frozen ((t (:foreground ,color-fg))))
    `(utop-prompt ((t (:inherit minibuffer-prompt))))
    `(utop-error  ((t (:inherit error))))
 
@@ -402,7 +402,7 @@
    `(helm-source-header ((t (:inherit font-lock-comment-face :background unspecified :foreground unspecified))))
    `(helm-selection ((t (:inherit highlight))))
    `(helm-prefarg ((t (:foreground ,color-dark))))
-   `(helm-ff-file ((t (:inherit default))))
+   `(helm-ff-file ((t (:foreground ,color-fg))))
    `(helm-ff-directory ((t (:inherit dired-directory :foreground unspecified))))
    `(helm-ff-executable ((t (:inherit eshell-ls-executable :foreground unspecified))))
    `(helm-ff-file-extension ((t (:foreground nil :background nil))))
@@ -425,7 +425,7 @@
    `(markup-meta-hide-face ((t (:height 1.0 :foreground ,color-bright))))
    `(markup-meta-face ((t (:height 1.0 :foreground ,color-dark :family nil))))
    `(markup-reference-face ((t (:underline nil :foreground ,color-dark))))
-   `(markup-gen-face ((t (:inherit default :foreground nil))))
+   `(markup-gen-face ((t (:foreground nil))))
    `(markup-passthrough-face ((t (:inherit markup-dark))))
    `(markup-replacement-face ((t (:family nil :foreground ,color-dark))))
    `(markup-list-face ((t (:weight bold))))
@@ -461,7 +461,7 @@
 
    ;; Beancount
    `(beancount-date ((t (:inherit italic :foreground nil))))
-   `(beancount-account ((t (:inherit default))))
+   `(beancount-account ((t (:foreground ,color-fg))))
 
    ;; W3m
    `(w3m-anchor ((t (:inherit link))))
@@ -479,9 +479,9 @@
    ;; Elfeed
    `(elfeed-search-date-face ((t (:foreground ,color-middle))))
    `(elfeed-search-title-face ((t (:foreground ,color-dimmed))))
-   `(elfeed-search-unread-title-face ((t (:inherit default))))
+   `(elfeed-search-unread-title-face ((t (:foreground ,color-fg))))
    `(elfeed-search-feed-face ((t (:foreground ,color-middle))))
-   `(elfeed-search-tag-face ((t (:inherit default))))
+   `(elfeed-search-tag-face ((t (:foreground ,color-fg))))
    `(elfeed-search-last-update-face ((t (:inherit font-lock-comment-face))))
    `(elfeed-search-unread-count-face ((t (:weight bold))))
    `(elfeed-search-filter-face ((t (:foreground ,color-bright))))
