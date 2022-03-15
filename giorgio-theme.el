@@ -357,6 +357,7 @@
    `(clojure-keyword-face ((t (:inherit font-lock-builtin-face))))
 
    ;; Tuareg
+   `(tuareg-font-lock-constructor-face ((t (:foreground ,color-fg))))
    `(tuareg-font-lock-interactive-output-face ((t (:foreground ,color-dark))))
    `(tuareg-font-lock-interactive-error-face ((t (:inherit error))))
    `(tuareg-font-lock-interactive-directive-face ((t (:foreground ,color-middle))))
