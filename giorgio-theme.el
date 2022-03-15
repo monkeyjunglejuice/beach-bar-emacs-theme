@@ -64,7 +64,7 @@
    `(font-lock-string-face ((t (:foreground ,color-dark :inherit fixed-pitch-serif))))
    `(font-lock-type-face ((t (:weight bold))))
    `(font-lock-variable-name-face ((t (:slant italic))))
-   `(font-lock-warning-face ((t (:foreground ,color-strong :slant italic))))
+   `(font-lock-warning-face ((t (:foreground ,color-strong :weight bold))))
    `(font-lock-regexp-grouping-construct ((t (:foreground ,color-bright))))
    `(font-lock-regexp-grouping-backslash ((t (:foreground ,color-bright))))
 
@@ -76,7 +76,7 @@
    `(link-visited ((t (:foreground ,color-middle :underline t))))
    `(button ((t (:inherit link))))
    `(help-face-button ((t (:inherit button))))
-   `(header-line ((t (:foreground ,color-dimmed :background ,color-bg-alt :inherit fixed-pitch-serif))))
+   `(header-line ((t (:foreground ,color-dimmed :background ,color-bg-alt :slant italic :inherit fixed-pitch-serif))))
    `(shadow ((t (:foreground ,color-dimmed))))
    `(show-paren-match ((t (:foreground ,color-fg :background ,color-hl :weight bold))))
    `(show-paren-mismatch ((t (:inherit error))))
@@ -137,12 +137,12 @@
    `(custom-group-tag ((t (:inherit bold))))
    `(custom-variable-tag ((t (:weight bold))))
    `(custom-variable-obsolete ((t (:foreground ,color-dimmed :inherit custom-variable-tag))))
-   `(custom-documentation ((t (:inherit fixed-pitch-serif))))
+   `(custom-documentation ((t (:slant italic :inherit fixed-pitch-serif))))
    `(custom-visibility ((t (:inherit custom-documentation :underline t))))
-   `(custom-state ((t (:foreground ,color-strong :slant italic))))
-   `(custom-button ((t (:inherit button))))
+   `(custom-state ((t (:foreground ,color-bright))))
+   `(custom-button ((t (:foreground ,color-bg :background ,color-middle))))
    `(custom-button-mouse ((t (:foreground ,color-fg :background ,color-hl))))
-   `(custom-button-pressed ((t (:foreground ,color-bright))))
+   `(custom-button-pressed ((t (:foreground ,color-bg :background ,color-bright))))
    `(custom-button-pressed-unraised ((t (:inherit custom-button-pressed))))
    `(custom-button-unraised ((t (:inherit custom-button))))
 
@@ -357,7 +357,6 @@
    `(clojure-keyword-face ((t (:inherit font-lock-builtin-face))))
 
    ;; Tuareg
-   `(tuareg-font-lock-constructor-face ((t (:foreground ,color-fg))))
    `(tuareg-font-lock-interactive-output-face ((t (:foreground ,color-dark))))
    `(tuareg-font-lock-interactive-error-face ((t (:inherit error))))
    `(tuareg-font-lock-interactive-directive-face ((t (:foreground ,color-middle))))
