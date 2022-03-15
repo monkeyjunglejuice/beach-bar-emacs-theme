@@ -76,7 +76,7 @@
    `(link-visited ((t (:foreground ,color-middle :underline t))))
    `(button ((t (:inherit link))))
    `(help-face-button ((t (:inherit button))))
-   `(header-line ((t (:foreground ,color-dimmed :background ,color-bg-alt :slant italic :inherit fixed-pitch-serif))))
+   `(header-line ((t (:foreground ,color-dimmed :background ,color-bg-alt :inherit fixed-pitch-serif))))
    `(shadow ((t (:foreground ,color-dimmed))))
    `(show-paren-match ((t (:foreground ,color-fg :background ,color-hl :weight bold))))
    `(show-paren-mismatch ((t (:inherit error))))
