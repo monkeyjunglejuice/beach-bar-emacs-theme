@@ -12,8 +12,8 @@
 ;; This file is not part of GNU Emacs.
 
 ;;; Commentary:
-;; "Giorgio" is a custom theme for Emacs, inspired by the paintings
-;; created by the italian artist Giorgio di Chirico between 1913 and 1914.
+;; "Giorgio" is a high-contrast theme for Emacs, inspired by the paintings
+;; by the italian artist Giorgio di Chirico created 1913 and 1914.
 ;; The theme aims to be sunny and calm and resembles the bright daylight
 ;; and long shadows of mediterranean cities.
 
