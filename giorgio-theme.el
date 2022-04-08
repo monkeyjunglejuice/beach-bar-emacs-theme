@@ -13,9 +13,9 @@
 
 ;;; Commentary:
 ;; "Giorgio" is a high-contrast theme for Emacs, inspired by the paintings
-;; by the italian artist Giorgio di Chirico created 1913 and 1914.
+;; by the italian artist Giorgio di Chirico created in 1913 and 1914.
 ;; The theme aims to be sunny and calm and resembles the bright daylight
-;; and long shadows of mediterranean cities.
+;; and hard, long shadows of mediterranean cities.
 
 ;;; Credits:
 ;; The theme is initially based on the notink-theme by MetroWind
