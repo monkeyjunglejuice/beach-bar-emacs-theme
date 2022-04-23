@@ -25,7 +25,7 @@
 (deftheme giorgio "A sunny and calm Emacs theme, inspired by the paintings of Giorgio di Chirico.")
 
 ;; Colors
-(let* ((color-fg           "#343327")
+(let* ((color-fg           "#2c2b21")
        (color-fg-alt       "#000000")
        (color-dimmed       "#8d8973")
        (color-bg           "#fff8dc")
