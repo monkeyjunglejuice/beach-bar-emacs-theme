@@ -58,12 +58,12 @@
    `(font-lock-builtin-face ((t (:foreground ,color-strong))))
    `(font-lock-comment-face ((t (:foreground ,color-dimmed :inherit fixed-pitch-serif))))
    `(font-lock-doc-face ((t (:foreground ,color-dimmed :slant italic :inherit fixed-pitch-serif))))
-   `(font-lock-constant-face ((t (:foreground ,color-fg-alt))))
+   `(font-lock-constant-face ((t (:foreground ,color-fg))))
    `(font-lock-function-name-face ((t (:foreground ,color-fg :weight bold :slant italic))))
    `(font-lock-keyword-face ((t (:foreground ,color-bright))))
    `(font-lock-string-face ((t (:foreground ,color-dark :inherit fixed-pitch-serif))))
    `(font-lock-type-face ((t (:weight bold))))
-   `(font-lock-variable-name-face ((t (:slant italic))))
+   `(font-lock-variable-name-face ((t (:foreground ,color-fg :slant italic))))
    `(font-lock-warning-face ((t (:foreground ,color-strong :slant italic))))
    `(font-lock-regexp-grouping-construct ((t (:foreground ,color-bright))))
    `(font-lock-regexp-grouping-backslash ((t (:foreground ,color-bright))))
@@ -294,8 +294,8 @@
    `(company-tooltip-common-selection ((t (:foreground ,color-bright))))
    `(company-tooltip-selection ((t (:foreground ,color-fg-alt :background ,color-light :weight bold :underline (:color ,color-bright)))))
    `(company-scrollbar-bg ((t (:background ,color-light))))
-   `(company-scrollbar-fg ((t (:background ,color-dimmed))))
-
+   `(company-scrollbar-fg ((t (:background ,color-bright))))
+   
    ;; Flymake
    `(flymake-error ((t (:underline (:color ,color-strong :style wave)))))
    `(flymake-warning ((t (:underline (:color ,color-bright :style wave)))))
