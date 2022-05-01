@@ -29,7 +29,7 @@
        (color-fg-alt       "#000000")
        (color-dimmed       "#8d8973")
        (color-bg           "#fff8dc")
-       (color-bg-alt       "#eee6c8")
+       (color-bg-alt       "#f4eed2")
        (color-hl           "#baeecc")
        (color-middle       "#59b09c")
        (color-dark         "#0b7e71")

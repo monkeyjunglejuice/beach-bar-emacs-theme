@@ -206,16 +206,16 @@
          y="186.09393"
          style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:semi-condensed;font-size:8.46667px;font-family:'Iosevka Dee';-inkscape-font-specification:'Iosevka Dee, Semi-Condensed';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;text-align:end;text-anchor:end;fill:#baeecc;fill-opacity:1;stroke-width:0.264583">color-hl</tspan></text>
     <rect
-       style="fill:#eee6c8;fill-opacity:1;stroke:none;stroke-width:3;stroke-linecap:butt;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:0.949367;paint-order:normal"
+       style="fill:#f4eed2;fill-opacity:1;stroke:none;stroke-width:3;stroke-linecap:butt;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:0.949367;paint-order:normal"
        id="rect892"
-       width="104.18454"
+       width="104.185"
        height="13.82531"
        x="129.71545"
        y="162.65312"
        inkscape:label="color-bg-alt" />
     <text
        xml:space="preserve"
-       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:semi-condensed;font-size:8.46667px;line-height:1.25;font-family:'Iosevka Dee';-inkscape-font-specification:'Iosevka Dee, Semi-Condensed';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;text-align:end;letter-spacing:0px;word-spacing:0px;text-anchor:end;fill:#eee6c8;fill-opacity:1;stroke:none;stroke-width:0.264583"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:semi-condensed;font-size:8.46667px;line-height:1.25;font-family:'Iosevka Dee';-inkscape-font-specification:'Iosevka Dee, Semi-Condensed';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;text-align:end;letter-spacing:0px;word-spacing:0px;text-anchor:end;fill:#f4eed2;fill-opacity:1;stroke:none;stroke-width:0.264583"
        x="126.12565"
        y="172.26862"
        id="text838-3-2"><tspan
@@ -223,7 +223,7 @@
          id="tspan836-6-9"
          x="126.12565"
          y="172.26862"
-         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:semi-condensed;font-size:8.46667px;font-family:'Iosevka Dee';-inkscape-font-specification:'Iosevka Dee, Semi-Condensed';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;text-align:end;text-anchor:end;fill:#eee6c8;fill-opacity:1;stroke-width:0.264583">color-bg-alt</tspan></text>
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:semi-condensed;font-size:8.46667px;font-family:'Iosevka Dee';-inkscape-font-specification:'Iosevka Dee, Semi-Condensed';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;text-align:end;text-anchor:end;fill:#f4eed2;fill-opacity:1;stroke-width:0.264583">color-bg-alt</tspan></text>
     <rect
        style="font-variation-settings:normal;vector-effect:none;fill:#8d8973;fill-opacity:1;stroke:none;stroke-width:3;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:0.949367;-inkscape-stroke:none;paint-order:normal;stop-color:#000000"
        id="rect892-6"
