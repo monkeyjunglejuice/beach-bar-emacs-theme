@@ -141,29 +141,25 @@
            y="241.50102"
            style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:8.46667px;font-family:'Recursive Mono Casual Static';-inkscape-font-specification:'Recursive Mono Casual Static';text-align:end;text-anchor:end;fill:#9e240a;fill-opacity:1;stroke-width:0.264583">color-strong</tspan></text>
     </g>
-    <g
-       id="g131417"
-       style="fill:#d46f29;fill-opacity:1">
-      <rect
-         style="fill:#d46f29;fill-opacity:1;stroke:none;stroke-width:3;stroke-linecap:butt;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:0.949367;paint-order:normal"
-         id="rect892-9-0-2-2-1"
-         width="104.18454"
-         height="13.825314"
-         x="136.01892"
-         y="218.0602"
-         inkscape:label="color-bg-alt" />
-      <text
-         xml:space="preserve"
-         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:8.46667px;line-height:1.25;font-family:'Recursive Mono Casual Static';-inkscape-font-specification:'Recursive Mono Casual Static';text-align:end;letter-spacing:0px;word-spacing:0px;text-anchor:end;fill:#d46f29;fill-opacity:1;stroke:none;stroke-width:0.264583"
+    <rect
+       style="fill:#d46f29;fill-opacity:1;stroke:none;stroke-width:3;stroke-linecap:butt;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:0.949367;paint-order:normal"
+       id="rect892-9-0-2-2-1"
+       width="104.18454"
+       height="13.825314"
+       x="136.01892"
+       y="218.0602"
+       inkscape:label="color-bg-alt" />
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:8.46667px;line-height:1.25;font-family:'Recursive Mono Casual Static';-inkscape-font-specification:'Recursive Mono Casual Static';text-align:end;letter-spacing:0px;word-spacing:0px;text-anchor:end;fill:#d46f29;fill-opacity:1;stroke:none;stroke-width:0.264583"
+       x="132.42914"
+       y="227.6757"
+       id="text838-3-7-5-7-3"><tspan
+         sodipodi:role="line"
+         id="tspan836-6-5-9-3-1"
          x="132.42914"
          y="227.6757"
-         id="text838-3-7-5-7-3"><tspan
-           sodipodi:role="line"
-           id="tspan836-6-5-9-3-1"
-           x="132.42914"
-           y="227.6757"
-           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:8.46667px;font-family:'Recursive Mono Casual Static';-inkscape-font-specification:'Recursive Mono Casual Static';text-align:end;text-anchor:end;fill:#d46f29;fill-opacity:1;stroke-width:0.264583">color-bright</tspan></text>
-    </g>
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:8.46667px;font-family:'Recursive Mono Casual Static';-inkscape-font-specification:'Recursive Mono Casual Static';text-align:end;text-anchor:end;fill:#d46f29;fill-opacity:1;stroke-width:0.264583">color-bright</tspan></text>
     <g
        id="g131341"
        style="fill:#0b7e71;fill-opacity:1">
@@ -187,98 +183,82 @@
            y="213.8504"
            style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:8.46667px;font-family:'Recursive Mono Casual Static';-inkscape-font-specification:'Recursive Mono Casual Static';text-align:end;text-anchor:end;fill:#0b7e71;fill-opacity:1;stroke-width:0.264583">color-dark</tspan></text>
     </g>
-    <g
-       id="g131336"
-       style="fill:#64b6a8;fill-opacity:1">
-      <rect
-         style="fill:#64b6a8;fill-opacity:1;stroke:none;stroke-width:3;stroke-linecap:butt;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:0.949367;paint-order:normal"
-         id="rect892-9-0"
-         width="104.18454"
-         height="13.825314"
-         x="136.01892"
-         y="190.40958"
-         inkscape:label="color-bg-alt" />
-      <text
-         xml:space="preserve"
-         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:8.46667px;line-height:1.25;font-family:'Recursive Mono Casual Static';-inkscape-font-specification:'Recursive Mono Casual Static';text-align:end;letter-spacing:0px;word-spacing:0px;text-anchor:end;fill:#64b6a8;fill-opacity:1;stroke:none;stroke-width:0.264583"
+    <rect
+       style="fill:#59b09c;fill-opacity:1;stroke:none;stroke-width:3;stroke-linecap:butt;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:0.949367;paint-order:normal"
+       id="rect892-9-0"
+       width="104.18454"
+       height="13.825314"
+       x="136.01892"
+       y="190.40958"
+       inkscape:label="color-bg-alt" />
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:8.46667px;line-height:1.25;font-family:'Recursive Mono Casual Static';-inkscape-font-specification:'Recursive Mono Casual Static';text-align:end;letter-spacing:0px;word-spacing:0px;text-anchor:end;fill:#59b09c;fill-opacity:1;stroke:none;stroke-width:0.264583"
+       x="132.42911"
+       y="200.02509"
+       id="text838-3-7"><tspan
+         sodipodi:role="line"
+         id="tspan836-6-5"
          x="132.42911"
          y="200.02509"
-         id="text838-3-7"><tspan
-           sodipodi:role="line"
-           id="tspan836-6-5"
-           x="132.42911"
-           y="200.02509"
-           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:8.46667px;font-family:'Recursive Mono Casual Static';-inkscape-font-specification:'Recursive Mono Casual Static';text-align:end;text-anchor:end;fill:#64b6a8;fill-opacity:1;stroke-width:0.264583">color-middle</tspan></text>
-    </g>
-    <g
-       id="g131331"
-       style="fill:#c3eed2;fill-opacity:1">
-      <rect
-         style="fill:#c3eed2;fill-opacity:1;stroke:none;stroke-width:3;stroke-linecap:butt;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:0.949367;paint-order:normal"
-         id="rect892-9"
-         width="104.18454"
-         height="13.825317"
-         x="136.01892"
-         y="176.58426"
-         inkscape:label="color-bg-alt" />
-      <text
-         xml:space="preserve"
-         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:8.46667px;line-height:1.25;font-family:'Recursive Mono Casual Static';-inkscape-font-specification:'Recursive Mono Casual Static';text-align:end;letter-spacing:0px;word-spacing:0px;text-anchor:end;fill:#c3eed2;fill-opacity:1;stroke:none;stroke-width:0.264583"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:8.46667px;font-family:'Recursive Mono Casual Static';-inkscape-font-specification:'Recursive Mono Casual Static';text-align:end;text-anchor:end;fill:#59b09c;fill-opacity:1;stroke-width:0.264583">color-middle</tspan></text>
+    <rect
+       style="fill:#c3eed4;fill-opacity:1;stroke:none;stroke-width:3;stroke-linecap:butt;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:0.949367;paint-order:normal"
+       id="rect892-9"
+       width="104.18454"
+       height="13.825317"
+       x="136.01892"
+       y="176.58426"
+       inkscape:label="color-bg-alt" />
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:8.46667px;line-height:1.25;font-family:'Recursive Mono Casual Static';-inkscape-font-specification:'Recursive Mono Casual Static';text-align:end;letter-spacing:0px;word-spacing:0px;text-anchor:end;fill:#c3eed4;fill-opacity:1;stroke:none;stroke-width:0.264583"
+       x="132.42911"
+       y="186.19977"
+       id="text838-7-3-5"><tspan
+         sodipodi:role="line"
+         id="tspan836-0-6-6"
          x="132.42911"
          y="186.19977"
-         id="text838-7-3-5"><tspan
-           sodipodi:role="line"
-           id="tspan836-0-6-6"
-           x="132.42911"
-           y="186.19977"
-           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:8.46667px;font-family:'Recursive Mono Casual Static';-inkscape-font-specification:'Recursive Mono Casual Static';text-align:end;text-anchor:end;fill:#c3eed2;fill-opacity:1;stroke-width:0.264583">color-hl</tspan></text>
-    </g>
-    <g
-       id="g131326"
-       style="fill:#efe8cd;fill-opacity:1">
-      <rect
-         style="fill:#efe8cd;fill-opacity:1;stroke:none;stroke-width:3;stroke-linecap:butt;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:0.949367;paint-order:normal"
-         id="rect892"
-         width="104.18454"
-         height="13.82531"
-         x="136.01892"
-         y="162.75896"
-         inkscape:label="color-bg-alt" />
-      <text
-         xml:space="preserve"
-         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:8.46667px;line-height:1.25;font-family:'Recursive Mono Casual Static';-inkscape-font-specification:'Recursive Mono Casual Static';text-align:end;letter-spacing:0px;word-spacing:0px;text-anchor:end;fill:#efe8cd;fill-opacity:1;stroke:none;stroke-width:0.264583"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:8.46667px;font-family:'Recursive Mono Casual Static';-inkscape-font-specification:'Recursive Mono Casual Static';text-align:end;text-anchor:end;fill:#c3eed4;fill-opacity:1;stroke-width:0.264583">color-hl</tspan></text>
+    <rect
+       style="fill:#efe8cd;fill-opacity:1;stroke:none;stroke-width:3;stroke-linecap:butt;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:0.949367;paint-order:normal"
+       id="rect892"
+       width="104.18454"
+       height="13.82531"
+       x="136.01892"
+       y="162.75896"
+       inkscape:label="color-bg-alt" />
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:8.46667px;line-height:1.25;font-family:'Recursive Mono Casual Static';-inkscape-font-specification:'Recursive Mono Casual Static';text-align:end;letter-spacing:0px;word-spacing:0px;text-anchor:end;fill:#efe8cd;fill-opacity:1;stroke:none;stroke-width:0.264583"
+       x="132.42911"
+       y="172.37445"
+       id="text838-3-2"><tspan
+         sodipodi:role="line"
+         id="tspan836-6-9"
          x="132.42911"
          y="172.37445"
-         id="text838-3-2"><tspan
-           sodipodi:role="line"
-           id="tspan836-6-9"
-           x="132.42911"
-           y="172.37445"
-           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:8.46667px;font-family:'Recursive Mono Casual Static';-inkscape-font-specification:'Recursive Mono Casual Static';text-align:end;text-anchor:end;fill:#efe8cd;fill-opacity:1;stroke-width:0.264583">color-bg-alt</tspan></text>
-    </g>
-    <g
-       id="g131321"
-       style="fill:#8d8973;fill-opacity:1">
-      <rect
-         style="fill:#8d8973;fill-opacity:1;stroke:none;stroke-width:3;stroke-linecap:butt;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:0.949367;paint-order:normal"
-         id="rect892-6"
-         width="104.18454"
-         height="13.82531"
-         x="136.01892"
-         y="148.93364"
-         inkscape:label="color-bg-alt" />
-      <text
-         xml:space="preserve"
-         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:8.46667px;line-height:1.25;font-family:'Recursive Mono Casual Static';-inkscape-font-specification:'Recursive Mono Casual Static';text-align:end;letter-spacing:0px;word-spacing:0px;text-anchor:end;fill:#8d8973;fill-opacity:1;stroke:none;stroke-width:0.264583"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:8.46667px;font-family:'Recursive Mono Casual Static';-inkscape-font-specification:'Recursive Mono Casual Static';text-align:end;text-anchor:end;fill:#efe8cd;fill-opacity:1;stroke-width:0.264583">color-bg-alt</tspan></text>
+    <rect
+       style="fill:#8d8973;fill-opacity:1;stroke:none;stroke-width:3;stroke-linecap:butt;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:0.949367;paint-order:normal"
+       id="rect892-6"
+       width="104.18454"
+       height="13.82531"
+       x="136.01892"
+       y="148.93364"
+       inkscape:label="color-bg-alt" />
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:8.46667px;line-height:1.25;font-family:'Recursive Mono Casual Static';-inkscape-font-specification:'Recursive Mono Casual Static';text-align:end;letter-spacing:0px;word-spacing:0px;text-anchor:end;fill:#8d8973;fill-opacity:1;stroke:none;stroke-width:0.264583"
+       x="132.42911"
+       y="158.54913"
+       id="text838-3"><tspan
+         sodipodi:role="line"
+         id="tspan836-6"
          x="132.42911"
          y="158.54913"
-         id="text838-3"><tspan
-           sodipodi:role="line"
-           id="tspan836-6"
-           x="132.42911"
-           y="158.54913"
-           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:8.46667px;font-family:'Recursive Mono Casual Static';-inkscape-font-specification:'Recursive Mono Casual Static';text-align:end;text-anchor:end;fill:#8d8973;fill-opacity:1;stroke-width:0.264583">color-dimmed</tspan></text>
-    </g>
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:8.46667px;font-family:'Recursive Mono Casual Static';-inkscape-font-specification:'Recursive Mono Casual Static';text-align:end;text-anchor:end;fill:#8d8973;fill-opacity:1;stroke-width:0.264583">color-dimmed</tspan></text>
     <g
        id="g107325"
        style="fill:#000000;fill-opacity:1">
@@ -303,7 +283,7 @@
            style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:8.46667px;font-family:'Recursive Mono Casual Static';-inkscape-font-specification:'Recursive Mono Casual Static';text-align:end;text-anchor:end;fill:#000000;fill-opacity:1;stroke-width:0.264583">color-fg-alt</tspan></text>
     </g>
     <rect
-       style="fill:#2c2b21;fill-opacity:1;stroke:none;stroke-width:3;stroke-linecap:butt;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:0.949367;paint-order:normal"
+       style="fill:#3d3a25;fill-opacity:1;stroke:none;stroke-width:3;stroke-linecap:butt;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:0.949367;paint-order:normal"
        id="rect892-6-7"
        width="104.18454"
        height="13.82531"
@@ -312,7 +292,7 @@
        inkscape:label="color-bg-alt" />
     <text
        xml:space="preserve"
-       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:8.46667px;line-height:1.25;font-family:'Recursive Mono Casual Static';-inkscape-font-specification:'Recursive Mono Casual Static';text-align:end;letter-spacing:0px;word-spacing:0px;text-anchor:end;fill:#2c2b21;fill-opacity:1;stroke:none;stroke-width:0.264583"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:8.46667px;line-height:1.25;font-family:'Recursive Mono Casual Static';-inkscape-font-specification:'Recursive Mono Casual Static';text-align:end;letter-spacing:0px;word-spacing:0px;text-anchor:end;fill:#363321;fill-opacity:1;stroke:none;stroke-width:0.264583"
        x="132.42914"
        y="130.89853"
        id="text838"><tspan
@@ -320,7 +300,7 @@
          id="tspan836"
          x="132.42914"
          y="130.89853"
-         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:8.46667px;font-family:'Recursive Mono Casual Static';-inkscape-font-specification:'Recursive Mono Casual Static';text-align:end;text-anchor:end;fill:#2c2b21;fill-opacity:1;stroke-width:0.264583">color-fg</tspan></text>
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:8.46667px;font-family:'Recursive Mono Casual Static';-inkscape-font-specification:'Recursive Mono Casual Static';text-align:end;text-anchor:end;fill:#363321;fill-opacity:1;stroke-width:0.264583">color-fg</tspan></text>
     <text
        xml:space="preserve"
        style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:8.46667px;line-height:1.25;font-family:'Recursive Mono Casual Static';-inkscape-font-specification:'Recursive Mono Casual Static';letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.264583"
@@ -367,7 +347,7 @@
          style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:8.46667px;font-family:'Recursive Mono Casual Static';-inkscape-font-specification:'Recursive Mono Casual Static';fill:#c3eed2;fill-opacity:1;stroke-width:0.264583">color-middle</tspan></text>
     <text
        xml:space="preserve"
-       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:8.46667px;line-height:1.25;font-family:'Recursive Mono Casual Static';-inkscape-font-specification:'Recursive Mono Casual Static';letter-spacing:0px;word-spacing:0px;fill:#008069;fill-opacity:1;stroke:none;stroke-width:0.264583"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:8.46667px;line-height:1.25;font-family:'Recursive Mono Casual Static';-inkscape-font-specification:'Recursive Mono Casual Static';letter-spacing:0px;word-spacing:0px;fill:#0b7e71;fill-opacity:1;stroke:none;stroke-width:0.264583"
        x="138.38272"
        y="186.19977"
        id="text838-7-3"><tspan
@@ -375,7 +355,7 @@
          id="tspan836-0-6"
          x="138.38272"
          y="186.19977"
-         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:8.46667px;font-family:'Recursive Mono Casual Static';-inkscape-font-specification:'Recursive Mono Casual Static';fill:#008069;fill-opacity:1;stroke-width:0.264583">color-hl</tspan></text>
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:8.46667px;font-family:'Recursive Mono Casual Static';-inkscape-font-specification:'Recursive Mono Casual Static';fill:#0b7e71;fill-opacity:1;stroke-width:0.264583">color-hl</tspan></text>
     <text
        xml:space="preserve"
        style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:8.46667px;line-height:1.25;font-family:'Recursive Mono Casual Static';-inkscape-font-specification:'Recursive Mono Casual Static';letter-spacing:0px;word-spacing:0px;fill:#8d8973;fill-opacity:1;stroke:none;stroke-width:0.264583"
@@ -444,14 +424,14 @@
          style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:8.46667px;font-family:'Recursive Mono Casual Static';-inkscape-font-specification:'Recursive Mono Casual Static';fill:#8e210a;fill-opacity:1;stroke-width:0.264583">color-light-red</tspan></text>
     <text
        xml:space="preserve"
-       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:8.46667px;line-height:1.25;font-family:'Recursive Mono Casual Static';-inkscape-font-specification:'Recursive Mono Casual Static';letter-spacing:0px;word-spacing:0px;fill:#2c2b21;fill-opacity:1;stroke:none;stroke-width:0.264583"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:8.46667px;line-height:1.25;font-family:'Recursive Mono Casual Static';-inkscape-font-specification:'Recursive Mono Casual Static';letter-spacing:0px;word-spacing:0px;fill:#363321;fill-opacity:1;stroke:none;stroke-width:0.264583"
        x="138.38272"
        y="117.07322"
        id="text838-7-1-9-6"><tspan
          sodipodi:role="line"
          x="138.38272"
          y="117.07322"
-         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:8.46667px;font-family:'Recursive Mono Casual Static';-inkscape-font-specification:'Recursive Mono Casual Static';fill:#2c2b21;fill-opacity:1;stroke-width:0.264583"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:8.46667px;font-family:'Recursive Mono Casual Static';-inkscape-font-specification:'Recursive Mono Casual Static';fill:#363321;fill-opacity:1;stroke-width:0.264583"
          id="tspan1024-7">color-bg</tspan></text>
   </g>
 </svg>
