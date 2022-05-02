@@ -94,7 +94,7 @@
    `(dired-header ((t (:foreground ,color-bright :slant italic))))
    `(dired-directory ((t (:weight bold))))
    `(dired-symlink ((t (:slant italic))))
-   `(dired-mark ((t (:foreground ,color-bright :background ,color-light))))
+   `(dired-mark ((t (:foreground ,color-dark :background ,color-hl))))
    `(dired-marked ((t (:foreground ,color-dark :background ,color-hl))))
    `(dired-flagged ((t (:foreground ,color-strong :background ,color-light-red))))
    `(dired-perm-write ((t (:foreground ,color-strong))))
