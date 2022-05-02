@@ -1,0 +1,3 @@
+(giorgio-theme
+ :fetcher github
+ :repo "monkeyjunglejuice/nude-beach-emacs-theme")

@@ -1,9 +1,9 @@
-;;; giorgio-theme.el --- A sunny and calm theme inspired by the paintings of Giorgio di Chirico  -*- lexical-binding: t; -*-
+;;; nude-beach-theme.el --- A light, sunny and calm theme  -*- lexical-binding: t; -*-
 
 ;; Copyright (C) 2021 Dan Dee
 
 ;; Author: Dan Dee <monkeyjunglejuice@pm.me>
-;; URL: https://github.com/monkeyjunglejuice/giorgio-theme-emacs
+;; URL: https://github.com/monkeyjunglejuice/nude-beach-theme-emacs
 ;; Version: 0.1.0
 ;; Package-Requires: ((emacs "26.1"))
 ;; Keywords: faces, theme
@@ -12,17 +12,11 @@
 ;; This file is not part of GNU Emacs.
 
 ;;; Commentary:
-;; "Giorgio" is a high-contrast theme for Emacs, inspired by the paintings
-;; by the italian artist Giorgio di Chirico created in 1913 and 1914.
-;; The theme aims to be sunny and calm and resembles the bright daylight
-;; and hard, long shadows of mediterranean cities.
-
-;;; Credits:
-;; The theme is initially based on the notink-theme by MetroWind
+;; "Nude Beach" is a light medium-high-contrast theme for Emacs.
 
 ;;; Code:
 
-(deftheme giorgio "A sunny and calm Emacs theme, inspired by the paintings of Giorgio di Chirico.")
+(deftheme nude-beach "A light, sunny and calm Emacs theme.")
 
 ;; Colors
 (let* ((color-fg           "#3d3a25")
@@ -39,7 +33,7 @@
        (color-light        "#ffefc2"))
 
   (custom-theme-set-faces
-   'giorgio
+   'nude-beach
    `(default ((t (:background ,color-bg :foreground ,color-fg))))
    `(cursor ((t (:background ,color-fg))))
    `(region ((t (:foreground ,color-dark :background ,color-hl))))
@@ -76,7 +70,7 @@
    `(link-visited ((t (:foreground ,color-middle :underline t))))
    `(button ((t (:inherit link))))
    `(help-face-button ((t (:inherit button))))
-   `(header-line ((t (:foreground ,color-dimmed :background ,color-bg-alt :inherit fixed-pitch-serif))))
+   `(header-line ((t (:foreground ,color-dimmed :background ,color-bg-alt))))
    `(shadow ((t (:foreground ,color-dimmed))))
    `(show-paren-match ((t (:foreground ,color-fg :background ,color-hl :weight bold))))
    `(show-paren-mismatch ((t (:inherit error))))
@@ -496,10 +490,10 @@
   (add-to-list 'custom-theme-load-path
                (file-name-as-directory (file-name-directory load-file-name))))
 
-(provide-theme 'giorgio)
+(provide-theme 'nude-beach)
 
 ;; Local Variables:
 ;; no-byte-compile: t
 ;; End:
 
-;;; giorgio-theme.el ends here
+;;; nude-beach-theme.el ends here
