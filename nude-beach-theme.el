@@ -96,6 +96,10 @@
    `(dired-perm-write ((t (:foreground ,color-strong))))
    `(dired-special ((t (:foreground ,color-middle))))
 
+   ;; Proced
+   `(proced-mark ((t (:inherit dired-mark))))
+   `(proced-marked ((t (:inherit dired-marked))))
+   
    ;; Eshell
    `(eshell-prompt ((t (:inherit minibuffer-prompt))))
    `(eshell-ls-directory ((t (:inherit dired-directory))))
