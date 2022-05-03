@@ -1,4 +1,4 @@
-;;; nude-beach-theme.el --- A light, sunny and calm theme  -*- lexical-binding: t; -*-
+;;; nude-beach-theme.el --- A light, sunny and calm Emacs theme  -*- lexical-binding: t; -*-
 
 ;; Copyright (C) 2021 Dan Dee
 
@@ -12,7 +12,9 @@
 ;; This file is not part of GNU Emacs.
 
 ;;; Commentary:
-;; "Nude Beach" is a light medium-high-contrast theme for Emacs.
+;; This is not your typical "angry fruit salad". The light "Nude Beach" theme draws
+;; inspiration from monochrome eink-like themes. Therefore it appears sunny and calm,
+;; wearing colors sparingly, and only when really really neccessary.
 
 ;;; Code:
 
