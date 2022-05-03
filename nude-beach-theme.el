@@ -74,7 +74,7 @@
    `(help-face-button ((t (:inherit button))))
    `(header-line ((t (:foreground ,color-fg-dim :background ,color-bg-alt))))
    `(shadow ((t (:foreground ,color-fg-dim))))
-   `(show-paren-match ((t (:foreground ,color-fg :background ,color-light :weight bold))))
+   `(show-paren-match ((t (:foreground ,color-fg-alt :background ,color-light :weight bold))))
    `(show-paren-mismatch ((t (:inherit error))))
    `(highlight ((t (:foreground ,color-fg-alt :background ,color-bright-light :weight bold :underline (:color ,color-fg-alt)))))
    `(hl-line ((t (:underline (:color ,color-fg-dim) :extend t))))
