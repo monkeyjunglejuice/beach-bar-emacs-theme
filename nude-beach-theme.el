@@ -14,7 +14,7 @@
 ;;; Commentary:
 ;; This is not your typical "angry fruit salad". The light "Nude Beach" theme draws
 ;; inspiration from monochrome eink-like themes. Therefore it appears sunny and calm,
-;; wearing colors sparingly, and only when really really neccessary.
+;; wearing colors sparingly, and only where really really neccessary.
 
 ;;; Code:
 
