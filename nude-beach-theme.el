@@ -15,6 +15,8 @@
 ;; This is not your typical "angry fruit salad". The light "Nude Beach" theme draws
 ;; inspiration from monochrome eink-like themes. Therefore it appears sunny and calm,
 ;; wearing colors sparingly, and only where really really neccessary.
+;; See also:
+;; - "The Matrix Theme" https://github.com/monkeyjunglejuice/matrix-emacs-theme
 
 ;;; Code:
 
