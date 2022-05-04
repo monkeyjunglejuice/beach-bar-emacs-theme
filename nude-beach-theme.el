@@ -102,7 +102,7 @@
    ;; Proced
    `(proced-mark ((t (:inherit dired-mark))))
    `(proced-marked ((t (:inherit dired-marked))))
-   
+
    ;; Eshell
    `(eshell-prompt ((t (:inherit minibuffer-prompt))))
    `(eshell-ls-directory ((t (:inherit dired-directory))))
@@ -298,7 +298,7 @@
    `(company-tooltip-selection ((t (:foreground ,color-fg-alt :background ,color-bright-light :weight bold :underline (:color ,color-bright)))))
    `(company-scrollbar-bg ((t (:background ,color-bright-light))))
    `(company-scrollbar-fg ((t (:background ,color-bright))))
-   
+
    ;; Flymake
    `(flymake-error ((t (:underline (:color ,color-strong :style wave)))))
    `(flymake-warning ((t (:underline (:color ,color-bright :style wave)))))
