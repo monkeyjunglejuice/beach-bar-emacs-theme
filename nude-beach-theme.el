@@ -143,7 +143,7 @@
    `(custom-documentation ((t (:inherit fixed-pitch-serif))))
    `(custom-visibility ((t (:inherit custom-documentation :underline t))))
    `(custom-state ((t (:foreground ,color-strong :slant italic))))
-   `(custom-button ((t (:foreground ,color-bg :background ,color-fg))))
+   `(custom-button ((t (:foreground ,color-bg :background ,color-middle))))
    `(custom-button-mouse ((t (:foreground ,color-fg-alt :background ,color-bright-light))))
    `(custom-button-pressed ((t (:foreground ,color-bright :background ,color-bright-light))))
    `(custom-button-pressed-unraised ((t (:inherit custom-button-pressed))))
