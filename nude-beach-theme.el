@@ -85,11 +85,11 @@
    `(trailing-whitespace ((t (:background ,color-strong-light))))
    `(escape-glyph ((t (:inverse-video t))))
 
-   ;; Shell-mode
+   ;; shell-mode
    `(sh-heredoc ((t (:foreground nil :inherit font-lock-string-face))))
    `(sh-quoted-exec ((t (:inherit font-lock-function-name-face))))
 
-   ;; Dired
+   ;; dired
    `(dired-header ((t (:foreground ,color-bright :slant italic))))
    `(dired-directory ((t (:weight bold))))
    `(dired-symlink ((t (:slant italic))))
@@ -99,11 +99,11 @@
    `(dired-perm-write ((t (:foreground ,color-strong))))
    `(dired-special ((t (:foreground ,color-middle))))
 
-   ;; Proced
+   ;; proced
    `(proced-mark ((t (:inherit dired-mark))))
    `(proced-marked ((t (:inherit dired-marked))))
 
-   ;; Eshell
+   ;; eshell
    `(eshell-prompt ((t (:inherit minibuffer-prompt))))
    `(eshell-ls-directory ((t (:inherit dired-directory))))
    `(eshell-ls-archive ((t (:slant italic :inherit dired-directory))))
@@ -113,22 +113,22 @@
    `(eshell-ls-readonly ((t (:inherit shadow))))
    `(eshell-ls-special ((t (:inherit dired-special))))
 
-   ;; Comint
+   ;; comint
    `(comint-highlight-prompt ((t (:inherit minibuffer-prompt))))
    `(comint-highlight-input ((t (:foreground ,color-fg))))
 
-   ;; Completions
+   ;; completions
    `(completions-common-part ((t (:weight bold))))
    `(icomplete-first-match ((t (:foreground ,color-fg-alt :weight bold :underline t))))
 
-   ;; Diff
+   ;; diff
    `(diff-added ((t (:foreground ,color-dark :background ,color-light))))
    `(diff-removed ((t (:foreground ,color-strong :background ,color-strong-light))))
    `(diff-context ((t (:inherit shadow))))
    `(diff-file-header ((t (:bold t :background ,color-bright-light :weight bold))))
    `(diff-header ((t (:background ,color-bright-light :foreground ,color-fg))))
 
-   ;; Package manager
+   ;; package manager
    `(package-name ((t (:inherit link))))
    `(package-description ((t (:slant italic :inherit fixed-pitch-serif))))
    `(package-status-installed ((t (:foreground ,color-middle))))
@@ -136,7 +136,7 @@
    `(package-status-built-in ((t (:foreground ,color-fg-dim :slant italic))))
    `(package-status-incompat ((t (:slant italic :inherit font-lock-warning-face))))
 
-   ;; Customization
+   ;; customization
    `(custom-group-tag ((t (:inherit bold))))
    `(custom-variable-tag ((t (:weight bold))))
    `(custom-variable-obsolete ((t (:foreground ,color-fg-dim :inherit custom-variable-tag))))
@@ -149,10 +149,10 @@
    `(custom-button-pressed-unraised ((t (:inherit custom-button-pressed))))
    `(custom-button-unraised ((t (:inherit custom-button))))
 
-   ;; Info
+   ;; info
    `(info-menu-star ((t (:foreground ,color-bright))))
 
-   ;; Message
+   ;; message
    `(message-header-name ((t (:foreground ,color-fg-dim :weight bold :slant italic))))
    `(message-header-other ((t (:foreground ,color-dark))))
    `(message-header-cc ((t (:inherit message-header-other))))
@@ -164,7 +164,7 @@
    `(message-mml ((t (:foreground ,color-bright))))
    `(message-separator ((t (:inherit font-lock-comment-face))))
 
-   ;; ERC
+   ;; erc
    `(erc-notice-face ((t (:foreground ,color-dark :weight unspecified))))
    `(erc-header-line ((t (:inherit header-line))))
    `(erc-timestamp-face ((t (:foreground ,color-bright :weight unspecified))))
@@ -174,12 +174,12 @@
    `(erc-my-nick-face ((t (:foreground ,color-fg))))
    `(erc-pal-face ((t (:foreground ,color-dark :inherit italic))))
 
-   ;; TeX
+   ;; tex
    `(font-latex-sedate-face ((t (:foreground ,color-dark))))
    `(font-latex-math-face ((t (:foreground ,color-fg))))
    `(font-latex-script-char-face ((t (:inherit font-latex-math-face))))
 
-   ;; Outline
+   ;; outline
    `(outline-1 ((t (:foreground ,color-fg-alt :weight bold :height 1.2))))
    `(outline-2 ((t (:foreground ,color-fg-alt :weight bold))))
    `(outline-3 ((t (:foreground ,color-fg-alt :weight bold))))
@@ -189,7 +189,7 @@
    `(outline-7 ((t (:foreground ,color-fg-alt :weight bold))))
    `(outline-8 ((t (:foreground ,color-fg-alt :weight bold))))
 
-   ;; Org-mode
+   ;; org-mode
    `(org-hide ((t (:foreground ,color-bg))))
    `(org-table ((t (:foreground ,color-fg :inherit fixed-pitch-serif))))
    `(org-code ((t (:background ,color-bg-alt :inherit fixed-pitch))))
@@ -214,22 +214,22 @@
    ;; org-tree-slide
    `(org-tree-slide-header-overlay-face ((t (:inherit font-lock-comment-face :foreground nil :background nil))))
 
-   ;; Compilation
+   ;; compilation
    `(compilation-error ((t (:inherit error))))
    `(compilation-warning ((t (:inherit warning))))
    `(compilation-info ((t (:foreground ,color-dark))))
 
-   ;; Whitespace
+   ;; whitespace
    `(whitespace-trailing ((t (:background ,color-strong-light))))
    `(whitespace-line ((t (:inherit whitespace-trailing))))
    `(whitespace-space (( t(:foreground ,color-middle))))
    `(whitespace-newline ((t (:inherit whitespace-space))))
    `(whitespace-empty ((t (:inherit whitespace-line))))
 
-   ;; Smart parens
+   ;; smart parens
    `(sp-pair-overlay-face ((t (:background ,color-bright-light))))
 
-   ;; Rainbow delimiters
+   ;; rainbow delimiters
    `(rainbow-delimiters-depth-1-face ((t (:foreground ,color-fg :weight light))))
    `(rainbow-delimiters-depth-2-face ((t (:foreground ,color-fg-dim :weight light))))
    `(rainbow-delimiters-depth-3-face ((t (:foreground ,color-fg-dim :weight light))))
@@ -241,10 +241,10 @@
    `(rainbow-delimiters-depth-9-face ((t (:foreground ,color-fg-dim :weight light))))
    `(rainbow-delimiters-unmatched-face ((t (:inherit error))))
 
-   ;; Paren face
+   ;; paren face
    `(parenthesis ((t (:inherit shadow :weight light))))
 
-   ;; Git-commit
+   ;; git-commit
    `(git-commit-summary ((t (:foreground ,color-fg))))
    `(git-commit-comment-heading ((t (:slant italic :inherit font-lock-comment-face))))
    `(git-commit-comment-branch-local ((t (:slant italic :weight bold))))
@@ -252,7 +252,7 @@
    `(git-commit-comment-file ((t (:foreground ,color-bright :background ,color-bright-light))))
    `(git-commit-comment-action ((t (:weight bold :inherit font-lock-comment-face))))
 
-   ;; Magit
+   ;; magit
    `(magit-branch-local ((t (:weight bold))))
    `(magit-branch-remote ((t (:weight bold :slant italic))))
    `(magit-tag ((t (:foreground ,color-dark :background nil :inherit italic))))
@@ -278,12 +278,12 @@
    `(magit-diff-hunk-heading-highlight ((t (:inherit magit-section-highlight))))
    `(magit-filename ((t (:inherit git-commit-comment-file))))
 
-   ;; Git-gutter-fringe
+   ;; git-gutter-fringe
    `(git-gutter-fr:modified ((t (:foreground ,color-dark))))
    `(git-gutter-fr:added ((t (:foreground ,color-dark))))
    `(git-gutter-fr:deleted ((t (:foreground ,color-dark))))
 
-   ;; Company
+   ;; company
    `(company-echo ((t (:inherit company-preview))))
    `(company-echo-common ((t (:inherit company-tooltip-common))))
    `(company-preview ((t (:foreground ,color-fg))))
@@ -299,12 +299,12 @@
    `(company-scrollbar-bg ((t (:background ,color-bright-light))))
    `(company-scrollbar-fg ((t (:background ,color-bright))))
 
-   ;; Flymake
+   ;; flymake
    `(flymake-error ((t (:underline (:color ,color-strong :style wave)))))
    `(flymake-warning ((t (:underline (:color ,color-bright :style wave)))))
    `(flymake-note ((t (:underline (:color ,color-middle :style wave)))))
 
-   ;; Flycheck
+   ;; flycheck
    `(flycheck-error ((t (:underline (:color ,color-strong :style wave)))))
    `(flycheck-fringe-error ((t (:foreground ,color-bg :background ,color-strong))))
    `(flycheck-warning ((t (:underline (:color ,color-bright :style wave)))))
@@ -312,22 +312,22 @@
    `(flycheck-info ((t (:underline (:color ,color-middle :style wave)))))
    `(flycheck-fringe-info ((t (:foreground ,color-bg :background ,color-middle))))
 
-   ;; LSP
+   ;; lsp
    `(lsp-headerline-breadcrumb-path-face ((t (:foreground ,color-fg))))
    `(lsp-headerline-breadcrumb-path-error-face ((t (:inherit error))))
    `(lsp-headerline-breadcrumb-separator-face ((t (:foreground ,color-fg))))
 
-   ;; Eglot
+   ;; eglot
    `(eglot-highlight-symbol-face ((t (:inherit lazy-highlight))))
 
-   ;; CSV
+   ;; csv
    `(csv-separator-face ((t (:foreground ,color-strong))))
 
-   ;; CSS
+   ;; css
    `(css-selector ((t (:weight bold))))
    `(css-property ((t (:inherit font-lock-builtin-face))))
 
-   ;; Web-mode
+   ;; web-mode
    `(web-mode-html-tag-bracket-face ((t (:inherit shadow))))
    `(web-mode-html-tag-face ((t (:weight bold :inherit shadow))))
    `(web-mode-html-attr-name-face ((t (:inherit shadow :slant italic))))
@@ -336,14 +336,14 @@
    `(web-mode-doctype-face ((t (:inherit shadow))))
    `(web-mode-css-color-face ((t (:foreground ,color-fg))))
 
-   ;; Slime
+   ;; slime
    `(slime-repl-inputed-output-face ((t (:foreground ,color-dark))))
    `(slime-repl-output-mouseover-face ((t (:foreground ,color-bright :box nil))))
    `(slime-repl-input-face ((t (:foreground ,color-fg))))
    `(sldb-section-face ((t (:foreground ,color-fg-dim :weight bold))))
    `(sldb-restartable-frame-line-face ((t (:inherit link))))
 
-   ;; Cider
+   ;; cider
    `(cider-result-overlay-face ((t (:background ,color-bright-light))))
    `(cider-fringe-good-face ((t (:foreground ,color-dark))))
    `(cider-warning-highlight-face ((t (:foreground ,color-bright :background ,color-bright-light :slant italic))))
@@ -356,10 +356,10 @@
    `(cider-stacktrace-error-class-face ((t (:inherit font-lock-warning-face))))
    `(cider-error-highlight-face ((t (:inherit error))))
 
-   ;; Clojure-mode
+   ;; clojure-mode
    `(clojure-keyword-face ((t (:inherit font-lock-builtin-face))))
 
-   ;; Tuareg
+   ;; tuareg
    `(tuareg-font-lock-constructor-face ((t (:foreground ,color-fg))))
    `(tuareg-font-lock-interactive-output-face ((t (:foreground ,color-dark))))
    `(tuareg-font-lock-interactive-error-face ((t (:inherit font-lock-warning-face))))
@@ -372,23 +372,23 @@
    `(tuareg-font-double-colon-face ((t (:inherit tuareg-font-lock-governing-face))))
    `(tuareg-font-lock-error-face ((t (:inherit error))))
 
-   ;; Merlin
+   ;; merlin
    `(merlin-compilation-error-face ((t (:inherit error))))
    `(merlin-type-face ((t (:background ,color-light))))
 
-   ;; Merlin-eldoc
+   ;; merlin-eldoc
    `(merlin-eldoc-occurrences-face ((t (:inherit lazy-highlight))))
 
-   ;; Utop
+   ;; utop
    `(utop-frozen ((t (:foreground ,color-fg))))
    `(utop-prompt ((t (:inherit minibuffer-prompt))))
    `(utop-error  ((t (:inherit error))))
 
-   ;; Selectrum
+   ;; selectrum
    `(selectrum-mouse-highlight ((t (:background nil :underline t :extend t))))
    `(selectrum-prescient-primary-highlight ((t (:inherit completions-common-part))))
 
-   ;; Marginalia
+   ;; marginalia
    `(marginalia-archive ((t (:inherit nil))))
    `(marginalia-key ((t (:inherit nil))))
    `(marginalia-number ((t (:inherit nil))))
@@ -397,11 +397,11 @@
    `(marginalia-file-priv-write ((t (:foreground ,color-strong))))
    `(marginalia-file-priv-exec ((t (:foreground ,color-dark))))
 
-   ;; Consult
+   ;; consult
    `(consult-preview-line ((t (:inherit highlight))))
    `(consult-preview-cursor ((t (:background ,color-bg :underline nil))))
 
-   ;; Helm
+   ;; helm
    `(helm-candidate-number ((t (:foreground ,color-fg-dim :background nil))))
    `(helm-source-header ((t (:inherit font-lock-comment-face :background unspecified :foreground unspecified))))
    `(helm-selection ((t (:inherit highlight))))
@@ -414,7 +414,7 @@
    `(helm-ff-symlink ((t (:inherit dired-symlink))))
    `(helm-ff-prefix ((t (:background nil))))
    `(helm-ff-dotted-directory ((t (:background nil :foreground ,color-middle))))
-   `(helm-M-x-key ((t (:foreground ,color-bright))))
+   `(helm-m-x-key ((t (:foreground ,color-bright))))
    `(helm-buffer-file ((t (:foreground ,color-fg))))
    `(helm-buffer-archive ((t (:inherit helm-buffer-file))))
    `(helm-buffer-directory ((t (:inherit dired-directory))))
@@ -433,7 +433,7 @@
    `(helm-bookmark-man ((t (:inherit default))))
    `(helm-bookmark-w3m ((t (:inherit default))))
 
-   ;; Adoc-mode
+   ;; adoc-mode
    `(markup-meta-hide-face ((t (:height 1.0 :foreground ,color-bright))))
    `(markup-meta-face ((t (:height 1.0 :foreground ,color-dark :family nil))))
    `(markup-reference-face ((t (:underline nil :foreground ,color-dark))))
@@ -453,11 +453,11 @@
    `(markup-title-4-face ((t (:height 1.0 :inherit markup-gen-face))))
    `(markup-title-5-face ((t (:height 1.0 :inherit markup-gen-face))))
 
-   ;; Highlight-indent-guides
+   ;; highlight-indent-guides
    `(highlight-indent-guides-odd-face ((t (:background ,color-bright))))
    `(highlight-indent-guides-even-face ((t (:background nil))))
 
-   ;; Notmuch
+   ;; notmuch
    `(notmuch-search-unread-face ((t (:foreground ,color-bright))))
    `(notmuch-tag-face ((t (:foreground ,color-dark))))
    `(notmuch-tree-match-author-face ((t (:foreground ,color-middle))))
@@ -466,16 +466,16 @@
    `(notmuch-tag-unread-face ((t (:foreground ,color-fg :background ,color-middle))))
    `(notmuch-message-summary-face ((t (:foreground ,color-dark))))
 
-   ;; Telega
+   ;; telega
    `(telega-msg-heading ((t (:foreground ,color-dark :background nil :inherit nil))))
    `(telega-msg-inline-reply ((t (:foreground ,color-bright :inherit nil))))
    `(telega-entity-type-texturl ((t (:inherit nil :foreground ,color-dark))))
 
-   ;; Beancount
+   ;; beancount
    `(beancount-date ((t (:inherit italic :foreground nil))))
    `(beancount-account ((t (:foreground ,color-fg))))
 
-   ;; W3m
+   ;; w3m
    `(w3m-anchor ((t (:inherit link))))
    `(w3m-arrived-anchor ((t (:inherit link-visited))))
    `(w3m-current-anchor ((t (:inherit highlight))))
@@ -488,7 +488,7 @@
    `(w3m-form-button-mouse ((t (:inherit custom-button-mouse))))
    `(w3m-form-button-pressed ((t (:inherit custom-button-pressed))))
 
-   ;; Elfeed
+   ;; elfeed
    `(elfeed-search-date-face ((t (:foreground ,color-middle))))
    `(elfeed-search-title-face ((t (:foreground ,color-fg-dim))))
    `(elfeed-search-unread-title-face ((t (:foreground ,color-fg))))
