@@ -306,11 +306,11 @@
 
    ;; flycheck
    `(flycheck-error ((t (:underline (:color ,color-strong :style wave)))))
-   `(flycheck-fringe-error ((t (:foreground ,color-bg :background ,color-strong))))
+   `(flycheck-fringe-error ((t (:foreground ,color-strong :background ,color-strong-light))))
    `(flycheck-warning ((t (:underline (:color ,color-bright :style wave)))))
-   `(flycheck-fringe-warning ((t (:foreground ,color-bg :background ,color-bright))))
+   `(flycheck-fringe-warning ((t (:foreground ,color-bright :background ,color-bright-light))))
    `(flycheck-info ((t (:underline (:color ,color-middle :style wave)))))
-   `(flycheck-fringe-info ((t (:foreground ,color-bg :background ,color-middle))))
+   `(flycheck-fringe-info ((t (:foreground ,color-middle :background ,color-light))))
 
    ;; lsp
    `(lsp-headerline-breadcrumb-path-face ((t (:foreground ,color-fg))))
