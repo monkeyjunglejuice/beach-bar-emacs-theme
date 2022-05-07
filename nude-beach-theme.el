@@ -52,25 +52,9 @@
    `(fringe ((t (:background ,color-bg))))
    `(vertical-border ((t (:foreground ,color-fg :background nil))))
    `(minibuffer-prompt ((t (:foreground ,color-fg-alt :weight bold))))
-
-   `(font-lock-face ((t (:foreground ,color-middle))))
-   `(font-lock-builtin-face ((t (:foreground ,color-strong))))
-   `(font-lock-comment-face ((t (:inherit shadow))))
-   `(font-lock-doc-face ((t (:foreground ,color-middle :slant italic :inherit fixed-pitch-serif))))
-   `(font-lock-constant-face ((t (:foreground ,color-fg))))
-   `(font-lock-function-name-face ((t (:foreground ,color-fg :weight bold :slant italic))))
-   `(font-lock-keyword-face ((t (:foreground ,color-bright))))
-   `(font-lock-string-face ((t (:foreground ,color-dark :inherit fixed-pitch-serif))))
-   `(font-lock-type-face ((t (:foreground ,color-fg :weight bold))))
-   `(font-lock-variable-name-face ((t (:foreground ,color-fg :slant italic))))
-   `(font-lock-warning-face ((t (:foreground ,color-strong :slant italic))))
-   `(font-lock-regexp-grouping-construct ((t (:foreground ,color-bright))))
-   `(font-lock-regexp-grouping-backslash ((t (:foreground ,color-bright))))
-
    `(isearch ((t (:foreground ,color-fg-alt :background ,color-light :underline t))))
    `(isearch-fail ((t (:inherit error))))
    `(lazy-highlight ((t (:background ,color-bright-light :underline (:foreground ,color-fg-alt)))))
-
    `(link ((t (:foreground ,color-dark :underline t))))
    `(link-visited ((t (:foreground ,color-middle :underline t))))
    `(button ((t (:inherit link))))
@@ -80,11 +64,26 @@
    `(show-paren-match ((t (:foreground ,color-fg-alt :background ,color-light :weight bold))))
    `(show-paren-mismatch ((t (:inherit error))))
    `(highlight ((t (:foreground ,color-fg-alt :background ,color-light :weight bold :underline (:color ,color-fg-alt)))))
+   `(match ((t (:inherit highlight))))
    `(hl-line ((t (:underline (:color ,color-fg-dim) :extend t))))
    `(widget-field ((t (:foreground ,color-fg-alt :background ,color-bg-alt))))
    `(trailing-whitespace ((t (:background ,color-strong-light))))
    `(escape-glyph ((t (:inverse-video t))))
 
+   `(font-lock-face ((t (:foreground ,color-middle))))
+   `(font-lock-builtin-face ((t (:foreground ,color-strong))))
+   `(font-lock-comment-face ((t (:inherit shadow))))
+   `(font-lock-constant-face ((t (:foreground ,color-fg))))
+   `(font-lock-doc-face ((t (:foreground ,color-middle :slant italic :inherit fixed-pitch-serif))))
+   `(font-lock-function-name-face ((t (:foreground ,color-fg :weight bold :slant italic))))
+   `(font-lock-keyword-face ((t (:foreground ,color-bright))))
+   `(font-lock-regexp-grouping-backslash ((t (:foreground ,color-bright))))
+   `(font-lock-regexp-grouping-construct ((t (:foreground ,color-bright))))
+   `(font-lock-string-face ((t (:foreground ,color-dark :inherit fixed-pitch-serif))))
+   `(font-lock-type-face ((t (:foreground ,color-fg :weight bold))))
+   `(font-lock-variable-name-face ((t (:foreground ,color-fg :slant italic))))
+   `(font-lock-warning-face ((t (:foreground ,color-strong :slant italic))))
+   
    ;; shell-mode
    `(sh-heredoc ((t (:foreground nil :inherit font-lock-string-face))))
    `(sh-quoted-exec ((t (:inherit font-lock-function-name-face))))
@@ -377,7 +376,7 @@
    `(merlin-type-face ((t (:background ,color-light))))
 
    ;; merlin-eldoc
-   `(merlin-eldoc-occurrences-face ((t (:inherit lazy-highlight))))
+   `(merlin-eldoc-occurrences-face ((t (:inherit highlight))))
 
    ;; utop
    `(utop-frozen ((t (:foreground ,color-fg))))
