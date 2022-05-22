@@ -339,6 +339,12 @@
    `(slime-repl-inputed-output-face ((t (:foreground ,color-dark))))
    `(slime-repl-output-mouseover-face ((t (:foreground ,color-bright :box nil))))
    `(slime-repl-input-face ((t (:foreground ,color-fg))))
+   `(slime-repl-prompt ((t (:inherit minibuffer-prompt))))
+   `(slime-highlight-edits-face ((t (:inherit lazy-highlight))))
+   `(slime-highlight-face ((t (:inherit highlight))))
+   `(slime-error-face ((t (:inherit error))))
+   `(slime-warning-face ((t (:inherit warning))))
+   `(slime-style-warning-face ((t (:inherit warning))))
    `(sldb-section-face ((t (:foreground ,color-fg-dim :weight bold))))
    `(sldb-restartable-frame-line-face ((t (:inherit link))))
 
