@@ -372,7 +372,7 @@
    `(tuareg-font-lock-error-face ((t (:inherit error))))
 
    ;; merlin
-   `(merlin-compilation-error-face ((t (:inherit error))))
+   `(merlin-compilation-error-face ((t (:inherit error :underline (:color ,color-strong :style wave)))))
    `(merlin-type-face ((t (:background ,color-light))))
 
    ;; merlin-eldoc
