@@ -25,11 +25,12 @@
 
 ;; Colors
 (let* ((color-bg           "#fff8dc")
-       (color-bg-alt       "#f4eed2")
+       (color-bg-alt       "#f4efd2")
        (color-fg           "#43402d")
        (color-fg-alt       "#000000")
        (color-fg-dim       "#8e8a72")
-       (color-light        "#cff7d6")
+       (color-fg-dimmer    "#d7d3b7")
+       (color-light        "#cff7d8")
        (color-middle       "#56ae9a")
        (color-dark         "#0e7b6e")
        (color-bright       "#d6761f")
@@ -340,7 +341,7 @@
    `(slime-repl-output-mouseover-face ((t (:foreground ,color-bright :box nil))))
    `(slime-repl-input-face ((t (:foreground ,color-fg))))
    `(slime-repl-prompt ((t (:inherit minibuffer-prompt))))
-   `(slime-highlight-edits-face ((t (:inherit lazy-highlight))))
+   `(slime-highlight-edits-face ((t (:underline (:color ,color-fg-dimmer)))))
    `(slime-highlight-face ((t (:inherit highlight))))
    `(slime-error-face ((t (:inherit error))))
    `(slime-warning-face ((t (:inherit warning))))
