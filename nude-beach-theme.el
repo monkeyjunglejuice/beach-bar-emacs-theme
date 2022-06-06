@@ -145,7 +145,7 @@
    `(custom-variable-obsolete ((t (:foreground ,color-fg-dim :inherit custom-variable-tag))))
    `(custom-documentation ((t (:inherit fixed-pitch-serif))))
    `(custom-visibility ((t (:inherit custom-documentation :underline t))))
-   `(custom-state ((t (:foreground ,color-strong :slant italic))))
+   `(custom-state ((t (:foreground ,color-bright :slant italic))))
    `(custom-button ((t (:foreground ,color-bg :background ,color-fg))))
    `(custom-button-mouse ((t (:foreground ,color-fg :background ,color-bright-light))))
    `(custom-button-pressed ((t (:foreground ,color-bright :background ,color-bright-light))))
