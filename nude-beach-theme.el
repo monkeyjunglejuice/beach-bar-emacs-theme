@@ -41,7 +41,7 @@
   (custom-theme-set-faces
    'nude-beach
    `(default ((t (:background ,color-bg :foreground ,color-fg))))
-   `(cursor ((t (:background ,color-fg))))
+   `(cursor ((t (:background ,color-fg-alt))))
    `(region ((t (:foreground ,color-dark :background ,color-light))))
    `(success ((t (:foreground ,color-dark :background ,color-light :extend t))))
    `(warning ((t (:foreground ,color-bright :background ,color-bright-light :extend t))))
@@ -63,7 +63,7 @@
    `(help-key-binding ((t (:foreground ,color-fg-alt :background ,color-bg-alt :box (:color ,color-fg-dim) :inherit fixed-pitch-serif))))
    `(header-line ((t (:foreground ,color-fg-dim :background ,color-bg-alt))))
    `(shadow ((t (:foreground ,color-fg-dim))))
-   `(show-paren-match ((t (:foreground ,color-fg-alt :background ,color-light :weight bold))))
+   `(show-paren-match ((t (:foreground ,color-bg :background ,color-middle :weight bold))))
    `(show-paren-mismatch ((t (:inherit error))))
    `(highlight ((t (:foreground ,color-fg-alt :background ,color-light :weight bold :underline (:color ,color-fg-alt)))))
    `(match ((t (:inherit highlight))))
