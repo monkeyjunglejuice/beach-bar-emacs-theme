@@ -85,7 +85,7 @@
    `(font-lock-type-face ((t (:foreground ,color-fg :weight bold))))
    `(font-lock-variable-name-face ((t (:foreground ,color-fg :slant italic))))
    `(font-lock-warning-face ((t (:foreground ,color-strong :slant italic))))
-   
+
    ;; shell-mode
    `(sh-heredoc ((t (:foreground nil :inherit font-lock-string-face))))
    `(sh-quoted-exec ((t (:inherit font-lock-function-name-face))))
