@@ -12,8 +12,8 @@
 ;; This file is not part of GNU Emacs.
 
 ;;; Commentary:
-;; This is not your typical "angry fruit salad". The light "Nude Beach" theme draws
-;; inspiration from monochrome eink-like themes. Therefore it appears sunny and calm,
+;; This is not your "angry fruit salad". The light Nude Beach theme draws
+;; inspiration from monochrome eink-like themes. So it appears sunny and calm,
 ;; wearing colors sparingly, and only where really really neccessary.
 ;;
 ;; Other themes:
