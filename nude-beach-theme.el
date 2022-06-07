@@ -63,7 +63,7 @@
    `(help-key-binding ((t (:foreground ,color-fg-alt :background ,color-bg-alt :box (:color ,color-fg-dim) :inherit fixed-pitch-serif))))
    `(header-line ((t (:foreground ,color-fg-dim :background ,color-bg-alt))))
    `(shadow ((t (:foreground ,color-fg-dim))))
-   `(show-paren-match ((t (:foreground ,color-bg :background ,color-middle :weight bold))))
+   `(show-paren-match ((t (:foreground ,color-fg-alt :background ,color-light :weight bold))))
    `(show-paren-mismatch ((t (:inherit error))))
    `(highlight ((t (:foreground ,color-fg-alt :background ,color-light :weight bold :underline (:color ,color-fg-alt)))))
    `(match ((t (:inherit highlight))))
