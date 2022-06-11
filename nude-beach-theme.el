@@ -68,6 +68,7 @@
    `(highlight ((t (:foreground ,color-fg-alt :background ,color-light :weight bold :underline (:color ,color-fg-alt)))))
    `(match ((t (:inherit highlight))))
    `(hl-line ((t (:underline (:color ,color-fg-dim) :extend t))))
+   `(separator-line ((t (:height 0.1 :background ,color-fg-dimmer))))
    `(widget-field ((t (:foreground ,color-fg-alt :background ,color-bg-alt))))
    `(trailing-whitespace ((t (:background ,color-strong-light))))
    `(escape-glyph ((t (:inverse-video t))))
