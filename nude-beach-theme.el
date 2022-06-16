@@ -221,9 +221,9 @@
    `(org-document-title ((t (:foreground ,color-fg-alt :weight bold))))
    `(org-drawer ((t (:inherit font-lock-comment-face))))
    `(org-block ((t (:foreground ,color-fg :background ,color-bg-alt :inherit fixed-pitch :extend t))))
-   `(org-block-begin-line ((t (:inherit font-lock-comment-face))))
-   `(org-block-end-line ((t (:inherit font-lock-comment-face))))
-   `(org-meta-line ((t (:inherit font-lock-comment-face))))
+   `(org-block-begin-line ((t (:foreground ,color-middle))))
+   `(org-block-end-line ((t (:foreground ,color-middle))))
+   `(org-meta-line ((t (:foreground ,color-middle))))
    `(org-document-info-keyword ((t (:inherit font-lock-comment-face))))
    `(org-document-info ((t (:foreground ,color-dark))))
    `(org-archived ((t (:foreground ,color-fg-dim))))
@@ -400,8 +400,8 @@
    `(tuareg-font-lock-governing-face ((t (:foreground ,color-bright :weight bold))))
    `(tuareg-font-lock-label-face ((t (:inherit shadow))))
    `(tuareg-font-lock-line-number-face ((t (:inherit linum))))
-   `(tuareg-font-double-semicolon-face ((t (:inherit tuareg-font-lock-interactive-directive-face))))
-   `(tuareg-font-double-colon-face ((t (:inherit tuareg-font-double-semicolon-face))))
+   `(tuareg-font-double-semicolon-face ((t (:foreground ,color-middle))))
+   `(tuareg-font-double-colon-face ((t (:foreground ,color-middle))))
    `(tuareg-font-lock-error-face ((t (:inherit error))))
 
    ;; merlin
