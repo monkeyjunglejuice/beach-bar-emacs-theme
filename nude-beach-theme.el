@@ -112,6 +112,9 @@
    `(dired-perm-write ((t (:foreground ,color-strong))))
    `(dired-special ((t (:foreground ,color-middle))))
 
+   ;;eldoc
+   `(eldoc-highlight-function-argument ((t (:inherit highlight))))
+
    ;; proced
    `(proced-mark ((t (:inherit dired-mark))))
    `(proced-marked ((t (:inherit dired-marked))))
