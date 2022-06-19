@@ -28,24 +28,18 @@
        (color-bg-alt       "#f4efd2")
        (color-fg           "#43402d")
        (color-fg-alt       "#000000")
-       (color-fg-dim       "#9a977a")
+       (color-fg-dim       "#9d9a7b")
        (color-fg-dimmer    "#d9d5b5")
        (color-light        "#cff7d8")
-       (color-middle       "#56ae9a")
+       (color-middle       "#53b19d")
        (color-dark         "#0e7b6e")
-       (color-bright       "#d6761f")
-       (color-strong       "#9e240a")
+       (color-bright       "#de8421")
+       (color-strong       "#a3350a")
        (color-strong-light "#fcd2be")
        (color-bright-light "#ffefc2")
-       (color-grad-1       color-fg-dimmer)
-       (color-grad-2       "#c6c2a4")
-       (color-grad-3       "#b0ad90")
-       (color-grad-4       color-fg-dim)
-       (color-grad-5       "#838067")
-       (color-grad-6       "#6e6b54")
-       (color-grad-7       "#595641")
-       (color-grad-8       color-fg)
-       (color-grad-9       color-fg-alt))
+       (color-dark-soft    "#83c7b9")
+       (color-bright-soft  "#ec9f47")
+       (color-strong-soft  "#dc744b"))
 
   (custom-theme-set-faces
    'nude-beach
@@ -85,7 +79,7 @@
 
    `(font-lock-face ((t (:foreground ,color-middle))))
    `(font-lock-builtin-face ((t (:foreground ,color-strong))))
-   `(font-lock-comment-face ((t (:inherit shadow))))
+   `(font-lock-comment-face ((t (:foreground ,color-fg-dim :inherit fixed-pitch-serif))))
    `(font-lock-constant-face ((t (:foreground ,color-fg))))
    `(font-lock-doc-face ((t (:foreground ,color-middle :slant italic :inherit fixed-pitch-serif))))
    `(font-lock-function-name-face ((t (:foreground ,color-fg :weight bold :slant italic))))
@@ -246,23 +240,23 @@
    `(whitespace-newline ((t (:inherit whitespace-space))))
    `(whitespace-empty ((t (:inherit whitespace-line))))
 
-   ;; smart parens
+   ;; smartparens
    `(sp-pair-overlay-face ((t (:background ,color-bright-light))))
 
    ;; rainbow delimiters
-   `(rainbow-delimiters-depth-1-face ((t (:foreground ,color-grad-1))))
-   `(rainbow-delimiters-depth-2-face ((t (:foreground ,color-grad-2))))
-   `(rainbow-delimiters-depth-3-face ((t (:foreground ,color-grad-3))))
-   `(rainbow-delimiters-depth-4-face ((t (:foreground ,color-grad-4))))
-   `(rainbow-delimiters-depth-5-face ((t (:foreground ,color-grad-5))))
-   `(rainbow-delimiters-depth-6-face ((t (:foreground ,color-grad-6))))
-   `(rainbow-delimiters-depth-7-face ((t (:foreground ,color-grad-7))))
-   `(rainbow-delimiters-depth-8-face ((t (:foreground ,color-grad-8))))
-   `(rainbow-delimiters-depth-9-face ((t (:foreground ,color-grad-9))))
+   `(rainbow-delimiters-depth-1-face ((t (:foreground ,color-bright-soft :weight light))))
+   `(rainbow-delimiters-depth-2-face ((t (:foreground ,color-dark-soft :weight light))))
+   `(rainbow-delimiters-depth-3-face ((t (:foreground ,color-strong-soft :weight light))))
+   `(rainbow-delimiters-depth-4-face ((t (:foreground ,color-bright-soft :weight light))))
+   `(rainbow-delimiters-depth-5-face ((t (:foreground ,color-dark-soft :weight light))))
+   `(rainbow-delimiters-depth-6-face ((t (:foreground ,color-strong-soft :weight light))))
+   `(rainbow-delimiters-depth-7-face ((t (:foreground ,color-bright-soft :weight light))))
+   `(rainbow-delimiters-depth-8-face ((t (:foreground ,color-dark-soft :weight light))))
+   `(rainbow-delimiters-depth-9-face ((t (:foreground ,color-strong-soft :weight light))))
    `(rainbow-delimiters-unmatched-face ((t (:inherit error))))
 
-   ;; paren face
-   `(parenthesis ((t (:inherit shadow :weight light))))
+   ;; paren-face
+   `(parenthesis ((t (:foreground ,color-fg-dimmer :weight light))))
 
    ;; git-commit
    `(git-commit-summary ((t (:foreground ,color-fg))))
