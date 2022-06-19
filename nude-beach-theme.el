@@ -106,7 +106,7 @@
    `(dired-perm-write ((t (:foreground ,color-strong))))
    `(dired-special ((t (:foreground ,color-middle))))
 
-   ;;eldoc
+   ;; eldoc
    `(eldoc-highlight-function-argument ((t (:inherit highlight))))
 
    ;; proced
