@@ -30,16 +30,16 @@
        (color-fg-alt       "#000000")
        (color-fg-dim       "#9d9a7b")
        (color-fg-dimmer    "#d9d5b5")
-       (color-light        "#cff7d7")
+       (color-light        "#cef5d6")
        (color-middle       "#53b19d")
        (color-dark         "#0e7b6e")
-       (color-bright       "#de8421")
-       (color-strong       "#a3350a")
-       (color-strong-light "#fcd2be")
+       (color-bright       "#de8621")
+       (color-strong       "#a93308")
+       (color-strong-light "#fcd3be")
        (color-bright-light "#ffefc2")
        (color-dark-soft    "#83c7b9")
-       (color-bright-soft  "#ec9f47")
-       (color-strong-soft  "#dc744b"))
+       (color-bright-soft  "#fab360")
+       (color-strong-soft  "#ef845d"))
 
   (custom-theme-set-faces
    'nude-beach
@@ -315,7 +315,7 @@
 
    ;; flymake
    `(flymake-error ((t (:underline (:color ,color-strong :style wave)))))
-   `(flymake-warning ((t (:underline (:color ,color-bright :style wave)))))
+   `(flymake-warning ((t (:underline (:color ,color-bright-soft :style wave)))))
    `(flymake-note ((t (:underline (:color ,color-middle :style wave)))))
 
    ;; flycheck
