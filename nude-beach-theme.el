@@ -215,11 +215,11 @@
    `(org-document-title ((t (:foreground ,color-fg-alt :weight bold))))
    `(org-drawer ((t (:inherit font-lock-comment-face))))
    `(org-block ((t (:foreground ,color-fg :background ,color-bg-alt :inherit fixed-pitch :extend t))))
-   `(org-block-begin-line ((t (:foreground ,color-middle))))
-   `(org-block-end-line ((t (:foreground ,color-middle))))
-   `(org-meta-line ((t (:foreground ,color-middle))))
-   `(org-document-info-keyword ((t (:inherit font-lock-comment-face))))
-   `(org-document-info ((t (:foreground ,color-dark))))
+   `(org-block-begin-line ((t (:foreground ,color-fg-dim))))
+   `(org-block-end-line ((t (:foreground ,color-fg-dim))))
+   `(org-meta-line ((t (:foreground ,color-fg-dim))))
+   `(org-document-info-keyword ((t (:foreground ,color-fg-dim))))
+   `(org-document-info ((t (:foreground ,color-middle))))
    `(org-archived ((t (:foreground ,color-fg-dim))))
 
    ;; org-tree-slide
