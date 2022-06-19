@@ -359,6 +359,7 @@
    `(slime-highlight-face ((t (:inherit highlight))))
    `(slime-error-face ((t (:inherit error))))
    `(slime-warning-face ((t (:inherit warning))))
+   `(slime-reader-conditional-face ((t (:slant italic :inherit fixed-pitch-serif))))
    `(slime-style-warning-face ((t (:inherit warning))))
    `(sldb-section-face ((t (:foreground ,color-fg-dim :weight bold))))
    `(sldb-restartable-frame-line-face ((t (:inherit link))))
