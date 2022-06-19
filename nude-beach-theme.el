@@ -30,7 +30,7 @@
        (color-fg-alt       "#000000")
        (color-fg-dim       "#9d9a7b")
        (color-fg-dimmer    "#d9d5b5")
-       (color-light        "#cff7d8")
+       (color-light        "#cff7d7")
        (color-middle       "#53b19d")
        (color-dark         "#0e7b6e")
        (color-bright       "#de8421")
