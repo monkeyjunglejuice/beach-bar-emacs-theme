@@ -310,8 +310,10 @@
    `(company-tooltip-common ((t (:foreground ,color-bright))))
    `(company-tooltip-common-selection ((t (:foreground ,color-bright))))
    `(company-tooltip-selection ((t (:foreground ,color-fg-alt :background ,color-bright-light :weight bold :underline (:color ,color-bright)))))
-   `(company-scrollbar-bg ((t (:background ,color-bright-light))))
-   `(company-scrollbar-fg ((t (:background ,color-bright))))
+   `(company-tooltip-scrollbar-thumb ((t (:background ,color-bright))))
+   `(company-tooltip-scrollbar-track ((t (:background ,color-bright-light))))
+   `(company-scrollbar-fg ((t (:inherit company-tooltip-scrollbar-thumb))))  ; obsolete
+   `(company-scrollbar-bg ((t (:inherit company-tooltip-scrollbar-track))))  ; obsolete
 
    ;; flymake
    `(flymake-error ((t (:underline (:color ,color-strong :style wave)))))
