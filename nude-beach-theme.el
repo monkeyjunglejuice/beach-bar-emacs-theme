@@ -325,6 +325,7 @@
 
    ;; flycheck
    `(flycheck-error ((t (:underline (:color ,color-strong :style wave)))))
+   `(flycheck-error-list-filename ((t (:inherit default))))
    `(flycheck-fringe-error ((t (:foreground ,color-strong :background ,color-strong-light))))
    `(flycheck-warning ((t (:underline (:color ,color-bright :style wave)))))
    `(flycheck-fringe-warning ((t (:foreground ,color-bright :background ,color-bright-light))))
