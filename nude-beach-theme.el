@@ -344,8 +344,8 @@
    `(csv-separator-face ((t (:foreground ,color-strong))))
 
    ;; css
-   `(css-selector ((t (:weight bold))))
-   `(css-property ((t (:inherit font-lock-builtin-face))))
+   `(css-selector ((t (:inherit font-lock-function-name-face))))
+   `(css-property ((t (:inherit font-lock-variable-name-face))))
 
    ;; web-mode
    `(web-mode-html-tag-bracket-face ((t (:inherit shadow))))
