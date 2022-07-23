@@ -82,13 +82,13 @@
    `(font-lock-comment-face ((t (:foreground ,color-fg-dim :inherit fixed-pitch-serif))))
    `(font-lock-constant-face ((t (:foreground ,color-fg))))
    `(font-lock-doc-face ((t (:foreground ,color-middle :slant italic :inherit fixed-pitch-serif))))
-   `(font-lock-function-name-face ((t (:foreground ,color-fg :weight bold :slant italic))))
+   `(font-lock-function-name-face ((t (:weight bold :slant italic))))
    `(font-lock-keyword-face ((t (:foreground ,color-bright))))
    `(font-lock-regexp-grouping-backslash ((t (:foreground ,color-bright))))
    `(font-lock-regexp-grouping-construct ((t (:foreground ,color-bright))))
    `(font-lock-string-face ((t (:foreground ,color-dark :inherit fixed-pitch-serif))))
    `(font-lock-type-face ((t (:foreground ,color-fg :weight bold))))
-   `(font-lock-variable-name-face ((t (:foreground ,color-fg :slant italic))))
+   `(font-lock-variable-name-face ((t (:slant italic))))
    `(font-lock-warning-face ((t (:foreground ,color-strong :slant italic))))
 
    ;; shell-mode
