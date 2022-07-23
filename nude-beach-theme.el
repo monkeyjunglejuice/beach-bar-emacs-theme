@@ -394,7 +394,7 @@
    `(geiser-font-lock-autodoc-current-arg ((t (:inherit highlight))))
 
    ;; cider
-   `(cider-result-overlay-face ((t (:background ,color-bright-light))))
+   `(cider-result-overlay-face ((t (:background ,color-bg-alt))))
    `(cider-fringe-good-face ((t (:foreground ,color-dark))))
    `(cider-warning-highlight-face ((t (:foreground ,color-bright :background ,color-bright-light :slant italic))))
    `(cider-test-error-face ((t (:inherit font-lock-warning-face))))
