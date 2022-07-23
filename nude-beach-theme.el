@@ -398,18 +398,18 @@
    `(clojure-keyword-face ((t (:inherit font-lock-builtin-face))))
 
    ;; tuareg
-   `(tuareg-font-lock-constructor-face ((t (:foreground ,color-fg))))
+   `(tuareg-font-double-semicolon-face ((t (:foreground ,color-middle))))
+   `(tuareg-font-double-colon-face ((t (:foreground ,color-middle))))
+   `(tuareg-font-lock-constructor-face ((t (:foreground ,color-fg-alt))))
+   `(tuareg-font-lock-error-face ((t (:inherit error))))
+   `(tuareg-font-lock-governing-face ((t (:foreground ,color-bright :weight bold))))
    `(tuareg-font-lock-interactive-output-face ((t (:foreground ,color-dark))))
    `(tuareg-font-lock-interactive-error-face ((t (:inherit font-lock-warning-face))))
    `(tuareg-font-lock-interactive-directive-face ((t (:foreground ,color-middle))))
-   `(tuareg-font-lock-operator-face ((t (:foreground ,color-fg-alt))))
-   `(tuareg-font-lock-module-face ((t (:inherit shadow))))
-   `(tuareg-font-lock-governing-face ((t (:foreground ,color-bright :weight bold))))
    `(tuareg-font-lock-label-face ((t (:inherit shadow))))
    `(tuareg-font-lock-line-number-face ((t (:inherit linum))))
-   `(tuareg-font-double-semicolon-face ((t (:foreground ,color-middle))))
-   `(tuareg-font-double-colon-face ((t (:foreground ,color-middle))))
-   `(tuareg-font-lock-error-face ((t (:inherit error))))
+   `(tuareg-font-lock-module-face ((t (:inherit shadow))))
+   `(tuareg-font-lock-operator-face ((t (:foreground ,color-fg-alt))))
 
    ;; merlin
    `(merlin-compilation-error-face ((t (:inherit error :underline (:color ,color-strong :style wave)))))
