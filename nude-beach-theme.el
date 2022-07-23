@@ -231,9 +231,11 @@
    `(shortdoc-heading ((t (:inherit outline-1))))
 
    ;; compilation
-   `(compilation-error ((t (:inherit error))))
-   `(compilation-warning ((t (:inherit warning))))
+   `(compilation-error ((t (:foreground ,color-strong))))
+   `(compilation-warning ((t (:foreground ,color-bright))))
    `(compilation-info ((t (:foreground ,color-dark))))
+   `(compilation-line-number ((t (:inherit default :underline t))))
+   `(compilation-column-number ((t (:inherit default :underline t))))
 
    ;; whitespace
    `(whitespace-trailing ((t (:background ,color-strong-light))))
