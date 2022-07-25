@@ -322,17 +322,18 @@
 
    ;; flymake
    `(flymake-error ((t (:underline (:color ,color-strong :style wave)))))
-   `(flymake-warning ((t (:underline (:color ,color-bright-soft :style wave)))))
+   `(flymake-warning ((t (:underline (:color ,color-bright :style wave)))))
    `(flymake-note ((t (:underline (:color ,color-middle :style wave)))))
 
    ;; flycheck
-   `(flycheck-error ((t (:underline (:color ,color-strong :style wave)))))
-   `(flycheck-error-list-filename ((t (:inherit default))))
-   `(flycheck-fringe-error ((t (:foreground ,color-strong :background ,color-strong-light))))
-   `(flycheck-warning ((t (:underline (:color ,color-bright :style wave)))))
-   `(flycheck-fringe-warning ((t (:foreground ,color-bright :background ,color-bright-light))))
-   `(flycheck-info ((t (:underline (:color ,color-middle :style wave)))))
-   `(flycheck-fringe-info ((t (:foreground ,color-middle :background ,color-light))))
+   `(flycheck-error ((t (:inherit flymake-error))))
+   `(flycheck-warning ((t (:inherit flymake-warning))))
+   `(flycheck-info ((t (:inherit flymake-note))))
+   `(flycheck-fringe-error ((t (:inherit error))))
+   `(flycheck-fringe-warning ((t (:inherit warning))))
+   `(flycheck-fringe-info ((t (:inherit info))))
+   `(flycheck-error-list-info ((t (:inherit flycheck-info))))
+   `(flycheck-error-list-filename ((t (:foreground ,color-fg))))
 
    ;; lsp
    `(lsp-headerline-breadcrumb-path-face ((t (:foreground ,color-fg))))
