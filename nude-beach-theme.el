@@ -250,15 +250,15 @@
    `(sp-show-pair-match-content ((t (:inherit show-paren-match-expression))))
 
    ;; rainbow delimiters
-   `(rainbow-delimiters-depth-1-face ((t (:foreground ,color-bright-soft :weight light))))
-   `(rainbow-delimiters-depth-2-face ((t (:foreground ,color-dark-soft :weight light))))
-   `(rainbow-delimiters-depth-3-face ((t (:foreground ,color-strong-soft :weight light))))
-   `(rainbow-delimiters-depth-4-face ((t (:foreground ,color-bright-soft :weight light))))
-   `(rainbow-delimiters-depth-5-face ((t (:foreground ,color-dark-soft :weight light))))
-   `(rainbow-delimiters-depth-6-face ((t (:foreground ,color-strong-soft :weight light))))
-   `(rainbow-delimiters-depth-7-face ((t (:foreground ,color-bright-soft :weight light))))
-   `(rainbow-delimiters-depth-8-face ((t (:foreground ,color-dark-soft :weight light))))
-   `(rainbow-delimiters-depth-9-face ((t (:foreground ,color-strong-soft :weight light))))
+   `(rainbow-delimiters-depth-1-face ((t (:foreground ,color-fg-dim :weight light))))
+   `(rainbow-delimiters-depth-2-face ((t (:foreground ,color-bright-soft :weight light))))
+   `(rainbow-delimiters-depth-3-face ((t (:foreground ,color-dark-soft :weight light))))
+   `(rainbow-delimiters-depth-4-face ((t (:foreground ,color-strong-soft :weight light))))
+   `(rainbow-delimiters-depth-5-face ((t (:foreground ,color-fg-dim :weight light))))
+   `(rainbow-delimiters-depth-6-face ((t (:foreground ,color-bright-soft :weight light))))
+   `(rainbow-delimiters-depth-7-face ((t (:foreground ,color-dark-soft :weight light))))
+   `(rainbow-delimiters-depth-8-face ((t (:foreground ,color-strong-soft :weight light))))
+   `(rainbow-delimiters-depth-9-face ((t (:foreground ,color-fg-dim :weight light))))
    `(rainbow-delimiters-unmatched-face ((t (:inherit error))))
 
    ;; paren-face
