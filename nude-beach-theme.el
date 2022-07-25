@@ -12,11 +12,11 @@
 ;; This file is not part of GNU Emacs.
 
 ;;; Commentary:
-;; This is not your "angry fruit salad". The light Nude Beach theme draws
-;; inspiration from monochrome eink-like themes. So it appears sunny and calm,
-;; wearing colors sparingly, and only where really really neccessary.
+;; This is not your typical "angry fruit salad". The light Nude Beach theme
+;; draws inspiration from monochrome eink-like themes. So it appears sunny
+;; and calm, wearing colors sparingly, and only where really neccessary.
 ;;
-;; Other themes:
+;; My other themes:
 ;; - "The Matrix" https://github.com/monkeyjunglejuice/matrix-emacs-theme
 
 ;;; Code:
