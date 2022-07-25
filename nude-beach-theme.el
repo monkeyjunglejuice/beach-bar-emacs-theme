@@ -149,9 +149,9 @@
    `(package-status-incompat ((t (:slant italic :inherit font-lock-warning-face))))
 
    ;; customization
-   `(custom-button ((t (:foreground ,color-bg :background ,color-fg))))
-   `(custom-button-mouse ((t (:foreground ,color-fg :background ,color-bright-light))))
-   `(custom-button-pressed ((t (:foreground ,color-bright :background ,color-bright-light))))
+   `(custom-button ((t (:foreground ,color-bg :background ,color-middle :box (:color ,color-bg)))))
+   `(custom-button-mouse ((t (:foreground ,color-dark :background ,color-light))))
+   `(custom-button-pressed ((t (:foreground ,color-dark :background ,color-light :box (:color ,color-dark)))))
    `(custom-button-pressed-unraised ((t (:inherit custom-button-pressed))))
    `(custom-button-unraised ((t (:inherit custom-button))))
    `(custom-comment ((t (:inherit font-lock-doc-face))))
