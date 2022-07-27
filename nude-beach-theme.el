@@ -262,7 +262,7 @@
    `(rainbow-delimiters-unmatched-face ((t (:inherit error))))
 
    ;; paren-face
-   `(parenthesis ((t (:foreground ,color-fg-dimmer :weight light))))
+   `(parenthesis ((t (:foreground ,color-fg-dim :weight light))))
 
    ;; git-commit
    `(git-commit-summary ((t (:foreground ,color-fg))))
