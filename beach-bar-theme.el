@@ -1,9 +1,9 @@
-;;; nude-beach-theme.el --- A light, sunny and calm Emacs theme  -*- lexical-binding: t; -*-
+;;; beach-bar-theme.el --- A light, sunny and calm Emacs theme  -*- lexical-binding: t; -*-
 
 ;; Copyright (C) 2021–2022 Dan Dee
 
 ;; Author: Dan Dee <monkeyjunglejuice@pm.me>
-;; URL: https://github.com/monkeyjunglejuice/nude-beach-theme-emacs
+;; URL: https://github.com/monkeyjunglejuice/beach-bar-theme-emacs
 ;; Version: 1.0.0
 ;; Package-Requires: ((emacs "26.1"))
 ;; Keywords: faces, theme
@@ -21,7 +21,7 @@
 
 ;;; Code:
 
-(deftheme nude-beach "A light, sunny and calm Emacs theme.")
+(deftheme beach-bar "A light, sunny and calm Emacs theme.")
 
 ;; Colors
 (let* ((color-bg           "#fff8dc")
@@ -42,7 +42,7 @@
        (color-strong-soft  "#ef845d"))
 
   (custom-theme-set-faces
-   'nude-beach
+   'beach-bar
    `(default ((t (:background ,color-bg :foreground ,color-fg))))
    `(cursor ((t (:background ,color-fg-alt))))
    `(region ((t (:foreground ,color-dark :background ,color-light))))
@@ -564,10 +564,10 @@
   (add-to-list 'custom-theme-load-path
                (file-name-as-directory (file-name-directory load-file-name))))
 
-(provide-theme 'nude-beach)
+(provide-theme 'beach-bar)
 
 ;; Local Variables:
 ;; no-byte-compile: t
 ;; End:
 
-;;; nude-beach-theme.el ends here
+;;; beach-bar-theme.el ends here
