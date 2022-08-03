@@ -1,14 +1,11 @@
 ;;; beach-bar-theme.el --- A light, sunny and calm Emacs theme  -*- lexical-binding: t; -*-
-
 ;; Copyright (C) 2021–2022 Dan Dee
-
 ;; Author: Dan Dee <monkeyjunglejuice@pm.me>
 ;; URL: https://github.com/monkeyjunglejuice/beach-bar-theme-emacs
 ;; Version: 1.0.0
 ;; Package-Requires: ((emacs "26.1"))
 ;; Keywords: faces, theme
 ;; SPDX-License-Identifier: MIT
-
 ;; This file is not part of GNU Emacs.
 
 ;;; Commentary:
