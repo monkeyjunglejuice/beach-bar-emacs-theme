@@ -67,7 +67,7 @@
    `(widget-inactive ((t (:foreground ,color-fg-dim :background ,color-fg-dimmer))))
    `(show-paren-match ((t (:foreground ,color-fg-alt :background ,color-light :weight bold))))
    `(show-paren-match-expression ((t (:background ,color-bright-light))))
-   `(show-paren-mismatch ((t (:inherit error))))
+   `(show-paren-mismatch ((t (:inherit error :weight bold))))
    `(highlight ((t (:foreground ,color-fg-alt :background ,color-light :weight bold :underline (:color ,color-fg-alt)))))
    `(match ((t (:inherit highlight))))
    `(hl-line ((t (:underline (:color ,color-fg-dim) :extend t))))
