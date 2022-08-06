@@ -186,6 +186,9 @@
    `(erc-my-nick-face ((t (:foreground ,color-fg))))
    `(erc-pal-face ((t (:foreground ,color-dark :inherit italic))))
 
+   ;; table
+   `(table-cell ((t (:foreground ,color-fg :background ,color-bg-alt))))
+
    ;; tex
    `(font-latex-sedate-face ((t (:foreground ,color-dark))))
    `(font-latex-math-face ((t (:foreground ,color-fg))))
