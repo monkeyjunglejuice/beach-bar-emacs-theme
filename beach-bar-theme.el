@@ -138,7 +138,7 @@
    `(diff-file-header ((t (:bold t :background ,color-bright-light :weight bold))))
    `(diff-header ((t (:background ,color-bright-light :foreground ,color-fg))))
 
-   ;; package manager
+   ;; package
    `(package-name ((t (:inherit link))))
    `(package-description ((t (:slant italic :inherit fixed-pitch-serif))))
    `(package-status-installed ((t (:foreground ,color-middle))))
