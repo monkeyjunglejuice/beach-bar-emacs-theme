@@ -77,7 +77,7 @@
    `(escape-glyph ((t (:background ,color-bright-light :inherit font-lock-string-face))))
 
    `(font-lock-face ((t (:foreground ,color-middle))))
-   `(font-lock-builtin-face ((t (:foreground ,color-strong :slant italic))))
+   `(font-lock-builtin-face ((t (:slant italic))))
    `(font-lock-comment-face ((t (:foreground ,color-fg-dim :inherit fixed-pitch-serif))))
    `(font-lock-constant-face ((t (:foreground ,color-fg))))
    `(font-lock-doc-face ((t (:foreground ,color-middle :slant italic :inherit fixed-pitch-serif))))
