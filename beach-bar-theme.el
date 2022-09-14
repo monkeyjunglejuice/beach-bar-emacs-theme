@@ -74,7 +74,7 @@
    `(separator-line ((t (:height 0.1 :background ,color-fg-dimmer))))
    `(widget-field ((t (:foreground ,color-fg-alt :background ,color-bg-alt))))
    `(trailing-whitespace ((t (:background ,color-strong-light))))
-   `(escape-glyph ((t (:inverse-video t))))
+   `(escape-glyph ((t (:background ,color-bright-light :inherit font-lock-string-face))))
 
    `(font-lock-face ((t (:foreground ,color-middle))))
    `(font-lock-builtin-face ((t (:foreground ,color-strong :slant italic))))
