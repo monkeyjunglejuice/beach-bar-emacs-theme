@@ -379,7 +379,7 @@
 
    ;; sly
    `(sly-db-topline-face ((t (:weight bold))))
-   `(sly-action-face ((t (:foreground ,color-bright))))
+   `(sly-action-face ((t (:foreground ,color-bright :weight bold))))
    `(sly-mode-line ((t (:foreground ,color-bg))))
    `(sly-mrepl-prompt-face ((t (:inherit minibuffer-prompt))))
    `(sly-mrepl-output-face ((t (:inherit default))))
