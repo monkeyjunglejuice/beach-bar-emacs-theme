@@ -74,7 +74,7 @@
    `(separator-line ((t (:height 0.1 :background ,color-fg-dimmer))))
    `(widget-field ((t (:foreground ,color-fg-alt :background ,color-bg-alt))))
    `(trailing-whitespace ((t (:background ,color-strong-light))))
-   `(escape-glyph ((t (:background ,color-bright-light :inherit font-lock-string-face))))
+   `(escape-glyph ((t (:weight bold :inherit font-lock-string-face))))
 
    `(font-lock-face ((t (:foreground ,color-middle))))
    `(font-lock-builtin-face ((t (:slant italic))))
@@ -524,6 +524,9 @@
    `(notmuch-tree-match-tag-face ((t (:inherit notmuch-tree-match-author-face))))
    `(notmuch-tag-unread-face ((t (:foreground ,color-fg :background ,color-middle))))
    `(notmuch-message-summary-face ((t (:foreground ,color-dark))))
+
+   ;; switch-window
+   `(switch-window-label ((t (:foreground ,color-bright :height 3.0))))
 
    ;; telega
    `(telega-msg-heading ((t (:foreground ,color-dark :background nil :inherit nil))))
