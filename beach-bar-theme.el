@@ -344,6 +344,7 @@
    `(lsp-headerline-breadcrumb-separator-face ((t (:foreground ,color-fg))))
 
    ;; eglot
+   `(eglot-mode-line ((t (:foreground ,color-bg :weight bold))))
    `(eglot-highlight-symbol-face ((t (:inherit lazy-highlight))))
 
    ;; csv
