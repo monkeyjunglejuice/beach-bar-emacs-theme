@@ -461,8 +461,10 @@
 
    ;; helm
    `(helm-candidate-number ((t (:foreground ,color-fg-dim :background nil))))
+   `(helm-command-active-mode ((t (:foreground ,color-strong))))
    `(helm-source-header ((t (:inherit font-lock-comment-face :background unspecified :foreground unspecified))))
    `(helm-selection ((t (:inherit highlight))))
+   `(helm-selection-line ((t ())))
    `(helm-prefarg ((t (:foreground ,color-dark))))
    `(helm-ff-file ((t (:foreground ,color-fg))))
    `(helm-ff-directory ((t (:inherit dired-directory :foreground unspecified))))
