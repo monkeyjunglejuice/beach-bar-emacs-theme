@@ -69,7 +69,7 @@
    `(show-paren-match-expression ((t (:background ,color-bright-light))))
    `(show-paren-mismatch ((t (:inherit error :weight bold))))
    `(highlight ((t (:foreground ,color-fg-alt :background ,color-light :underline (:color ,color-fg-alt)))))
-   `(match ((t (:weight bold :underline t))))
+   `(match ((t (:weight bold))))
    `(hl-line ((t (:underline (:color ,color-fg-dim) :extend t))))
    `(separator-line ((t (:height 0.1 :background ,color-fg-dimmer))))
    `(widget-field ((t (:foreground ,color-fg-alt :background ,color-bg-alt))))
@@ -582,7 +582,7 @@
    `(rg-file-tag-face ((t (:foreground ,color-dark))))
    `(rg-filename-face ((t (:foreground ,color-dark :weight bold))))
    `(rg-line-number-face ((t (:inherit line-number))))
-   `(rg-match-face ((t (:weight bold :underline (:color ,color-fg-dim)))))
+   `(rg-match-face ((t (:underline t :inherit match))))
 
    ;;wgrep
    `(wgrep-face ((t (:foreground ,color-bright :background ,color-bright-light))))
