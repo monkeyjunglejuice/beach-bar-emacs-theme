@@ -69,7 +69,7 @@
    `(show-paren-match-expression ((t (:background ,color-bright-light))))
    `(show-paren-mismatch ((t (:inherit error :weight bold))))
    `(highlight ((t (:foreground ,color-fg-alt :background ,color-light :underline (:color ,color-fg-alt)))))
-   `(match ((t (:inherit highlight))))
+   `(match ((t (:weight bold :underline t))))
    `(hl-line ((t (:underline (:color ,color-fg-dim) :extend t))))
    `(separator-line ((t (:height 0.1 :background ,color-fg-dimmer))))
    `(widget-field ((t (:foreground ,color-fg-alt :background ,color-bg-alt))))
@@ -472,6 +472,11 @@
    `(helm-ff-symlink ((t (:inherit dired-symlink))))
    `(helm-ff-prefix ((t (:background nil))))
    `(helm-ff-dotted-directory ((t (:background nil :foreground ,color-middle))))
+   `(helm-grep-cmd-line ((t ())))
+   `(helm-grep-file ((t (:background ,color-bright-light))))
+   `(helm-grep-finish ((t (:inherit helm-grep-file))))
+   `(helm-grep-lineno ((t (:inherit line-number))))
+   `(helm-grep-match ((t (:inherit helm-match))))
    `(helm-M-x-key ((t (:inherit help-key-binding))))
    `(helm-M-x-short-doc ((t (:inherit font-lock-doc-face))))
    `(helm-buffer-file ((t (:foreground ,color-fg))))
@@ -563,7 +568,20 @@
    `(elfeed-log-debug-level-face ((t (:foreground ,color-middle))))
    `(elfeed-log-error-level-face ((t (:inherit error))))
    `(elfeed-log-info-level-face ((t (:foreground ,color-dark))))
-   `(elfeed-log-warn-level-face ((t (:inherit warning))))))
+   `(elfeed-log-warn-level-face ((t (:inherit warning))))
+
+   ;; rg / ripgrep
+   `(rg-file-tag-face ((t (:foreground ,color-dark))))
+   `(rg-filename-face ((t (:foreground ,color-dark :weight bold))))
+   `(rg-line-number-face ((t (:inherit line-number))))
+   `(rg-match-face ((t (:weight bold :underline (:color ,color-fg-dim)))))
+
+   ;;wgrep
+   `(wgrep-face ((t (:foreground ,color-bright :background ,color-bright-light))))
+   `(wgrep-file-face ((t (:background ,color-bright-light))))
+   `(wgrep-done-face ((t (:inherit wgrep-file-face))))
+
+   ))
 
 ;;;###autoload
 (when load-file-name
