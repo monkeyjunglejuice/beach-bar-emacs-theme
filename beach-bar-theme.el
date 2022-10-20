@@ -234,11 +234,11 @@
    `(shortdoc-heading ((t (:inherit outline-1))))
 
    ;; compilation
+   `(compilation-column-number ((t (:foreground ,color-fg :underline t))))
    `(compilation-error ((t (:foreground ,color-strong))))
-   `(compilation-warning ((t (:foreground ,color-bright))))
    `(compilation-info ((t (:foreground ,color-dark))))
    `(compilation-line-number ((t (:foreground ,color-fg :underline t))))
-   `(compilation-column-number ((t (:foreground ,color-fg :underline t))))
+   `(compilation-warning ((t (:foreground ,color-bright))))
 
    ;; whitespace
    `(whitespace-trailing ((t (:background ,color-strong-light))))
