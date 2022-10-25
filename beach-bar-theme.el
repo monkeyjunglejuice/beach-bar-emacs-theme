@@ -541,7 +541,7 @@
    `(notmuch-message-summary-face ((t (:foreground ,color-dark))))
 
    ;; switch-window
-   `(switch-window-label ((t (:foreground ,color-bright :height 3.0))))
+   `(switch-window-label ((t (:foreground ,color-strong :height 3.0))))
 
    ;; telega
    `(telega-msg-heading ((t (:foreground ,color-dark :background nil :inherit nil))))
