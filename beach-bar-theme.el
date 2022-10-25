@@ -59,7 +59,7 @@
    `(lazy-highlight ((t (:background ,color-bright-light :underline (:foreground ,color-fg-alt)))))
    `(link ((t (:foreground ,color-dark :underline t))))
    `(link-visited ((t (:foreground ,color-middle :underline t))))
-   `(button ((t (:inherit link))))
+   `(button ((t (:weight bold :inherit link))))
    `(help-face-button ((t (:inherit button))))
    `(help-key-binding ((t (:foreground ,color-fg :weight bold :inherit fixed-pitch-serif))))
    `(header-line ((t (:foreground ,color-fg-dim :background ,color-bg-alt))))
