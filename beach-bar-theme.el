@@ -470,6 +470,7 @@
    `(helm-source-header ((t (:inherit font-lock-comment-face :background unspecified :foreground unspecified))))
    `(helm-selection ((t (:inherit highlight))))
    `(helm-selection-line ((t ())))
+   `(helm-separator ((t (:foreground ,color-fg-dimmer))))
    `(helm-prefarg ((t (:foreground ,color-dark))))
    `(helm-ff-file ((t (:foreground ,color-fg))))
    `(helm-ff-directory ((t (:inherit dired-directory :foreground unspecified))))
