@@ -51,7 +51,7 @@
    `(mode-line ((t (:background ,color-fg :foreground ,color-bg :box nil))))
    `(mode-line-buffer-id ((t (:foreground ,color-bg :weight bold))))
    `(mode-line-inactive ((t (:background ,color-fg-dim :foreground ,color-bg))))
-   `(fringe ((t (:background ,color-bg))))
+   `(fringe ((t (:background ,color-bg-alt))))
    `(vertical-border ((t (:foreground ,color-fg :background nil))))
    `(minibuffer-prompt ((t (:foreground ,color-fg-alt :weight bold))))
    `(isearch ((t (:foreground ,color-fg-alt :background ,color-light :underline t))))
