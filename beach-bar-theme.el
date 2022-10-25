@@ -11,7 +11,7 @@
 ;;; Commentary:
 ;; Gulp down your happy shake, listen to the trippy tunes and slowly do
 ;; "M-x load-theme" ... you deserve it. »Beach Bar« is a sunny theme inspired
-;; by monochromatic themes like "eink". It appears calm, wears colors sparingly,
+;; by monochromatic themes. It appears calm, wears colors sparingly,
 ;; and only where really neccessary.
 
 ;; My other themes:
