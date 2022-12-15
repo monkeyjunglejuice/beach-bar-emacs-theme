@@ -215,7 +215,7 @@
    `(org-document-info ((t (:foreground ,color-middle))))
    `(org-document-info-keyword ((t (:foreground ,color-fg-dim))))
    `(org-document-title ((t (:foreground ,color-fg-alt :weight bold))))
-   `(org-done ((t (:foreground ,color-middle :box t :weight normal))))
+   `(org-done ((t (:foreground ,color-middle :background ,color-light :weight normal))))
    `(org-drawer ((t (:inherit font-lock-comment-face))))
    `(org-headline-done ((t (:foreground ,color-fg-dim))))
    `(org-hide ((t (:foreground ,color-bg))))
@@ -224,7 +224,7 @@
    `(org-meta-line ((t (:foreground ,color-fg-dim))))
    `(org-mode-line-clock ((t (:background nil))))
    `(org-table ((t (:foreground ,color-fg :inherit fixed-pitch-serif))))
-   `(org-todo ((t (:foreground ,color-bright :box t :weight normal))))
+   `(org-todo ((t (:foreground ,color-bright :background ,color-bright-light :weight normal))))
    `(org-verbatim ((t (:inherit font-lock-string-face))))
 
    ;; org-tree-slide
