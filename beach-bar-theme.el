@@ -26,7 +26,7 @@
        (color-bg-alt       "#f4efd2")
        (color-fg           "#43402d")
        (color-fg-alt       "#000000")
-       (color-fg-dim       "#9d9a7b")
+       (color-fg-dim       "#9b957d")
        (color-fg-dimmer    "#d9d5b5")
        (color-light        "#cef5d6")
        (color-middle       "#53b19d")
