@@ -38,6 +38,15 @@
        (color-dark-soft    "#83c5c7")
        (color-bright-soft  "#fab360")
        (color-strong-soft  "#ef845d")
+       (color-shade-1      "#d9d5b5")
+       (color-shade-2      "#c6c2a4")
+       (color-shade-3      "#b0ad90")
+       (color-shade-4      "#9b957d")
+       (color-shade-5      "#838067")
+       (color-shade-6      "#6e6b54")
+       (color-shade-7      "#595641")
+       (color-shade-8      "#43402d")
+       (color-shade-9      "#000000"))
 
   (custom-theme-set-faces
    'beach-bar
