@@ -28,16 +28,16 @@
        (color-fg-alt       "#000000")
        (color-fg-dim       "#9b957d")
        (color-fg-dimmer    "#d9d5b5")
-       (color-light        "#cef5d6")
-       (color-middle       "#53b19d")
-       (color-dark         "#0e7b6e")
+       (color-light        "#cef5e0")
+       (color-middle       "#54b2ad")
+       (color-dark         "#0e7b80")
        (color-bright       "#de8621")
        (color-strong       "#a93308")
        (color-strong-light "#fcd3be")
        (color-bright-light "#ffefc2")
-       (color-dark-soft    "#83c7b9")
+       (color-dark-soft    "#83c5c7")
        (color-bright-soft  "#fab360")
-       (color-strong-soft  "#ef845d"))
+       (color-strong-soft  "#ef845d")
 
   (custom-theme-set-faces
    'beach-bar
