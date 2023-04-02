@@ -594,10 +594,16 @@
    `(rg-line-number-face ((t (:inherit line-number))))
    `(rg-match-face ((t (:underline t :inherit match))))
 
-   ;;wgrep
+   ;; wgrep
    `(wgrep-face ((t (:foreground ,color-bright :background ,color-bright-light))))
    `(wgrep-file-face ((t (:background ,color-bright-light))))
    `(wgrep-done-face ((t (:inherit wgrep-file-face))))
+
+   ;; orderless
+   `(orderless-match-face-0 ((t (:inherit match))))
+   `(orderless-match-face-1 ((t (:inherit match :foreground ,color-bright))))
+   `(orderless-match-face-2 ((t (:inherit match :foreground ,color-dark))))
+   `(orderless-match-face-3 ((t (:inherit match :foreground ,color-strong))))
 
    ))
 
