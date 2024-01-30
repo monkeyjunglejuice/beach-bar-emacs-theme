@@ -28,7 +28,7 @@
        (color-fg-alt       "#000000")
        (color-fg-dim       "#9b957d")
        (color-fg-dimmer    "#d9d5b5")
-       (color-light        "#cef5e0")
+       (color-light        "#d3f7e0")
        (color-middle       "#54b2ad")
        (color-dark         "#0e7b80")
        (color-bright       "#de8621")
