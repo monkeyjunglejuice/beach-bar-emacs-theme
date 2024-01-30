@@ -437,22 +437,27 @@
    `(tuareg-font-lock-label-face ((t (:inherit shadow))))
    `(tuareg-font-lock-line-number-face ((t (:inherit linum))))
    `(tuareg-font-lock-module-face ((t (:inherit shadow))))
-   `(tuareg-font-lock-operator-face ((t (:foreground ,color-fg-alt))))
-
+   `(tuareg-font-lock-operator-face ((t (:foreground ,color-fg-alt :weight bold))))
+   
+   ;; caml
+   `(ocaml-help-face ((t (:inherit highlight))))
+   
    ;; merlin
    `(merlin-compilation-error-face ((t (:inherit error :underline (:color ,color-strong :style wave)))))
    `(merlin-type-face ((t (:background ,color-light))))
 
    ;; merlin-eldoc
-   `(merlin-eldoc-occurrences-face ((t (:inherit highlight))))
+   `(merlin-eldoc-occurrences-face ((t (:inherit lazy-highlight))))
 
    ;; utop
    `(utop-frozen ((t (:foreground ,color-fg))))
    `(utop-prompt ((t (:inherit minibuffer-prompt))))
    `(utop-error  ((t (:inherit error))))
+   `(utop-stderr ((t (:inherit font-lock-warning-face))))
+   `(utop-stdout ((t (:inherit tuareg-font-lock-interactive-output-face))))
 
    ;; haskell-mode
-   `(haskell-operator-face ((t (:foreground ,color-fg-alt))))
+   `(haskell-operator-face ((t (:foreground ,color-fg-alt :weight bold))))
    `(haskell-warning-face ((t (:inherit flymake-warning))))
    `(haskell-interactive-face-compile-warning ((t (:inherit compilation-warning))))
 
