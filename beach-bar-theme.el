@@ -71,6 +71,7 @@
    `(button ((t (:weight bold :inherit link))))
    `(help-face-button ((t (:inherit button))))
    `(help-key-binding ((t (:foreground ,color-fg :weight bold :inherit fixed-pitch-serif))))
+   `(transient-key-stay ((t (:foreground ,color-strong))))
    `(header-line ((t (:foreground ,color-fg-dim :background ,color-bg-alt))))
    `(shadow ((t (:foreground ,color-fg-dim))))
    `(widget-inactive ((t (:foreground ,color-fg-dim :background ,color-fg-dimmer))))
