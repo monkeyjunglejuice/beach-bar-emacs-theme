@@ -123,7 +123,7 @@
    `(dired-subtree-depth-6-face ((t (:background ,color-bg-alt :extend t))))
 
    ;; eldoc
-   `(eldoc-highlight-function-argument ((t (:inherit highlight))))
+   `(eldoc-highlight-function-argument ((t (:inherit lazy-highlight))))
 
    ;; proced
    `(proced-mark ((t (:inherit dired-mark))))
