@@ -148,9 +148,10 @@
    `(diff-header ((t (:background ,color-bright-light :foreground ,color-fg))))
 
    ;; package
-   `(package-name ((t (:inherit link))))
-   `(package-description ((t (:slant italic :inherit fixed-pitch-serif))))
-   `(package-status-installed ((t (:foreground ,color-middle))))
+   `(package-name ((t (:weight bold))))
+   `(package-description ((t (:inherit fixed-pitch-serif))))
+   `(package-status-available ((t (:slant italic))))
+   `(package-status-installed ((t (:foreground ,color-middle :slant italic))))
    `(package-status-dependency ((t (:foreground ,color-middle :slant italic))))
    `(package-status-built-in ((t (:foreground ,color-fg-dim :slant italic))))
    `(package-status-incompat ((t (:slant italic :inherit font-lock-warning-face))))
