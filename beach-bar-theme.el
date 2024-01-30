@@ -114,6 +114,14 @@
    `(dired-perm-write ((t (:foreground ,color-strong))))
    `(dired-special ((t (:foreground ,color-middle))))
 
+   ;; dired-subtree
+   `(dired-subtree-depth-1-face ((t (:background ,color-bg-alt :extend t))))
+   `(dired-subtree-depth-2-face ((t (:background ,color-bg-alt :extend t))))
+   `(dired-subtree-depth-3-face ((t (:background ,color-bg-alt :extend t))))
+   `(dired-subtree-depth-4-face ((t (:background ,color-bg-alt :extend t))))
+   `(dired-subtree-depth-5-face ((t (:background ,color-bg-alt :extend t))))
+   `(dired-subtree-depth-6-face ((t (:background ,color-bg-alt :extend t))))
+
    ;; eldoc
    `(eldoc-highlight-function-argument ((t (:inherit highlight))))
 
