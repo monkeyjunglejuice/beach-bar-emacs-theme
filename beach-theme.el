@@ -1,8 +1,8 @@
 ;;; beach-bar-theme.el --- A light, sunny and calm Emacs theme  -*- lexical-binding: t; -*-
-;; Copyright (C) 2021–2022 Dan Dee
+;; Copyright (C) 2021–2024 Dan Dee
 ;; Author: Dan Dee <monkeyjunglejuice@pm.me>
-;; URL: https://github.com/monkeyjunglejuice/beach-bar-theme-emacs
-;; Version: 1.0.0
+;; URL: https://github.com/monkeyjunglejuice/beach-theme-emacs
+;; Version: 1.0
 ;; Package-Requires: ((emacs "26.1"))
 ;; Keywords: faces, theme
 ;; SPDX-License-Identifier: MIT
@@ -10,16 +10,16 @@
 
 ;;; Commentary:
 ;; Gulp down your happy shake, listen to the trippy tunes and slowly do
-;; "M-x load-theme" ... you deserve it. »Beach Bar« is a sunny theme inspired
-;; by monochromatic themes. It appears calm, wears colors sparingly,
-;; and only where really neccessary.
+;; "M-x load-theme" ... you deserve it. »Beach« is a sunny theme inspired
+;; by monochromatic themes and e-ink displays. It appears calm, wears colors
+;; sparingly, and only where really neccessary.
 
 ;; My other themes:
 ;; - "The Matrix" https://github.com/monkeyjunglejuice/matrix-emacs-theme
 
 ;;; Code:
 
-(deftheme beach-bar "A light, sunny and calm Emacs theme.")
+(deftheme beach "A light, sunny and calm Emacs theme.")
 
 ;; Colors
 (let* ((color-bg           "#fff8dc")
@@ -49,7 +49,7 @@
        (color-shade-9      "#000000"))
 
   (custom-theme-set-faces
-   'beach-bar
+   'beach
    `(default ((t (:background ,color-bg :foreground ,color-fg))))
    `(cursor ((t (:background ,color-fg-alt))))
    `(region ((t (:foreground ,color-dark :background ,color-light))))

@@ -1,0 +1,3 @@
+(beach-theme
+ :fetcher github
+ :repo "monkeyjunglejuice/beach-emacs-theme")
