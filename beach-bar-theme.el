@@ -250,7 +250,7 @@
    `(org-verbatim ((t (:inherit font-lock-string-face))))
 
    ;; org-tree-slide
-   `(org-tree-slide-header-overlay-face ((t (:inherit font-lock-comment-face :foreground nil :background nil))))
+   `(org-tree-slide-header-overlay-face ((t (:inherit font-lock-comment-face :foreground nil :background unspecified))))
 
    ;; shortdoc
    `(shortdoc-heading ((t (:inherit outline-1))))
@@ -299,10 +299,10 @@
    ;; magit
    `(magit-branch-local ((t (:weight bold))))
    `(magit-branch-remote ((t (:weight bold :slant italic))))
-   `(magit-tag ((t (:foreground ,color-dark :background nil :inherit italic))))
+   `(magit-tag ((t (:foreground ,color-dark :background unspecified :inherit italic))))
    `(magit-hash ((t (:foreground ,color-bright))))
-   `(magit-section-title ((t (:foreground ,color-fg :background nil))))
-   `(magit-section-heading ((t (:background nil :foreground ,color-fg))))
+   `(magit-section-title ((t (:foreground ,color-fg :background unspecified))))
+   `(magit-section-heading ((t (:background unspecified :foreground ,color-fg))))
    `(magit-section-heading-selection ((t (:inherit region))))
    `(magit-section-highlight ((t (:background ,color-bg-alt))))
    `(magit-item-highlight ((t (:foreground ,color-fg :background ,color-bg-alt))))
@@ -475,7 +475,7 @@
    `(haskell-interactive-face-compile-warning ((t (:inherit compilation-warning))))
 
    ;; selectrum
-   `(selectrum-mouse-highlight ((t (:background nil :underline t :extend t))))
+   `(selectrum-mouse-highlight ((t (:background unspecified :underline t :extend t))))
    `(selectrum-prescient-primary-highlight ((t (:inherit completions-common-part))))
 
    ;; marginalia
@@ -492,7 +492,7 @@
    `(consult-preview-cursor ((t (:background ,color-bg :underline nil))))
 
    ;; helm
-   `(helm-candidate-number ((t (:foreground ,color-fg-dim :background nil))))
+   `(helm-candidate-number ((t (:foreground ,color-fg-dim :background unspecified))))
    `(helm-command-active-mode ((t (:foreground ,color-strong))))
    `(helm-source-header ((t (:inherit font-lock-comment-face :background unspecified :foreground unspecified))))
    `(helm-selection ((t (:inherit highlight))))
@@ -503,13 +503,13 @@
    `(helm-ff-file-extension ((t (:foreground ,color-bright))))
    `(helm-ff-directory ((t (:inherit dired-directory :foreground unspecified))))
    `(helm-ff-executable ((t (:inherit eshell-ls-executable :foreground unspecified))))
-   `(helm-ff-file-extension ((t (:foreground nil :background nil))))
+   `(helm-ff-file-extension ((t (:foreground nil :background unspecified))))
    `(helm-ff-invalid-symlink ((t (:slant italic :inherit error))))
    `(helm-ff-suid ((t (:foreground ,color-bg :background ,color-strong))))
    `(helm-ff-symlink ((t (:inherit dired-symlink))))
    `(helm-ff-truename ((t (:inherit font-lock-doc-face))))
-   `(helm-ff-prefix ((t (:background nil))))
-   `(helm-ff-dotted-directory ((t (:background nil :foreground ,color-middle))))
+   `(helm-ff-prefix ((t (:background unspecified))))
+   `(helm-ff-dotted-directory ((t (:background unspecified :foreground ,color-middle))))
    `(helm-grep-cmd-line ((t ())))
    `(helm-grep-file ((t (:background ,color-bright-light))))
    `(helm-grep-finish ((t (:inherit helm-grep-file))))
@@ -559,7 +559,7 @@
 
    ;; highlight-indent-guides
    `(highlight-indent-guides-odd-face ((t (:background ,color-bright))))
-   `(highlight-indent-guides-even-face ((t (:background nil))))
+   `(highlight-indent-guides-even-face ((t (:background unspecified))))
 
    ;; notmuch
    `(notmuch-search-unread-face ((t (:foreground ,color-bright))))
@@ -574,7 +574,7 @@
    `(switch-window-label ((t (:foreground ,color-strong :height 3.0))))
 
    ;; telega
-   `(telega-msg-heading ((t (:foreground ,color-dark :background nil :inherit nil))))
+   `(telega-msg-heading ((t (:foreground ,color-dark :background unspecified :inherit nil))))
    `(telega-msg-inline-reply ((t (:foreground ,color-bright :inherit nil))))
    `(telega-entity-type-texturl ((t (:inherit nil :foreground ,color-dark))))
 
