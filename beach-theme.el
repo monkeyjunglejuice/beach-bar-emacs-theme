@@ -1,4 +1,4 @@
-;;; beach-bar-theme.el --- A light, sunny and calm Emacs theme  -*- lexical-binding: t; -*-
+;;; beach-theme.el --- A light, sunny and calm Emacs theme  -*- lexical-binding: t; -*-
 ;; Copyright (C) 2021–2024 Dan Dee
 ;; Author: Dan Dee <monkeyjunglejuice@pm.me>
 ;; URL: https://github.com/monkeyjunglejuice/beach-theme-emacs
@@ -633,10 +633,10 @@
   (add-to-list 'custom-theme-load-path
                (file-name-as-directory (file-name-directory load-file-name))))
 
-(provide-theme 'beach-bar)
+(provide-theme 'beach)
 
 ;; Local Variables:
 ;; no-byte-compile: t
 ;; End:
 
-;;; beach-bar-theme.el ends here
+;;; beach-theme.el ends here
