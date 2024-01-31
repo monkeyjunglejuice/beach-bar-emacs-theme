@@ -27,9 +27,9 @@
      inkscape:pageshadow="2"
      inkscape:zoom="0.98504114"
      inkscape:cx="632.96849"
-     inkscape:cy="433.99203"
+     inkscape:cy="434.49962"
      inkscape:document-units="mm"
-     inkscape:current-layer="layer1"
+     inkscape:current-layer="layer2"
      showgrid="false"
      inkscape:snap-bbox="true"
      inkscape:bbox-paths="true"
@@ -60,7 +60,8 @@
      inkscape:groupmode="layer"
      id="layer2"
      inkscape:label="background"
-     style="display:inline">
+     style="display:inline"
+     sodipodi:insensitive="true">
     <rect
        style="fill:#fff8dc;fill-opacity:1;stroke:none;stroke-width:3;stroke-linecap:butt;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:0.949367;paint-order:normal"
        id="rect815"
@@ -68,8 +69,7 @@
        height="210"
        x="0"
        y="0"
-       inkscape:label="color-bg"
-       sodipodi:insensitive="true" />
+       inkscape:label="color-bg" />
   </g>
   <g
      inkscape:label="colorscheme"
