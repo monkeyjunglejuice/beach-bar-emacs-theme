@@ -323,9 +323,9 @@
    `(magit-filename ((t (:inherit git-commit-comment-file))))
 
    ;; git-gutter-fringe
-   `(git-gutter-fr:modified ((t (:foreground ,color-dark))))
-   `(git-gutter-fr:added ((t (:foreground ,color-dark))))
-   `(git-gutter-fr:deleted ((t (:foreground ,color-dark))))
+   `(git-gutter-fr:modified ((t (:foreground ,color-bright-soft))))
+   `(git-gutter-fr:added ((t (:foreground ,color-dark-soft))))
+   `(git-gutter-fr:deleted ((t (:foreground ,color-strong-soft))))
 
    ;; company
    `(company-echo ((t (:inherit company-preview))))
