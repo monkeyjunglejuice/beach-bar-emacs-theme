@@ -93,6 +93,7 @@
    `(font-lock-doc-face ((t (:foreground ,color-middle :slant italic :inherit fixed-pitch-serif))))
    `(font-lock-function-name-face ((t (:weight bold))))
    `(font-lock-keyword-face ((t (:foreground ,color-bright :slant italic))))
+   `(font-lock-operator-face ((t (:foreground ,color-fg-alt :weight bold))))
    `(font-lock-regexp-grouping-backslash ((t (:foreground ,color-middle))))
    `(font-lock-regexp-grouping-construct ((t (:foreground ,color-middle))))
    `(font-lock-string-face ((t (:foreground ,color-dark :inherit fixed-pitch-serif))))
@@ -450,7 +451,7 @@
    `(tuareg-font-lock-label-face ((t (:inherit shadow))))
    `(tuareg-font-lock-line-number-face ((t (:inherit linum))))
    `(tuareg-font-lock-module-face ((t (:inherit shadow))))
-   `(tuareg-font-lock-operator-face ((t (:foreground ,color-fg-alt :weight bold))))
+   `(tuareg-font-lock-operator-face ((t (:inherit font-lock-operator-face))))
    
    ;; caml
    `(ocaml-help-face ((t (:inherit highlight))))
@@ -470,7 +471,7 @@
    `(utop-stdout ((t (:inherit tuareg-font-lock-interactive-output-face))))
 
    ;; haskell-mode
-   `(haskell-operator-face ((t (:foreground ,color-fg-alt :weight bold))))
+   `(haskell-operator-face ((t (:inherit font-lock-operator-face))))
    `(haskell-warning-face ((t (:inherit flymake-warning))))
    `(haskell-interactive-face-compile-warning ((t (:inherit compilation-warning))))
 
