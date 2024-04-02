@@ -367,8 +367,10 @@
    `(lsp-headerline-breadcrumb-separator-face ((t (:foreground ,color-fg))))
 
    ;; eglot
-   `(eglot-mode-line ((t (:foreground ,color-bg :weight bold))))
+   `(eglot-diagnostic-tag-deprecated-face ((t (:inherit shadow :strike-through t))))
+   `(eglot-diagnostic-tag-unnecessary-face ((t (:inherit flymake-warning))))
    `(eglot-highlight-symbol-face ((t (:inherit lazy-highlight))))
+   `(eglot-mode-line ((t (:foreground ,color-fg :weight bold))))
 
    ;; csv
    `(csv-separator-face ((t (:foreground ,color-strong))))
