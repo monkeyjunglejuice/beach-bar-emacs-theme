@@ -216,14 +216,14 @@
    `(font-latex-script-char-face ((t (:inherit font-latex-math-face))))
 
    ;; outline
-   `(outline-1 ((t (:foreground ,color-bright :weight bold :height 1.2))))
+   `(outline-1 ((t (:foreground ,color-strong :weight bold :height 1.2))))
    `(outline-2 ((t (:foreground ,color-bright :weight bold))))
-   `(outline-3 ((t (:foreground ,color-bright :weight bold))))
-   `(outline-4 ((t (:foreground ,color-bright :weight bold))))
-   `(outline-5 ((t (:foreground ,color-bright :weight bold))))
-   `(outline-6 ((t (:foreground ,color-bright :weight bold))))
-   `(outline-7 ((t (:foreground ,color-bright :weight bold))))
-   `(outline-8 ((t (:foreground ,color-bright :weight bold))))
+   `(outline-3 ((t (:foreground ,color-dark :weight bold))))
+   `(outline-4 ((t (:foreground ,color-fg-alt :weight bold))))
+   `(outline-5 ((t (:foreground ,color-fg-alt :weight bold))))
+   `(outline-6 ((t (:foreground ,color-fg-alt :weight bold))))
+   `(outline-7 ((t (:foreground ,color-fg-alt :weight bold))))
+   `(outline-8 ((t (:foreground ,color-fg-alt :weight bold))))
 
    ;; org-mode
    `(org-archived ((t (:foreground ,color-fg-dim))))
