@@ -92,7 +92,7 @@
    `(font-lock-constant-face ((t (:foreground ,color-fg))))
    `(font-lock-doc-face ((t (:foreground ,color-middle :slant italic :inherit fixed-pitch-serif))))
    `(font-lock-function-name-face ((t (:weight bold))))
-   `(font-lock-keyword-face ((t (:foreground ,color-bright))))
+   `(font-lock-keyword-face ((t (:foreground ,color-bright :slant italic))))
    `(font-lock-operator-face ((t (:foreground ,color-fg-alt :weight bold))))
    `(font-lock-regexp-grouping-backslash ((t (:foreground ,color-middle))))
    `(font-lock-regexp-grouping-construct ((t (:foreground ,color-middle))))
