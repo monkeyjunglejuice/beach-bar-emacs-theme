@@ -158,6 +158,7 @@
    `(comint-highlight-input ((t (:foreground ,color-fg))))
 
    ;; completions
+   `(completions-annotations ((t (:inherit font-lock-comment-face))))
    `(completions-common-part ((t (:weight bold))))
    `(icomplete-first-match ((t (:weight bold :underline t))))
 
@@ -346,15 +347,24 @@
    `(company-tooltip-search ((t (:inherit lazy-highlight))))
    `(company-tooltip-search-selection ((t (:foreground ,color-fg-alt :inherit company-tooltip-search))))
    `(company-tooltip ((t (:foreground ,color-fg :background ,color-bright-light))))
-   `(company-tooltip-annotation ((t (:foreground ,color-fg))))
-   `(company-tooltip-annotation-selection ((t (:foreground ,color-fg-alt :weight normal))))
-   `(company-tooltip-common ((t (:foreground ,color-bright))))
-   `(company-tooltip-common-selection ((t (:foreground ,color-bright))))
-   `(company-tooltip-selection ((t (:foreground ,color-fg-alt :background ,color-bright-light :weight bold :underline (:color ,color-bright)))))
+   `(company-tooltip-annotation ((t (:slant normal :inherit completions-annotations))))
+   `(company-tooltip-annotation-selection ((t (:foreground ,color-fg-alt :slant normal :inherit completions-annotations))))
+   `(company-tooltip-common ((t (:slant normal :inherit completions-common-part))))
+   `(company-tooltip-common-selection ((t (:weight bold))))
+   `(company-tooltip-selection ((t (:inherit highlight))))
    `(company-tooltip-scrollbar-thumb ((t (:background ,color-bright))))
    `(company-tooltip-scrollbar-track ((t (:background ,color-bright-light))))
    `(company-scrollbar-fg ((t (:inherit company-tooltip-scrollbar-thumb))))  ; obsolete
    `(company-scrollbar-bg ((t (:inherit company-tooltip-scrollbar-track))))  ; obsolete
+
+   ;; corfu
+   `(corfu-annotations ((t (:slant normal :inherit completions-annotations))))
+   `(corfu-bar ((t (:background ,color-bright))))
+   `(corfu-border ((t (:background ,color-bright-light))))
+   `(corfu-current ((t (:inherit highlight))))
+   `(corfu-default ((t (:background ,color-bright-light))))
+   `(corfu-deprecated ((t (:strike-through t :inherit shadow))))
+   `(corfu-popupinfo ((t (:background ,color-bright-light))))
 
    ;; flymake
    `(flymake-error ((t (:underline (:color ,color-strong :style wave)))))
