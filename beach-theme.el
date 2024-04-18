@@ -358,7 +358,7 @@
    `(company-scrollbar-bg ((t (:inherit company-tooltip-scrollbar-track))))  ; obsolete
 
    ;; corfu
-   `(corfu-annotations ((t (:slant normal :inherit completions-annotations))))
+   `(corfu-annotations ((t (:foreground ,color-fg))))
    `(corfu-bar ((t (:background ,color-bright))))
    `(corfu-border ((t (:background ,color-bright-light))))
    `(corfu-current ((t (:inherit highlight))))
