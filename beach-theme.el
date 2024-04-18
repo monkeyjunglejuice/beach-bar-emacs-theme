@@ -594,6 +594,7 @@
    `(notmuch-message-summary-face ((t (:foreground ,color-dark))))
 
    ;; switch-window
+   `(switch-window-background ((t (:foreground ,color-fg-dim))))
    `(switch-window-label ((t (:foreground ,color-strong :height 3.0))))
 
    ;; telega
