@@ -269,10 +269,12 @@
 
    ;; compilation
    `(compilation-column-number ((t (:foreground ,color-fg :underline t))))
-   `(compilation-error ((t (:foreground ,color-strong))))
-   `(compilation-info ((t (:foreground ,color-dark))))
+   `(compilation-error ((t (:foreground ,color-strong :background ,color-strong-light))))
+   `(compilation-info ((t (:foreground ,color-dark :background ,color-light))))
    `(compilation-line-number ((t (:foreground ,color-fg :underline t))))
-   `(compilation-warning ((t (:foreground ,color-bright))))
+   `(compilation-mode-line-fail ((t (:foreground ,color-strong :background ,color-strong-light))))
+   `(compilation-mode-line-exit ((t (:foreground ,color-dark :background ,color-light))))
+   `(compilation-warning ((t (:foreground ,color-bright :background ,color-bright-light))))
 
    ;; whitespace
    `(whitespace-trailing ((t (:background ,color-strong-light))))
