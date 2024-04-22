@@ -2,7 +2,7 @@
 ;; Copyright (C) 2021–2024 Dan Dee
 ;; Author: Dan Dee <monkeyjunglejuice@pm.me>
 ;; URL: https://github.com/monkeyjunglejuice/beach-theme-emacs
-;; Version: 1.0
+;; Version: 1.2
 ;; Package-Requires: ((emacs "26.1"))
 ;; Keywords: faces, theme
 ;; SPDX-License-Identifier: MIT
@@ -22,31 +22,31 @@
 (deftheme beach "A light, sunny and calm Emacs theme.")
 
 ;; Colors
-(let* ((color-bg           "#fff8dc")
-       (color-bg-alt       "#f4efd2")
+(let* ((color-bg           "#fef7dc")
+       (color-bg-alt       "#f4edd2")
        (color-fg           "#43402d")
-       (color-fg-alt       "#000000")
+       (color-fg-alt       "#181611")
        (color-fg-dim       "#9b957d")
        (color-fg-dimmer    "#d9d5b5")
        (color-light        "#d3f7e0")
-       (color-middle       "#54b2ad")
-       (color-dark         "#0e7b80")
+       (color-middle       "#54b2b0")
+       (color-dark         "#0f7b85")
        (color-bright       "#de8621")
        (color-strong       "#a93308")
-       (color-strong-light "#fcd3be")
+       (color-strong-light "#fcd5be")
        (color-bright-light "#ffefc2")
-       (color-dark-soft    "#83c5c7")
+       (color-dark-soft    "#79c1c5")
        (color-bright-soft  "#fab360")
        (color-strong-soft  "#ef845d")
-       (color-shade-1      "#d9d5b5")
+       (color-shade-1      "#d9d5b5")   ; color-fg-dimmer
        (color-shade-2      "#c6c2a4")
        (color-shade-3      "#b0ad90")
-       (color-shade-4      "#9b957d")
+       (color-shade-4      "#9b957d")   ; color-fg-dim
        (color-shade-5      "#838067")
        (color-shade-6      "#6e6b54")
        (color-shade-7      "#595641")
-       (color-shade-8      "#43402d")
-       (color-shade-9      "#000000"))
+       (color-shade-8      "#43402d")   ; color-fg
+       (color-shade-9      "#181611"))  ; color-fg-alt
 
   (custom-theme-set-faces
    'beach
