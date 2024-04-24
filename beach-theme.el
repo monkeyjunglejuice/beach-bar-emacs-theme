@@ -358,11 +358,11 @@
    `(company-tooltip-scrollbar-track ((t (:background ,color-bright-light))))
    `(company-scrollbar-fg ((t (:inherit company-tooltip-scrollbar-thumb))))  ; obsolete
    `(company-scrollbar-bg ((t (:inherit company-tooltip-scrollbar-track))))  ; obsolete
-
+   
    ;; corfu
    `(corfu-annotations ((t (:foreground ,color-fg))))
    `(corfu-bar ((t (:background ,color-bright))))
-   `(corfu-border ((t (:background ,color-bright-light))))
+   `(corfu-border ((t (:background ,color-fg-dimmer))))
    `(corfu-current ((t (:inherit highlight))))
    `(corfu-default ((t (:background ,color-bright-light))))
    `(corfu-deprecated ((t (:strike-through t :inherit shadow))))
