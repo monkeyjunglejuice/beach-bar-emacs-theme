@@ -652,6 +652,9 @@
    `(orderless-match-face-2 ((t (:inherit match :foreground ,color-dark))))
    `(orderless-match-face-3 ((t (:inherit match :foreground ,color-strong))))
 
+   ;; yasnippet
+   `(yas-field-highlight-face ((t (:inherit lazy-highlight))))
+
    ))
 
 ;;;###autoload
