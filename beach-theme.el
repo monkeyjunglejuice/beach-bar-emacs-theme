@@ -37,7 +37,7 @@
        (color-bright-light "#ffefc2")
        (color-dark-soft    "#8fccc6")
        (color-bright-soft  "#eead66")
-       (color-strong-soft  "#ea8562")
+       (color-strong-soft  "#ec8b6a")
        (color-shade-1      "#d9d5b5")   ; color-fg-dimmer
        (color-shade-2      "#c4c0a1")
        (color-shade-3      "#b0ad90")
