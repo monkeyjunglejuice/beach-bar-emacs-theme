@@ -2,7 +2,7 @@
 ;; Copyright (C) 2021–2024 Dan Dee
 ;; Author: Dan Dee <monkeyjunglejuice@pm.me>
 ;; URL: https://github.com/monkeyjunglejuice/beach-theme-emacs
-;; Version: 1.2
+;; Version: 1.3
 ;; Package-Requires: ((emacs "26.1"))
 ;; Keywords: faces, theme
 ;; SPDX-License-Identifier: MIT
@@ -35,11 +35,11 @@
        (color-strong       "#a93308")
        (color-strong-light "#fcd5be")
        (color-bright-light "#ffefc2")
-       (color-dark-soft    "#79c1c5")
-       (color-bright-soft  "#fab360")
-       (color-strong-soft  "#ef845d")
+       (color-dark-soft    "#8fccc6")
+       (color-bright-soft  "#eead66")
+       (color-strong-soft  "#ea8562")
        (color-shade-1      "#d9d5b5")   ; color-fg-dimmer
-       (color-shade-2      "#c6c2a4")
+       (color-shade-2      "#c4c0a1")
        (color-shade-3      "#b0ad90")
        (color-shade-4      "#9b957d")   ; color-fg-dim
        (color-shade-5      "#838067")
@@ -107,8 +107,8 @@
    `(ansi-color-green ((t (:foreground ,color-dark :background ,color-dark))))
    `(ansi-color-yellow ((t (:foreground ,color-bright :background ,color-bright))))
    `(ansi-color-blue ((t (:foreground ,color-middle :background ,color-middle))))
-   `(ansi-color-magenta ((t (:foreground ,color-strong-soft :background ,color-strong-soft))))
-   `(ansi-color-cyan ((t (:foreground ,color-dark-soft :background ,color-dark-soft))))
+   `(ansi-color-magenta ((t (:foreground ,color-strong :background ,color-strong))))
+   `(ansi-color-cyan ((t (:foreground ,color-middle :background ,color-middle))))
    `(ansi-color-white ((t (:foreground ,color-fg-dim :background ,color-fg-dim))))
 
    ;; shell-mode
