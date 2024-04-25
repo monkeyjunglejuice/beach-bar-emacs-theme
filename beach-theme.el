@@ -29,14 +29,14 @@
        (color-fg-dim       "#9b957d")
        (color-fg-dimmer    "#d9d5b5")
        (color-light        "#d3f7e1")
-       (color-middle       "#54b2b0")
-       (color-dark         "#0f7b85")
-       (color-bright       "#de8621")
+       (color-middle       "#4ba7a5")
+       (color-dark         "#0e7881")
+       (color-bright       "#dc831e")
        (color-strong       "#a93308")
        (color-strong-light "#fcd5be")
        (color-bright-light "#ffefc2")
        (color-dark-soft    "#70bdb7")
-       (color-bright-soft  "#eead66")
+       (color-bright-soft  "#efad65")
        (color-strong-soft  "#ec8b6a")
        (color-shade-1      "#d9d5b5")   ; color-fg-dimmer
        (color-shade-2      "#c4c0a1")
@@ -91,13 +91,13 @@
    `(font-lock-comment-face ((t (:foreground ,color-fg-dim :inherit fixed-pitch-serif))))
    `(font-lock-constant-face ((t (:foreground ,color-fg))))
    `(font-lock-doc-face ((t (:foreground ,color-fg-dim :slant italic :inherit fixed-pitch-serif))))
-   `(font-lock-function-name-face ((t (:weight bold))))
+   `(font-lock-function-name-face ((t (:foreground ,color-fg :weight bold))))
    `(font-lock-keyword-face ((t (:foreground ,color-bright))))
    `(font-lock-operator-face ((t (:foreground ,color-fg-alt :weight bold))))
    `(font-lock-regexp-grouping-backslash ((t (:foreground ,color-middle))))
    `(font-lock-regexp-grouping-construct ((t (:foreground ,color-middle))))
    `(font-lock-string-face ((t (:foreground ,color-dark :inherit fixed-pitch-serif))))
-   `(font-lock-type-face ((t (:foreground ,color-fg :weight bold))))
+   `(font-lock-type-face ((t (:weight bold))))
    `(font-lock-variable-name-face ((t (:foreground ,color-fg))))
    `(font-lock-warning-face ((t (:foreground ,color-strong :slant italic))))
 
@@ -653,7 +653,7 @@
    `(orderless-match-face-3 ((t (:inherit match :foreground ,color-strong))))
 
    ;; yasnippet
-   `(yas-field-highlight-face ((t (:inherit lazy-highlight))))
+   `(yas-field-highlight-face ((t (:background ,color-bright-light))))
 
    ))
 
