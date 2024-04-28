@@ -110,7 +110,7 @@
    `(ansi-color-yellow ((t (:foreground ,color-bright :background ,color-bright))))
    `(ansi-color-blue ((t (:foreground ,color-middle :background ,color-middle))))
    `(ansi-color-magenta ((t (:foreground ,color-strong :background ,color-strong))))
-   `(ansi-color-cyan ((t (:foreground ,color-middle :background ,color-middle))))
+   `(ansi-color-cyan ((t (:foreground ,color-dark :background ,color-dark))))
    `(ansi-color-white ((t (:foreground ,color-fg-dim :background ,color-fg-dim))))
 
    ;; shell-mode
