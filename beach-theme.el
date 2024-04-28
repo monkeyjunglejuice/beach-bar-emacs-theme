@@ -24,20 +24,20 @@
 ;; Colors
 (let* ((color-bg           "#fef7dc")
        (color-bg-alt       "#f4edd2")
-       (color-fg           "#43402d")
+       (color-fg           "#46432f")
        (color-fg-alt       "#181611")
        (color-fg-dim       "#9b957d")
        (color-fg-dimmer    "#d9d5b5")
        (color-light        "#d3f7e1")
        (color-middle       "#4ba7a5")
        (color-dark         "#0e7881")
-       (color-bright       "#dc831e")
-       (color-strong       "#a93308")
-       (color-strong-light "#fcd5be")
-       (color-bright-light "#ffefc2")
-       (color-dark-soft    "#70bdb7")
-       (color-bright-soft  "#efad65")
-       (color-strong-soft  "#ec8b6a")
+       (color-bright       "#dd831d")
+       (color-strong       "#ac3d0c")
+       (color-strong-light "#ffd4b7")
+       (color-bright-light "#ffedbd")
+       (color-dark-soft    "#74beb8")
+       (color-bright-soft  "#f0ad64")
+       (color-strong-soft  "#ed9169")
        (color-shade-1      "#d9d5b5")   ; color-fg-dimmer
        (color-shade-2      "#c4c0a1")
        (color-shade-3      "#b0ad90")
@@ -45,7 +45,7 @@
        (color-shade-5      "#838067")
        (color-shade-6      "#6e6b54")
        (color-shade-7      "#595641")
-       (color-shade-8      "#43402d")   ; color-fg
+       (color-shade-8      "#46432f")   ; color-fg
        (color-shade-9      "#181611"))  ; color-fg-alt
 
   (custom-theme-set-faces
