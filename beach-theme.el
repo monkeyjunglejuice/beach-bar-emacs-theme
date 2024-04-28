@@ -139,6 +139,9 @@
    ;; eldoc
    `(eldoc-highlight-function-argument ((t (:inherit lazy-highlight))))
 
+   ;; elixir-mode
+   `(elixir-number-face ((t (:inherit font-lock-number-face))))
+
    ;; proced
    `(proced-mark ((t (:inherit dired-mark))))
    `(proced-marked ((t (:inherit dired-marked))))
