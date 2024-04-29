@@ -104,7 +104,7 @@
    `(font-lock-warning-face ((t (:foreground ,color-strong :slant italic))))
 
    ;; ansi-colors
-   `(ansi-color-black ((t (:foreground ,color-bg :background ,color-bg))))
+   `(ansi-color-black ((t (:foreground ,color-fg :background ,color-fg))))
    `(ansi-color-red ((t (:foreground ,color-strong :background ,color-strong))))
    `(ansi-color-green ((t (:foreground ,color-dark :background ,color-dark))))
    `(ansi-color-yellow ((t (:foreground ,color-bright :background ,color-bright))))
