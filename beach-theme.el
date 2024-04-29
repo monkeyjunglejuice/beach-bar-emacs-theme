@@ -284,7 +284,7 @@
    ;; whitespace
    `(whitespace-trailing ((t (:background ,color-strong-light))))
    `(whitespace-line ((t (:inherit whitespace-trailing))))
-   `(whitespace-space (( t(:foreground ,color-middle))))
+   `(whitespace-space (( t(:foreground ,color-dark-soft))))
    `(whitespace-newline ((t (:inherit whitespace-space))))
    `(whitespace-empty ((t (:inherit whitespace-line))))
 
