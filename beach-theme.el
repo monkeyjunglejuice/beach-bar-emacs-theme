@@ -75,9 +75,9 @@
    `(header-line ((t (:foreground ,color-fg-dim :background ,color-bg-alt))))
    `(shadow ((t (:foreground ,color-fg-dim))))
    `(widget-inactive ((t (:foreground ,color-fg-dim :background ,color-fg-dimmer))))
-   `(show-paren-match ((t (:foreground ,color-fg-alt :weight bold :underline t))))
+   `(show-paren-match ((t (:foreground ,color-fg-alt :background ,color-bright-light :weight bold :underline t))))
    `(show-paren-match-expression ((t (:background ,color-bright-light))))
-   `(show-paren-mismatch ((t (:inherit error :weight bold))))
+   `(show-paren-mismatch ((t (:foreground ,color-strong :background ,color-strong-light :weight bold))))
    `(highlight ((t (:background ,color-light :underline (:color ,color-fg-alt)))))
    `(match ((t (:weight bold))))
    `(hl-line ((t (:underline (:color ,color-fg-dim) :extend t))))
@@ -302,7 +302,7 @@
    `(rainbow-delimiters-depth-7-face ((t (:foreground ,color-dark-soft))))
    `(rainbow-delimiters-depth-8-face ((t (:foreground ,color-strong-soft))))
    `(rainbow-delimiters-depth-9-face ((t (:foreground ,color-fg-dim))))
-   `(rainbow-delimiters-unmatched-face ((t (:inherit error))))
+   `(rainbow-delimiters-unmatched-face ((t (:inherit show-paren-mismatch))))
 
    ;; paren-face
    `(parenthesis ((t (:foreground ,color-fg-dim :weight light))))
