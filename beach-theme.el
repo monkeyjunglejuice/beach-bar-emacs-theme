@@ -34,7 +34,7 @@
        (color-dark-soft    "#78beb8")
        (color-bright       "#e68f4c")
        (color-bright-soft  "#f4ad67")
-       (color-bright-light "#ffeec2")
+       (color-bright-light "#ffefb6")
        (color-strong       "#ac390c")
        (color-strong-soft  "#f0885e")
        (color-strong-light "#ffdac2")
